@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\Schema;
 return new class extends Migration
 {
     /**
-     * Periode asesmen per tahun. Status: draft -> active -> submitted -> completed.
+     * Periode assessment per tahun. Status: draft -> active -> submitted -> completed.
      */
     public function up(): void
     {

@@ -1,6 +1,6 @@
 <x-app-layout>
     <x-slot name="header">
-        <h1 class="text-lg font-semibold text-gray-800">Periode Asesmen</h1>
+        <h1 class="text-lg font-semibold text-gray-800">Periode Assessment</h1>
     </x-slot>
 
     <div x-data="{
@@ -61,7 +61,7 @@
                     @empty
                         <tr>
                             <td colspan="6" class="px-4 py-10 text-center text-gray-400">
-                                Belum ada periode asesmen. Klik "Buat Periode" untuk memulai.
+                                Belum ada periode assessment. Klik "Buat Periode" untuk memulai.
                             </td>
                         </tr>
                     @endforelse
@@ -73,7 +73,7 @@
         {{-- Modal Buat Periode --}}
         <div x-show="showCreate" x-transition.opacity class="fixed inset-0 z-50 flex items-center justify-center bg-gray-900/50 px-4" style="display: none;" @keydown.escape.window="showCreate = false">
             <div @click.outside="showCreate = false" x-transition class="w-full max-w-lg rounded-xl bg-white p-6 shadow-xl">
-                <h3 class="text-lg font-semibold text-gray-800">Buat Periode Asesmen</h3>
+                <h3 class="text-lg font-semibold text-gray-800">Buat Periode Assessment</h3>
                 <form method="POST" action="{{ route('admin.periods.store') }}" class="mt-4 space-y-4">
                     @csrf
                     <div>
@@ -83,7 +83,7 @@
                     </div>
                     <div>
                         <x-input-label for="create_name" value="Nama Periode" />
-                        <x-text-input id="create_name" name="name" type="text" class="mt-1 block w-full" :value="old('name')" placeholder="Asesmen Maturitas Digital 2025" required />
+                        <x-text-input id="create_name" name="name" type="text" class="mt-1 block w-full" :value="old('name')" placeholder="Assessment Maturitas Digital 2025" required />
                         <x-input-error :messages="$errors->get('name')" class="mt-1" />
                     </div>
                     <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
@@ -110,7 +110,7 @@
         <div x-show="showActivate" x-transition.opacity class="fixed inset-0 z-50 flex items-center justify-center bg-gray-900/50 px-4" style="display: none;" @keydown.escape.window="showActivate = false">
             <div @click.outside="showActivate = false" x-transition class="w-full max-w-md rounded-xl bg-white p-6 shadow-xl">
                 <h3 class="text-lg font-semibold text-gray-800">Aktifkan Periode</h3>
-                <p class="mt-2 text-sm text-gray-600">Aktifkan periode <strong x-text="actionName"></strong>? Lembar asesmen untuk 94 kontrol akan dibuat secara otomatis.</p>
+                <p class="mt-2 text-sm text-gray-600">Aktifkan periode <strong x-text="actionName"></strong>? Lembar assessment untuk 94 kontrol akan dibuat secara otomatis.</p>
                 <form method="POST" :action="'{{ url('admin/periods') }}/' + actionId + '/activate'" class="mt-5">
                     @csrf @method('PATCH')
                     <div class="flex items-center justify-end gap-3">

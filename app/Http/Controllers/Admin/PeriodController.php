@@ -81,7 +81,7 @@ class PeriodController extends Controller
         });
 
         return redirect()->route('admin.periods.index')
-            ->with('success', 'Periode diaktifkan. Lembar asesmen untuk semua kontrol telah dibuat.');
+            ->with('success', 'Periode diaktifkan. Lembar assessment untuk semua kontrol telah dibuat.');
     }
 
     public function complete(AssessmentPeriod $period): RedirectResponse

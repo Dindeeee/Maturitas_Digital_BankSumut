@@ -1,11 +1,11 @@
 <x-app-layout>
     <x-slot name="header">
-        <h1 class="text-lg font-semibold text-gray-800">Pengisian Asesmen</h1>
+        <h1 class="text-lg font-semibold text-gray-800">Pengisian Assessment</h1>
     </x-slot>
 
     @if (! $period)
         <div class="rounded-xl border border-gray-200 bg-white p-10 text-center text-gray-500 shadow-sm">
-            Belum ada periode asesmen yang aktif. Hubungi administrator.
+            Belum ada periode assessment yang aktif. Hubungi administrator.
         </div>
     @elseif ($controls->isEmpty())
         <div class="rounded-xl border border-gray-200 bg-white p-10 text-center text-gray-500 shadow-sm">

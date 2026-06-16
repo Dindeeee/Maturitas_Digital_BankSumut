@@ -2,7 +2,7 @@
 <html lang="id">
 <head>
     <meta charset="utf-8">
-    <title>Laporan Asesmen {{ $period->year }}</title>
+    <title>Laporan Assessment {{ $period->year }}</title>
     <style>
         * { font-family: DejaVu Sans, sans-serif; margin: 0; padding: 0; }
         body { font-size: 9px; color: #1f2937; }
@@ -45,7 +45,7 @@
 <body>
     {{-- ── Header ──────────────────────────────────────────── --}}
     <div class="header">
-        <h1>Laporan Asesmen Maturitas Digital — PT Bank Sumut</h1>
+        <h1>Laporan Assessment Maturitas Digital — PT Bank Sumut</h1>
         <p class="sub">
             {{ $period->name }} · Tahun {{ $period->year }} ·
             Referensi: SEOJK No. 24/SEOJK.03/2023 · Dicetak {{ now()->format('d M Y H:i') }}

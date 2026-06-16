@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\Schema;
 return new class extends Migration
 {
     /**
-     * Divisi / unit kerja Bank Sumut yang menjadi PIC kontrol asesmen.
+     * Divisi / unit kerja Bank Sumut yang menjadi PIC kontrol assessment.
      */
     public function up(): void
     {

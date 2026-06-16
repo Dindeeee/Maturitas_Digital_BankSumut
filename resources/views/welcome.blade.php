@@ -26,7 +26,7 @@
                 <x-application-logo class="h-9 w-auto" />
                 <span class="leading-tight">
                     <span class="block text-sm font-semibold text-gray-800">Bank Sumut</span>
-                    <span class="block text-[11px] text-gray-500">Asesmen Maturitas Digital</span>
+                    <span class="block text-[11px] text-gray-500">Assessment Maturitas Digital</span>
                 </span>
             </a>
 
@@ -60,10 +60,10 @@
                 SEOJK No. 24/SEOJK.03/2023
             </span>
             <h1 class="mt-5 max-w-3xl text-3xl font-bold leading-tight sm:text-4xl lg:text-5xl">
-                Asesmen Maturitas Digital <span class="text-accent-300">Bank Sumut</span>
+                Assessment Maturitas Digital <span class="text-accent-300">Bank Sumut</span>
             </h1>
             <p class="mt-5 max-w-2xl text-base text-primary-50/90 sm:text-lg">
-                Platform digitalisasi kertas kerja asesmen tingkat maturitas digital perbankan —
+                Platform digitalisasi kertas kerja assessment tingkat maturitas digital perbankan —
                 menggantikan proses manual berbasis Excel dengan sistem yang terukur, kolaboratif,
                 dan dapat diaudit.
             </p>
@@ -137,7 +137,7 @@
             <div class="text-center">
                 <h2 class="text-2xl font-bold text-gray-800 sm:text-3xl">Fitur Utama</h2>
                 <p class="mx-auto mt-3 max-w-2xl text-gray-600">
-                    Mendukung seluruh alur asesmen dari pengisian, penelaahan, hingga pelaporan.
+                    Mendukung seluruh alur assessment dari pengisian, penelaahan, hingga pelaporan.
                 </p>
             </div>
 
@@ -170,7 +170,7 @@
     {{-- ===== CTA ===== --}}
     <section class="bg-primary-700">
         <div class="mx-auto flex max-w-6xl flex-col items-center gap-4 px-4 py-14 text-center sm:px-6">
-            <h2 class="text-2xl font-bold text-white sm:text-3xl">Siap memulai asesmen?</h2>
+            <h2 class="text-2xl font-bold text-white sm:text-3xl">Siap memulai assessment?</h2>
             <p class="max-w-xl text-primary-50/90">Masuk menggunakan akun yang telah diberikan administrator untuk mengakses aplikasi.</p>
             <a href="{{ auth()->check() ? route('dashboard') : route('login') }}"
                class="mt-2 rounded-lg bg-white px-6 py-3 text-sm font-semibold text-primary-700 shadow hover:bg-primary-50">
@@ -184,7 +184,7 @@
         <div class="mx-auto flex max-w-6xl flex-col items-center justify-between gap-3 px-4 py-6 text-sm text-gray-500 sm:flex-row sm:px-6">
             <div class="flex items-center gap-2">
                 <x-application-logo class="h-7 w-auto" />
-                <span>© {{ date('Y') }} PT Bank Sumut — Asesmen Maturitas Digital</span>
+                <span>© {{ date('Y') }} PT Bank Sumut — Assessment Maturitas Digital</span>
             </div>
             <span class="text-xs">SEOJK No. 24/SEOJK.03/2023</span>
         </div>

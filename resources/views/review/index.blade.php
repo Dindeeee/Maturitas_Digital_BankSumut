@@ -1,11 +1,11 @@
 <x-app-layout>
     <x-slot name="header">
-        <h1 class="text-lg font-semibold text-gray-800">Review Asesmen</h1>
+        <h1 class="text-lg font-semibold text-gray-800">Review Assessment</h1>
     </x-slot>
 
     @if (! $period)
         <div class="rounded-xl border border-gray-200 bg-white p-10 text-center text-gray-500 shadow-sm">
-            Belum ada periode asesmen{{ auth()->user()->role !== 'reviewer' ? '' : ' yang aktif' }}.
+            Belum ada periode assessment{{ auth()->user()->role !== 'reviewer' ? '' : ' yang aktif' }}.
         </div>
     @else
         <div class="mb-4 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">

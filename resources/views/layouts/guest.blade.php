@@ -29,9 +29,9 @@
                     </a>
                 </div>
                 <div>
-                    <h1 class="text-3xl font-bold leading-tight">Asesmen Maturitas<br>Digital Bank Sumut</h1>
+                    <h1 class="text-3xl font-bold leading-tight">Assessment Maturitas<br>Digital Bank Sumut</h1>
                     <p class="mt-4 text-accent-200 text-sm leading-relaxed max-w-md">
-                        Sistem digitalisasi kertas kerja asesmen maturitas digital berdasarkan
+                        Sistem digitalisasi kertas kerja assessment maturitas digital berdasarkan
                         SEOJK No. 24/SEOJK.03/2023.
                     </p>
                 </div>
@@ -45,7 +45,7 @@
                     <a href="/" class="inline-block rounded-xl bg-white px-5 py-3 shadow-md border border-gray-100">
                         <x-application-logo class="h-9 w-auto" />
                     </a>
-                    <p class="mt-3 text-sm font-medium text-gray-500">Asesmen Maturitas Digital</p>
+                    <p class="mt-3 text-sm font-medium text-gray-500">Assessment Maturitas Digital</p>
                 </div>
 
                 <div class="w-full sm:max-w-md rounded-2xl bg-white px-8 py-8 shadow-sm border border-gray-200">

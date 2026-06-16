@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\Schema;
 return new class extends Migration
 {
     /**
-     * 94 Kontrol asesmen, masing-masing milik satu sub-domain.
+     * 94 Kontrol assessment, masing-masing milik satu sub-domain.
      */
     public function up(): void
     {

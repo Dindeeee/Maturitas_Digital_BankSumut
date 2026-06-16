@@ -77,7 +77,7 @@ class ReviewController extends Controller
     public function show(Request $request, Control $control): View
     {
         $period = $this->resolvePeriod($request);
-        abort_if(! $period, 404, 'Tidak ada periode asesmen.');
+        abort_if(! $period, 404, 'Tidak ada periode assessment.');
 
         $acr = AssessmentControlResult::where('assessment_period_id', $period->id)
             ->where('control_id', $control->id)

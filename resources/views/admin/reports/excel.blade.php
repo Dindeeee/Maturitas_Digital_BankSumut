@@ -1,6 +1,6 @@
 <table>
     <thead>
-        <tr><th colspan="6">Laporan Asesmen Maturitas Digital — {{ $period->name }} ({{ $period->year }})</th></tr>
+        <tr><th colspan="6">Laporan Assessment Maturitas Digital — {{ $period->name }} ({{ $period->year }})</th></tr>
         <tr><th colspan="6">Nilai Total: {{ $overallNilai ?? '-' }}</th></tr>
         <tr></tr>
     </thead>

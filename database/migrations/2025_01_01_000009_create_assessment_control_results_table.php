@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\Schema;
 return new class extends Migration
 {
     /**
-     * Hasil asesmen per kontrol dalam satu periode: penjelasan, rekomendasi,
+     * Hasil assessment per kontrol dalam satu periode: penjelasan, rekomendasi,
      * dan status review oleh reviewer.
      */
     public function up(): void

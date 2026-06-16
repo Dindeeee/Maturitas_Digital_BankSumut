@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\Schema;
 return new class extends Migration
 {
     /**
-     * Isian asesmen per sub-kontrol: status (ada/partial/tidak) dan skor (2/1/0).
+     * Isian assessment per sub-kontrol: status (ada/partial/tidak) dan skor (2/1/0).
      */
     public function up(): void
     {

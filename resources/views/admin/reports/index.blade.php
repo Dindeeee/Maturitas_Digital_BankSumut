@@ -5,7 +5,7 @@
 
     <div class="max-w-xl rounded-xl border border-gray-200 bg-white p-6 shadow-sm">
         @if ($periods->isEmpty())
-            <p class="text-gray-500">Belum ada periode asesmen untuk diekspor.</p>
+            <p class="text-gray-500">Belum ada periode assessment untuk diekspor.</p>
         @else
             {{-- Pemilih periode --}}
             <form method="GET" class="mb-4">

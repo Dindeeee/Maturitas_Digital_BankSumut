@@ -1,6 +1,6 @@
 <x-app-layout>
     <x-slot name="header">
-        <h1 class="text-lg font-semibold text-gray-800">Buat Periode Asesmen</h1>
+        <h1 class="text-lg font-semibold text-gray-800">Buat Periode Assessment</h1>
     </x-slot>
 
     <div class="max-w-2xl rounded-xl border border-gray-200 bg-white p-6 shadow-sm">
@@ -17,7 +17,7 @@
             <div>
                 <x-input-label for="name" value="Nama Periode" />
                 <x-text-input id="name" name="name" type="text" class="mt-1 block w-full"
-                              :value="old('name')" placeholder="Asesmen Maturitas Digital 2025" required />
+                              :value="old('name')" placeholder="Assessment Maturitas Digital 2025" required />
                 <x-input-error :messages="$errors->get('name')" class="mt-1" />
             </div>
 

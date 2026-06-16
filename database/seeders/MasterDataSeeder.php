@@ -9,10 +9,10 @@ use Illuminate\Support\Facades\DB;
 class MasterDataSeeder extends Seeder
 {
     /**
-     * Seed master data asesmen (divisi, domain, subdomain, kontrol, sub-kontrol,
+     * Seed master data assessment (divisi, domain, subdomain, kontrol, sub-kontrol,
      * dan penugasan PIC) dari database/data/master_data.json.
      *
-     * Sumber: "Kertas Kerja Asesmen Maturitas Digital Bank Umum_2025.xlsx"
+     * Sumber: "Kertas Kerja Assessment Maturitas Digital Bank Umum_2025.xlsx"
      * di-parse oleh parse_master_data.py.
      */
     public function run(): void

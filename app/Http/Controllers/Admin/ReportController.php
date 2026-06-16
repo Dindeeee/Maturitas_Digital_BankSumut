@@ -42,12 +42,12 @@ class ReportController extends Controller
             ?? AssessmentPeriod::orderByDesc('year')->first();
 
         if (! $period) {
-            return back()->with('error', 'Belum ada periode asesmen untuk diekspor.');
+            return back()->with('error', 'Belum ada periode assessment untuk diekspor.');
         }
 
         $data   = $this->buildData($period);
         $format = $request->query('format', 'excel');
-        $slug   = 'asesmen-maturitas-'.$period->year;
+        $slug   = 'assessment-maturitas-'.$period->year;
 
         if ($format === 'pdf') {
             return Pdf::loadView('admin.reports.pdf', $data)
@@ -55,7 +55,7 @@ class ReportController extends Controller
                 ->download($slug.'.pdf');
         }
 
-        $tmp = tempnam(sys_get_temp_dir(), 'asesmen').'.xlsx';
+        $tmp = tempnam(sys_get_temp_dir(), 'assessment').'.xlsx';
         (new AssessmentExport($data))->write($tmp);
 
         return response()->download($tmp, $slug.'.xlsx', [

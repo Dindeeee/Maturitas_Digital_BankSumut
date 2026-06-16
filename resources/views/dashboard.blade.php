@@ -2,7 +2,7 @@
     <x-slot name="header">
         <div>
             <h1 class="text-lg font-semibold text-gray-800">Dashboard</h1>
-            <p class="text-xs text-gray-500">Ringkasan Asesmen Maturitas Digital Bank Sumut</p>
+            <p class="text-xs text-gray-500">Ringkasan Assessment Maturitas Digital Bank Sumut</p>
         </div>
     </x-slot>
 
@@ -13,7 +13,7 @@
             @if ($period)
                 Periode: <strong>{{ $period->name }}</strong> ({{ $period->year }}).
             @else
-                Belum ada periode asesmen.
+                Belum ada periode assessment.
             @endif
         </p>
     </div>
@@ -35,7 +35,7 @@
                 <div class="h-full rounded-full bg-primary-500" style="width: {{ $progressPct }}%"></div>
             </div>
             <a href="{{ route('assessment.index') }}" class="mt-4 inline-block text-sm font-medium text-primary-600 hover:text-primary-700">
-                Buka lembar asesmen →
+                Buka lembar assessment →
             </a>
         </div>
     @else
@@ -108,7 +108,7 @@
                     </script>
                 @else
                     <div class="flex h-64 items-center justify-center rounded-lg border-2 border-dashed border-gray-200 text-sm text-gray-400">
-                        Belum ada data skor. Grafik akan tampil setelah asesmen diisi.
+                        Belum ada data skor. Grafik akan tampil setelah assessment diisi.
                     </div>
                 @endif
             </div>

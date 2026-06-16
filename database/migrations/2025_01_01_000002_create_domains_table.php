@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\Schema;
 return new class extends Migration
 {
     /**
-     * 8 Domain utama asesmen maturitas digital (SEOJK No. 24/SEOJK.03/2023).
+     * 8 Domain utama assessment maturitas digital (SEOJK No. 24/SEOJK.03/2023).
      */
     public function up(): void
     {

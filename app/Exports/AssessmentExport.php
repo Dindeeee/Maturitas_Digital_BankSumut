@@ -145,7 +145,7 @@ class AssessmentExport
         $domainRows = $this->data['domainRows'];
 
         // Title
-        $sheet->setCellValue('A1', 'Laporan Asesmen Maturitas Digital — '.$period->name.' ('.$period->year.')');
+        $sheet->setCellValue('A1', 'Laporan Assessment Maturitas Digital — '.$period->name.' ('.$period->year.')');
         $sheet->mergeCells('A1:E1');
         $sheet->getStyle('A1')->getFont()->setBold(true)->setSize(14);
 

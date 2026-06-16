@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\DB;
 class AssessmentImportSeeder extends Seeder
 {
     /**
-     * Impor hasil asesmen 2025 dari database/data/assessment_2025.json
+     * Impor hasil assessment 2025 dari database/data/assessment_2025.json
      * (di-parse dari Excel oleh parse_assessment_data.py).
      *
      * Idempoten: periode dgn nama sama dihapus & dibuat ulang (cascade).
@@ -159,9 +159,9 @@ class AssessmentImportSeeder extends Seeder
                 }
 
                 // (c) Periode 2024 (histori) — hanya skor domain, untuk pembanding di dashboard.
-                AssessmentPeriod::where('name', 'Asesmen Maturitas Digital 2024 (Impor Excel)')->get()->each->delete();
+                AssessmentPeriod::where('name', 'Assessment Maturitas Digital 2024 (Impor Excel)')->get()->each->delete();
                 $prev = AssessmentPeriod::create([
-                    'year' => 2024, 'name' => 'Asesmen Maturitas Digital 2024 (Impor Excel)',
+                    'year' => 2024, 'name' => 'Assessment Maturitas Digital 2024 (Impor Excel)',
                     'status' => 'completed', 'start_date' => '2024-01-01', 'end_date' => '2024-12-31',
                     'created_by' => $admin?->id,
                 ]);

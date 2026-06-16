@@ -40,7 +40,7 @@
                     </div>
                     <div class="leading-tight">
                         <div class="text-sm font-semibold text-white">Bank Sumut</div>
-                        <div class="text-[11px] text-primary-100">Asesmen Maturitas Digital</div>
+                        <div class="text-[11px] text-primary-100">Assessment Maturitas Digital</div>
                     </div>
                 </div>
 
@@ -58,7 +58,7 @@
                     @if ($role === 'admin')
                         <p class="px-3 pt-4 pb-1 text-[11px] font-semibold uppercase tracking-wider text-primary-200/70">Administrasi</p>
                         <x-sidebar-link :href="$link('admin.periods.index')" :active="request()->routeIs('admin.periods.*')" icon="calendar">
-                            Periode Asesmen
+                            Periode Assessment
                         </x-sidebar-link>
                         <x-sidebar-link :href="$link('admin.master-data.index')" :active="request()->routeIs('admin.master-data.*')" icon="grid">
                             Master Data
@@ -79,16 +79,16 @@
                     @endif
 
                     @if ($role === 'assessor')
-                        <p class="px-3 pt-4 pb-1 text-[11px] font-semibold uppercase tracking-wider text-primary-200/70">Asesmen</p>
+                        <p class="px-3 pt-4 pb-1 text-[11px] font-semibold uppercase tracking-wider text-primary-200/70">Assessment</p>
                         <x-sidebar-link :href="$link('assessment.index')" :active="request()->routeIs('assessment.*')" icon="clipboard">
-                            Pengisian Asesmen
+                            Pengisian Assessment
                         </x-sidebar-link>
                     @endif
 
                     @if (in_array($role, ['admin', 'reviewer', 'viewer'], true))
                         <p class="px-3 pt-4 pb-1 text-[11px] font-semibold uppercase tracking-wider text-primary-200/70">Review</p>
                         <x-sidebar-link :href="$link('review.index')" :active="request()->routeIs('review.*')" icon="check">
-                            {{ $role === 'reviewer' ? 'Review Asesmen' : 'Lihat Review' }}
+                            {{ $role === 'reviewer' ? 'Review Assessment' : 'Lihat Review' }}
                         </x-sidebar-link>
                     @endif
 
