@@ -1,0 +1,2504 @@
+{
+  "period": {
+    "year": 2025,
+    "name": "Asesmen Maturitas Digital 2025 (Impor Excel)",
+    "status": "active",
+    "start_date": "2025-01-01",
+    "end_date": "2025-12-31"
+  },
+  "controls": [
+    {
+      "code": "1.A.1",
+      "review_progress": "done",
+      "penjelasan_aktor": "/Fungsi\nDivisi Teknologi Informasi",
+      "penjelasan_dokumen": "Rencana Stratetgis TI\n- Rencana Bisnis Bank \n- Laporan Tahunan PT Bank Sumut 2023",
+      "penjelasan_kontrol": "Kontrol\nBerdasarkan review dokumen Rencana Strategis TI dan Rencana Bisnis Bank, Bank telah menetapkan rencana pengembangan TI yang terdapat pada dokumen Rencana Strategis TI Bank. Selanjutnya untuk mendukung rencana pengembangan TI tersebut, Bank telah menetapkan alokasi anggaran untuk pengembangan TI yang termuat dalam dokumen Rencana Bisnis Bank. Kemudian, Bank telah menunjukkan komitmen dari Direksi untuk mendukung permodalan Bank dalam pengembangan TI melalui pengesahan dokumen Rencana Strategis TI dan Rencana Bisnis Bank.",
+      "rekomendasi": "Berdasarkan hasil asesmen yang telah dilakukan, Bank perlu:\n1. Penguatan dokumentasi dan komitmen modal yang mecakup:\n- memastikan pembahasan terkait komitemen Direksi dan pemegang saham  dalam mendukung permodalan untuk pengembangan TI. Hal ini harus terdokumentasi secara spesifik pada dokumen strategis sebagai bukti komitmen.\n- alokasi anggaran untuk pengembangan TI dalam Rencana Bisnis Bank lebih transparan dan terperinci\n2. Evaluasi dan penyesuaian Rencana Strategis TI mencakup:\n- melakukan evaluasi berkala terhadap Rencana Strategis TI dan Rencana Bisnis Bank\n- menyesuaikan rencana dan alokasi anggaran berdasarkan hasil evaluasi tersebut\n3. Optimalisasi Investasi Teknologi mencakup:\n- memantau secara ketat penggunaan belanja modal (Capex) untuk proyek-proyek TI\n- melakukan evaluasi terhadap return on investment (ROI) dari setiap investasi TI",
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": "ada"
+        }
+      ]
+    },
+    {
+      "code": "1.A.2",
+      "review_progress": "done",
+      "penjelasan_aktor": "/Fungsi\nDivisi Teknologi Informasi",
+      "penjelasan_dokumen": "Petunjuk Pelaksanaan Pengembangan Teknologi Informasi PT Bank Sumut\n- COB Biller BNI CC Phase 1",
+      "penjelasan_kontrol": "Kontrol\nBerdasarkan review dokumen dan hasil interview dengan Divisi Teknologi Informasi, Bank telah memiliki pengaturan  terkait studi kelayakan dan Bank telah melakukan analisis studi kelayakan atas rencana investasi yang akan dilakukan. Hasil dari analisis studi kelayakan dicatat dalam bentuk Memo lalu dilampirkan dalam Dokumen BRD untuk diteruskan kepada Manajemen/Direksi.\n\nNamun, Bank belum melakukan pengukuran kinerja portofolio investasi menggunakan pengukuran tingkat pengembalian investasi.",
+      "rekomendasi": "Berdasarkan hasil asesmen yang telah dilakukan, Bank perlu:\n1. Memastikan pembahasan terkait komitemen Direksi dan pemegang saham  dalam mendukung permodalan untuk pengembangan TI. Hal ini harus terdokumentasi secara spesifik pada dokumen strategis sebagai bukti komitmen.\n2. Meninjau dan memperbarui alokasi anggaran dalam Rencana Bisnis Bank secara terperinci,\n3. Memperkuat pemantauan terhadap implementasi biaya belanja modal (Capex)\n4. Melakukan evaluasi terhadap kecukupan dan efisiensi permodalan yang diperlukan",
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": "partial"
+        },
+        {
+          "order": 2,
+          "status": "ada"
+        },
+        {
+          "order": 3,
+          "status": "partial"
+        }
+      ]
+    },
+    {
+      "code": "1.A.3",
+      "review_progress": "done",
+      "penjelasan_aktor": "/Fungsi\n- Divisi Teknologi Informasi\n- Divisi Keuangan dan Akuntansi",
+      "penjelasan_dokumen": "Rencana Bisnis Bank\n- Analisis Cost & Benefit",
+      "penjelasan_kontrol": "Kontrol\nBerdasarkan review dokumen Rencana Bisnis Bank dan Analisis Cost & benefit serta hasil interview dengan Divisi Teknologi Informasi dan Divisi Keuangan dan Akuntansi, Bank telah melakukan pemantauan terhadap proyeksi dan realisasi anggaran. Bank telah melakukan analisis biaya dan manfaat namun hanya dilakukan per produk, bukan keseluruhan atas investasi TI.",
+      "rekomendasi": "Berdasarkan hasil asesmen yang telah dilakukan, Bank perlu:\n1. Pengaturan pemantauan rutin terkait deviasi anggaran, proyeksi biaya, dan realisasi biaya, termasukan analisis biaya dan manfaat dalam seluruh kegiatan terkait dengan seluruh penyelenggaraan TI yang ada di lingkungan Bank. \n2. Pelaksanaan pemantauan terkait seluruh penggunaan anggaran sesuai dengan manfaat yang diterima, termasuk jika penyelenggaraan TI disediakan oleh pihak penyedia jasa TI secara menyeluruh.\n3. Memastikan tersedianya standarisasi dan dokumentasi yang baik atas pemantauan deviasi anggaran, proyeksi biaya, dan realisasi biaya, termasukan analisis biaya dan manfaat dalam seluruh kegiatan terkait dengan seluruh penyelenggaraan TI yang ada di lingkungan Bank",
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": "ada"
+        },
+        {
+          "order": 2,
+          "status": "ada"
+        }
+      ]
+    },
+    {
+      "code": "1.A.4",
+      "review_progress": "done",
+      "penjelasan_aktor": "/Fungsi\nDivisi SDM",
+      "penjelasan_dokumen": "Laporan Tahunan Bank Sumut",
+      "penjelasan_kontrol": "Kontrol\nBerdasarkan review dokumen dan hasil interview dengan Divisi SDM, Bank telah menerapkan program pelatihan kepemimpinan kepada Direksi, Dewan Komisaris dan jajaran manajemen yang berorientasi digital. Berdasarkan dokumen Laporan Tahunan Bank Sumut, berikut merupakan contoh program pelatihan yang telah dilaksanakan yaitu:\n- Executive Program Governance Risk Compliance (GRC) Sustainability Remap and Reshape GRC Implementation\n- Program Refreshment Sertifikasi Manajemen Risiko Strengthening Bank Business Strategies in The Era of Technology Disruption and Post Covid-19 Pandemic\n- Workshop Transformasi Digital",
+      "rekomendasi": "Berdasarkan hasil asesmen yang telah dilakukan, Bank perlu:\n1) Meningkatkan frekuensi dan kualitas pelatihan kepada jajaran Direksi, Dewan Komisaris dan jajaran manajemen.\n2) Mengukur dampak pelatihan yang diberikan kepada jajaran Direksi, Dewan Komisaris dan jajaran manajemen.\n3) Mendorong inovasi Digital kepada Direksi, Dewan Komisaris, dan jajaran manajemen untuk aktif dalam menginisiasi dan mendukung proyek-proyek inovasi digital.\n4) Meningkatkan komunikasi dan kolaborasi antar departemen terkait inisiatif digital.",
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": "ada"
+        }
+      ]
+    },
+    {
+      "code": "1.A.5",
+      "review_progress": "done",
+      "penjelasan_aktor": "/Fungsi\n- Divisi Strategi & Transformasi\n- Divisi Teknologi Informasi",
+      "penjelasan_dokumen": "Struktur Organisasi dan Profil Jabatan Divisi Strategi dan Transformasi\n- Sruktur Organisasi dan Profil Jabatan Divisi Teknologi Informasi",
+      "penjelasan_kontrol": "Kontrol\nBerdasarkan review dokumen Struktur Organisasi dan Profil Jabatan Divisi Strategi dan Transformasi dan Teknologi Informasi serta hasil interview dengan Divisi Strategi & Transformasi, Bank telah mendefinisikan struktur organisasi yang kolaboratif dengan mendefinisikan hubungan kerja antar Divisi Internal Bank. Divisi Strategi & Transformasi, Bidang Digital Banking, dapat melakukan kolaborasi dengan Divisi Teknologi Informasi untuk membangun dan mengembangkan sistem sesuai kebijakan strategis bank terkait layanan perbankan digital.",
+      "rekomendasi": "Berdasarkan hasil asesmen yang telah dilakukan, Bank perlu:\n1) Memperkuat struktur organisasi kolaboratif yang memungkinkan interaksi yang lebih luas antar unit kerja\n2) Meningkatkan desentralisasi kewenangan untuk memastikan pengambilan keputusan yang lebih cepat dan responsif terhadap perubahan. \n3) Bank perlu terus meningkatkan pemanfaatan teknologi informasi untuk mendukung kolaborasi, komunikasi, dan konektivitas.",
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": "ada"
+        },
+        {
+          "order": 2,
+          "status": "ada"
+        },
+        {
+          "order": 3,
+          "status": "ada"
+        }
+      ]
+    },
+    {
+      "code": "1.A.6",
+      "review_progress": "done",
+      "penjelasan_aktor": "/Fungsi\nDivisi SDM, Sekertaris Perusahaan",
+      "penjelasan_dokumen": "Laporan Tahunan Bank Sumut",
+      "penjelasan_kontrol": "Kontrol\nBerdasarkan review dokumen serta interview, Bank khususnya Direksi dan Dewan Komisaris telah menunjukkan komitmen untuk mengembangkan budaya digital dengan fokus pada peningkatan kualitas SDM dan melakukan digitalisasi pada Bank serta menanamkan digital mindset.",
+      "rekomendasi": "Berdasarkan hasil asesmen yang telah dilakukan, Bank perlu:\n1) Bank perlu memastikan bahwa komitmen ini ditampilkan secara lebih jelas dan terukur\n2) Memperkuat penerapan pengembangan budaya digital yang  berfokus antara lain kolaborasi, data driven, berfokus pada pelanggan (customer centric), inovasi digital, serta integrasi teknologi digital dalam semua proses bisnis kepada seluruh lapisan pegawai.\n3) Menedokumentasikan seluruh proses pengembangan budaya digital dari proses perencanaan hingga evaluasi untuk memastikan keberlanjutan pelaksanaan.",
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": "ada"
+        },
+        {
+          "order": 2,
+          "status": "partial"
+        },
+        {
+          "order": 3,
+          "status": "partial"
+        }
+      ]
+    },
+    {
+      "code": "1.A.7",
+      "review_progress": "done",
+      "penjelasan_aktor": "/Fungsi\nDivisi SDM",
+      "penjelasan_dokumen": "Sampel Dokumen Pelatihan DTI 2023",
+      "penjelasan_kontrol": "Kontrol\nBerdasarkan hasil interview dengan Divisi SDM, Bank telah melakukan penyusunan program pengembangan dan pelatihan sumber daya manusia melakukan Training Need Analysis (TNA) untuk menyesuaikan dengan kebutuhan dari setiap divisi.\n\nNamun, Bank belum memiliki kebijakan khusus terkait pengembangan talenta digital.",
+      "rekomendasi": "Berdasarkan hasil asesmen yang telah dilakukan, Bank perlu:\n1) Bank perlu menyusun panduan implementasi kebijakan yang rinci, termasuk proses rekrutmen, perencanaan karir, evaluasi kinerja, dan program pengembangan yang spesifik. \n2) Memperluas program pengembangan talenta digital melalui rekrutmen, pelatihan, dan sertifikasi, khususnya dalam bidang teknologi terkini, bisnis digital, cybersecurity, dan customer engagement.\n3) Memastikan bahwa program pengembangan talenta digital dievaluasi secara berkala untuk menilai efektivitasnya dan melakukan perbaikan yang diperlukan.\n4) Bank harus memastikan keberlanjutan program pengembangan talenta digital dengan menciptakan lingkungan kerja yang mendukung pembelajaran dan inovasi berkelanjutan.",
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": "partial"
+        },
+        {
+          "order": 2,
+          "status": "partial"
+        },
+        {
+          "order": 3,
+          "status": "partial"
+        },
+        {
+          "order": 4,
+          "status": "partial"
+        }
+      ]
+    },
+    {
+      "code": "1.B.1",
+      "review_progress": "done",
+      "penjelasan_aktor": "/Fungsi\nDivisi Teknologi Informasi",
+      "penjelasan_dokumen": "Dokumen Pedoman Pelaksanaan Penerapan Tata Kelola PT Bank Sumut\n- Kebijakan SMKI dan menjadwalkan assessment ISO 27001 secara berkala",
+      "penjelasan_kontrol": "Kontrol\nBerdasarkan review Pedoman Pelaksanaan Penerapan Tata Kelola  PT Bank Sumut, Bank telah membentuk komite pendukung penyelengaraan TI yaitu Komite Pengarah Teknologi Informasi (KPTI) untuk mendukung keselarasan proses. \nNamun, Bank belum secara konsisten menyelaraskan proses dan praktik tata kelola TI dengan prinsip tata kelola Bank.",
+      "rekomendasi": "Berdasarkan hasil asesmen yang telah dilakukan, Bank perlu:\n1) Bank perluk melakukan penguatan lebih lanjut untuk memastikan bahwa semua elemen ini berfungsi secara efektif dan efisien.\n2) Bank perlu memperkuat mekanisme koordinasi dan pelaporan terkait tata kelola TI untuk meningkatkan pengawasan dan pengambilan keputusan yang lebih cepat dan akurat.",
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": "partial"
+        },
+        {
+          "order": 2,
+          "status": "ada"
+        }
+      ]
+    },
+    {
+      "code": "1.B.2",
+      "review_progress": "done",
+      "penjelasan_aktor": "/Fungsi\nDivisi Teknologi Informasi",
+      "penjelasan_dokumen": "Rencana Bisnis Bank",
+      "penjelasan_kontrol": "Kontrol\nBerdasarkan review dokumen dan hasil interview dengan Divisi Teknologi Informasi, Bank telah menetapkan alokasi anggaran untuk investasi TI yang termuat pada dokumen Rencana Bisnis Bank. Dalam penyusunan Rencana Bisnis Bank telah mempertimbangkan strategi bisnis bank serta tingkat risiko atas investasi TI tersebut. \n\nNamun, Bank belum melakukan analisis tingkat pengembalian investasi terkait investasi TI.",
+      "rekomendasi": "Berdasarkan hasil asesmen yang telah dilakukan, Bank perlu:\n1) Bank dapat memperkuat proses analisis biaya dan manfaat (cost-benefit analysis) untuk setiap proyek TI yang diajukan. Hal ini dapat mencakup penggunaan metrik yang lebih jelas untuk mengukur tingkat pengembalian investasi (ROI) dan risiko yang terlibat, serta memastikan bahwa setiap investasi TI secara langsung mendukung tujuan strategis Bank.\n2) Mengimplementasikan sistem pelaporan yang lebih terstruktur untuk memantau realisasi pendapatan baru yang dihasilkan dari investasi TI. Selain itu, Bank perlu melibatkan secara aktif pemangku kepentingan terkait (stakeholders) dalam evaluasi dan pemantauan proyek TI untuk memastikan bahwa inisiatif-inisiatif tersebut memenuhi harapan.\n3) Memperkuat dan memastikan komite yang bertanggung jawab untuk meninjau dan menilai secara berkala atas portofolio investasi TI.",
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": "partial"
+        },
+        {
+          "order": 2,
+          "status": "partial"
+        }
+      ]
+    },
+    {
+      "code": "1.B.3",
+      "review_progress": "done",
+      "penjelasan_aktor": "/Fungsi\nDivisi Teknologi Informasi",
+      "penjelasan_dokumen": "Petunjuk Pelaksanaan Perencanaan dan Perorganisasian Teknologi Informasi PT Bank Sumut",
+      "penjelasan_kontrol": "Kontrol\nBerdasarkan review dokumen tersebut, Bank telah memiliki ketentuan terkait manajemen risiko yang mencakup\n1. Manajemen Risiko TI merujuk kepada kerangka kerja Manajemen Risiko yang diimplmentasikan Bank.\n2. Seluruh fungsi di DTI harus melakukan risk assessment, menyusun risk treatment plan dan mengimplementasikan risk treatment plan dalam tahun anggaran berjalan.",
+      "rekomendasi": "Berdasarkan hasil asesmen yang telah dilakukan, Bank perlu:\n1) Bank dapat mengadakan sesi workshop rutin dengan tim TI dan manajemen risiko untuk melakukan review terhadap risiko-risiko TI yang telah diidentifikasi dan memastikan bahwa metode evaluasi risiko yang digunakan adalah sesuai dengan standar industri dan kebijakan internal Bank.\n2) Mengadopsi pendekatan holistik dalam manajemen risiko TI dengan mengintegrasikan sistem manajemen risiko TI ke dalam platform manajemen risiko Bank yang sudah ada. \n3)  Memperkuat penggunaan dashboard risiko TI yang real-time untuk memantau secara kontinu eksposur risiko TI.",
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": "ada"
+        },
+        {
+          "order": 2,
+          "status": "ada"
+        }
+      ]
+    },
+    {
+      "code": "1.B.4",
+      "review_progress": "done",
+      "penjelasan_aktor": "/Fungsi\n- Divisi Teknologi Informasi, \n- Divisi SDM",
+      "penjelasan_dokumen": "Petunjuk Pelaksanaan Perencanaan dan Pengorganisasian Teknologi Informasi PT Bank Sumut\n- SOP Manajemen SDM TI",
+      "penjelasan_kontrol": "Kontrol\nBerdasarkan hasil review dokumen  Petunjuk Pelaksanaan Perencanaan dan Pengorganisasian Teknologi Informasi PT Bank Sumut dan SOP Manajemen SDM TI serta hasil interview dengan Divisi SDM, Bank telah memiliki ketentuan terkait proses identifikasi kecukupan dan pengajuan kebutuhan SDM TI. Proses identifikasi dan evaluasi kebutuhan sumber daya manusia didasarkan dari inisiasi divisi terkait kebutuhan SDM dan melakukan analisis manpower planning yang kemudian diajukan melalui rencana bisnis bank.",
+      "rekomendasi": "Berdasarkan hasil asesmen yang telah dilakukan, Bank perlu:\n1) Bank dapat meningkatkan kolaborasi antara tim TI, keuangan, dan unit bisnis dalam proses identifikasi kebutuhan sumber daya TI.\n2) Bank dapat mengimplementasikan dashboard atau sistem pelaporan yang real-time untuk memantau penggunaan sumber daya TI, termasuk pendanaan, SDM, dan teknologi.\n3) Bank dapat melakukan survei kepuasan internal dan eksternal secara berkala untuk mengevaluasi tingkat kepuasan terhadap layanan dan dukungan TI yang disediakan.",
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": "ada"
+        },
+        {
+          "order": 2,
+          "status": "partial"
+        }
+      ]
+    },
+    {
+      "code": "1.B.5",
+      "review_progress": "done",
+      "penjelasan_aktor": "/Fungsi\nDivisi Teknologi Informasi",
+      "penjelasan_dokumen": "Petunjuk Pelaksanaan Perencanaan dan Pengorganisasian Teknologi Informasi PT Bank Sumut\n- Rencana Strategis TI",
+      "penjelasan_kontrol": "Kontrol\nBerdasarkan hasil review dokumen Petunjuk Pelaksanaan Perencanaan dan Pengorganisasian Teknologi Informasi PT Bank Sumut dan Rencana Strategis TI serta hasil interview dengan Divisi Teknologi Informasi, Bank telah memiliki pengaturan terkait keterlibatan pemangku kepentingan dalam tata kelola TI. Selanjutnya, Bank juga telah melakukan aktivitas pelaporan atas hasil penerapan rencana TI kepada Komite Pengarah TI dan jajaran Direksi secara berkala. Berdasarkan hasil review dokumen Petunjuk Pelaksanaan Perencanaan dan Pengorganisasian Teknologi Informasi PT Bank Sumut, Bank telah memiliki pengaturan terkait keterlibatan Direksi dan Komite Pengarah TI dalam penyusunan rencana strategis TI. Kemudian, Divisi Teknologi Informasi juga telah melakukan aktivitas evaluasi atas rencana strategis TI dan rencana kerja TI yang hasil evaluasinya disampaikan kepada pemangku kepentingan.\n\nHal ini juga didukung dengan kegiatan Rapat Komite TI yang dilakukan secara berkala sebagai bentuk evaluasi rutin atas penyelenggaraan TI yang ada di lingkungan Bank. Rapat Komite TI didokumentasikan dalam Risalah Rapat Komite TI untuk dan terdapat absensi keterlibatan pemangku kepentingan terkait serta terdapat bagian hasil keputusan rapat KPTI sebagai instruksi dan strategi atas pelaksanaan evaluasi.",
+      "rekomendasi": "Berdasarkan hasil asesmen yang telah dilakukan, Bank perlu:\n1) Bank perlu terus mengoptimalkan proses identifikasi dan evaluasi pemangku kepentingan yang terlibat dalam tata kelola TI, serta memastikan kebutuhan komunikasi dan pelaporan kepada pemangku kepentingan yang relevan telah dipahami dengan baik.\n2) Bank dapat meningkatkan transparansi dalam komunikasi dengan memperluas penggunaan portal atau platform digital yang menyediakan informasi terkini terkait proyek-proyek TI dan inisiatif strategis. \n3) Bank dapat mengimplementasikan sistem pengelolaan dokumen digital yang terintegrasi untuk memastikan bahwa laporan-laporan yang dihasilkan dari sistem TI Bank memiliki akurasi yang tinggi dan dapat diakses dengan mudah oleh pemangku kepentingan yang berwenang.",
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": "ada"
+        }
+      ]
+    },
+    {
+      "code": "1.B.6",
+      "review_progress": "done",
+      "penjelasan_aktor": "/Fungsi\nDivisi Teknologi Informasi",
+      "penjelasan_dokumen": "Rencana Strategis TI",
+      "penjelasan_kontrol": "Kontrol\nBerdasarkan review dokumen tersebut, Bank telah mempertimbangkan hal-hal yang dibutuhkan dalam merancangan sistem TI, yaitu:\n1) visi dan misi Bank; \n2) strategi Bisnis Bank; \n3) tantangan yang dihadapi Bank; \n4) lingkungan internal Bank, termasuk budaya, toleransi risiko, keamanan dan kebijakan privasi, nilai etika, kode etik, dan akuntabilitas; dan\n5) standar maupun regulasi terkait.",
+      "rekomendasi": "Berdasarkan hasil asesmen yang telah dilakukan, Bank perlu:\n1) Bank dapat melakukan evaluasi berkala terhadap sistem manajemen TI untuk memastikan bahwa desain sistem tersebut tetap relevan dengan perubahan visi, misi, dan strategi bisnis Bank. \n2) Mengadakan workshop secara rutin untuk seluruh pegawai terkait tujuan dan arah penggunaan TI. \n3) Bank dapat melakukan peninjauan berkala terhadap struktur organisasi dan fungsi TI untuk memastikan bahwa penempatan fungsi TI tetap sesuai dengan model operasional Bank dan strategi penempatan sumber daya. Hal ini dapat mencakup evaluasi terhadap efisiensi struktur organisasi TI, baik yang terpusat, terdesentralisasi, maupun kombinasi.\n4) Bank perlu memastikan bahwa kebijakan dan prosedur kontrol TI pada area utama seperti kualitas, keamanan, privasi, kontrol internal, penggunaan aset TI, etika, dan hak kekayaan intelektual telah ditetapkan dan dikomunikasikan secara efektif.\n5) Bank dapat melakukan audit internal terhadap infrastruktur TI untuk memastikan bahwa semua komponen telah berfungsi sesuai dengan harapan dan mendukung tata kelola TI secara efektif. Selain itu, Bank dapat terus mengevaluasi dan memperbarui aplikasi serta layanan TI untuk menyesuaikan dengan kebutuhan operasional dan strategi bisnis yang berkembang.",
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": "ada"
+        },
+        {
+          "order": 2,
+          "status": "ada"
+        },
+        {
+          "order": 3,
+          "status": "ada"
+        },
+        {
+          "order": 4,
+          "status": "ada"
+        },
+        {
+          "order": 5,
+          "status": "ada"
+        },
+        {
+          "order": 6,
+          "status": "ada"
+        },
+        {
+          "order": 7,
+          "status": "ada"
+        },
+        {
+          "order": 8,
+          "status": "ada"
+        },
+        {
+          "order": 9,
+          "status": "ada"
+        }
+      ]
+    },
+    {
+      "code": "1.B.7",
+      "review_progress": "done",
+      "penjelasan_aktor": "/Fungsi\nDivisi Teknologi Informasi",
+      "penjelasan_dokumen": "Corporate Plan Bank\n- Rencana Strategis TI",
+      "penjelasan_kontrol": "Kontrol\nBerdasarkan review dokumen Corporate Plan Bank dan Rencana Strategis TI, Bank telah melakukan analisis teradap lingkungan bisnis Bank serta mempertimbangkan visi dan misi Bank ke depan, termasuk perubahan industri, regulasi terkait dan target tingkat maturitas.",
+      "rekomendasi": "Berdasarkan hasil asesmen yang telah dilakukan, Bank perlu:\n1) Memperkuat pemahaman terhadap lingkungan bisnis dan arah pengembangan Bank ke depan, termasuk faktor penentu perubahan industri, regulasi terkait, tingkat persaingan, model operasional saat ini, dan target tingkat maturitas digitalisasi.\n2) Bank perlu terus meningkatkan penilaian terhadap kemampuan, kinerja, dan tingkat maturitas digitalisasi saat ini untuk memastikan bahwa inisiatif transformasi digital berjalan sesuai dengan rencana.\n3) Menentukan target kapabilitas digital yang jelas dan terukur berdasarkan pemahaman terhadap lingkungan bisnis dan arah pengembangan Bank ke depan.\n4) Melakukan analisis dengan metode analisis kesenjangan yang terstruktur untuk mengidentifikasi area yang perlu ditingkatkan, serta menyusun laporan penilaian kesehatan TI yang rinci dan transparan. Laporan ini harus dikomunikasikan secara efektif kepada OJK dan pemangku kepentingan internal.\n5) Menetapkan rencana strategis dan peta jalan transformasi yang jelas dan terperinci, serta memastikan bahwa rencana tersebut tercantum dalam RSTI.\n6) Bank perlu memastikan bahwa strategi dan arah pengembangan TI dikomunikasikan dengan efektif kepada seluruh pemangku kepentingan dan satuan kerja pengguna TI.",
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": "ada"
+        },
+        {
+          "order": 2,
+          "status": "ada"
+        },
+        {
+          "order": 3,
+          "status": "ada"
+        },
+        {
+          "order": 4,
+          "status": "ada"
+        },
+        {
+          "order": 5,
+          "status": "ada"
+        },
+        {
+          "order": 6,
+          "status": "ada"
+        }
+      ]
+    },
+    {
+      "code": "1.B.8",
+      "review_progress": "done",
+      "penjelasan_aktor": "/Fungsi\nDivisi Teknologi Informasi",
+      "penjelasan_dokumen": "Corporate Plan Bank\n- Rencana Strategis TI",
+      "penjelasan_kontrol": "Kontrol\nBerdasarkan review dokumen Corporate Plan Bank dan Rencana Strategis TI , Bank dalam melakukan penyusunan dokumen rencana strategis TI telah mempertimbangkan visi dan misi Bank serta kondisi internal dan eksternal bank. Selain itu Bank juga telah mendefinisikan kondisi target TI yang ingin dicapai ke depannya.",
+      "rekomendasi": "Berdasarkan hasil asesmen yang telah dilakukan, Bank perlu:\n1) Bank perlu terus meningkatkan pemahaman terhadap isu bisnis, tujuan, dan ekspektasi atas TI yang dipergunakan Bank agar dapat mendukung kebutuhan operasional dan strategis.\n2) Bank perlu memperkuat hubungan bisnis yang baik antara organisasi TI dan unit bisnis dengan memperjelas dan mengomunikasikan peran serta tanggung jawab hubungan secara memadai.\n3) Bank perlu mengoptimalkan sistem komunikasi internal yang transparan dengan semua pemangku kepentingan yang relevan untuk mengoordinasikan layanan TI yang diberikan kepada unit bisnis.\n4) Bank perlu secara berkesinambungan memperbaiki dan mengembangkan layanan TI agar tetap relevan dengan perkembangan bisnis Bank dan teknologi.",
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": "ada"
+        },
+        {
+          "order": 2,
+          "status": "ada"
+        },
+        {
+          "order": 3,
+          "status": "ada"
+        },
+        {
+          "order": 4,
+          "status": "partial"
+        }
+      ]
+    },
+    {
+      "code": "1.B.9",
+      "review_progress": "done",
+      "penjelasan_aktor": "/Fungsi\nDivisi Teknologi Informasi",
+      "penjelasan_dokumen": "Petunjuk Pelaksanaan Operasional Teknologi Informasi PT Bank Sumut",
+      "penjelasan_kontrol": "Kontrol\nBerdasarkan review dokumen tersebut, Bank telah melakukan analisis layanan TI saat ini untuk mengidentifikasi kinerja layanan terhadap aktivitas bisnis Bank, baik aktivitas bisnis yang\ntelah ditunjang layanan TI / aplikasi, atau aktivitas bisnis yang belum ditunjang layanan TI / aplikasi.\nNamun, Bank belum mendokumentasikan katalog layanan TI secara memadai.",
+      "rekomendasi": "Berdasarkan hasil asesmen yang telah dilakukan, Bank perlu:\n1) Bank perlu melakukan analisis terhadap kinerja layanan TI saat ini dan kebutuhan untuk mengembangkan seluruh layanan TI guna mendukung aktivitas bisnis secara optimal.\n2) Bank perlu mengoptimalkan pengelolaan dan publikasi katalog layanan TI yang mencakup perbandingan layanan dan paket layanan TI yang ditawarkan, serta memastikan pembaruan portofolio layanan dilakukan secara rutin.\n3)Memantau kinerja layanan TI untuk secara berkala dan mengidentifikasi pelanggaran layanan, dan menganalisis tren kepuasan nasabah. Data yang diperoleh dapat digunakan untuk membuat laporan berkala dan menyusun rencana perbaikan yang konkret untuk meningkatkan kinerja layanan TI.",
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": "partial"
+        },
+        {
+          "order": 2,
+          "status": "ada"
+        },
+        {
+          "order": 3,
+          "status": "partial"
+        },
+        {
+          "order": 4,
+          "status": "partial"
+        }
+      ]
+    },
+    {
+      "code": "1.B.10",
+      "review_progress": "done",
+      "penjelasan_aktor": "/Fungsi\nDivisi Teknologi Informasi",
+      "penjelasan_dokumen": "Petunjuk Pelaksanaan Perencanaan dan Pengorganisasian Teknologi Informasi",
+      "penjelasan_kontrol": "Kontrol\nBerdasarkan review  dokumen tersebut, Bank telah memiliki standar terkait manajemen mutu. Bank melakukan dari mulai aktivitas identifikasi sampai pemantauan pengelolaan dan penyesuaian mutu untuk kebutuhan bisnis dan ekspektasi setiap proses bisnis, layanan operasional, dan solusi/aplikasi baru.\n\nNamun, Bank belum melaporkan hasil identifikasi dari pengaturan mutu TI secara konsisten.",
+      "rekomendasi": "Berdasarkan hasil asesmen yang telah dilakukan, Bank perlu:\n1) Memperkuat penerapan manajemen mutu yang dijadikan standar dan pendekatan untuk sistem manajemen informasi guna memastikan kualitas yang konsisten dan tinggi.\n2) Bank perlu lebih lanjut memastikan bahwa kebutuhan pemangku kepentingan terintegrasi dalam praktik manajemen kualitas agar dapat memberikan layanan yang sesuai dengan ekspektasi.\n3) Bank perlu mengelola dan mengintegrasikan standar, praktik, dan prosedur kualitas ke dalam semua proses bisnis untuk memastikan konsistensi dan kualitas yang tinggi.\n4) Bank perlu melakukan pemantauan, pengendalian, dan evaluasi terhadap kualitas proses dan layanan secara berkesinambungan sesuai dengan standar manajemen kualitas.",
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": "partial"
+        },
+        {
+          "order": 2,
+          "status": "partial"
+        },
+        {
+          "order": 3,
+          "status": "partial"
+        },
+        {
+          "order": 4,
+          "status": "partial"
+        }
+      ]
+    },
+    {
+      "code": "1.B.11",
+      "review_progress": "done",
+      "penjelasan_aktor": "/Fungsi\nDivisi Teknologi Informasi",
+      "penjelasan_dokumen": "Kebijakan Manajemen Sistem Keamanan Informasi  PT Bank Sumut\n- SOP Pengamanan Informasi dalam Menggunakan TI PT Bank Sumut",
+      "penjelasan_kontrol": "Kontrol\nBerdasarkan review dokumen Kebijakan Manajemen Sistem Keamanan Informasi  PT Bank Sumut dam SOP Pengamanan Informasi dalam Menggunakan TI PT Bank Sumut, didapatkan bahwa Bank telah membangun dan memelihara sistem keamanan informasi",
+      "rekomendasi": "Berdasarkan hasil asesmen yang telah dilakukan, Bank perlu:\n1. Bank perlu melakukan pemantauan terus-menerus dan audit tahunan dilakukan untuk memastikan kepatuhan dan mendeteksi ancaman baru. contoh penerapan:\n- melakukan simulasi serangan untuk menguji respons terhadap insiden keamanan.\n2. Bank perlu menyusun perencanaan atas penanganan risiko (identifikasi risiko, dampak risiko, dll) keamanan informasi dan data pribadi secara konsisten.",
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": "ada"
+        },
+        {
+          "order": 2,
+          "status": "ada"
+        },
+        {
+          "order": 3,
+          "status": "ada"
+        }
+      ]
+    },
+    {
+      "code": "1.B.12",
+      "review_progress": "done",
+      "penjelasan_aktor": "/Fungsi\nDivisi Teknologi Informasi",
+      "penjelasan_dokumen": "Petunjuk Pelaksanaan Perencanaan dan Pengorganisasian Teknologi Informasi PT Bank Sumut",
+      "penjelasan_kontrol": "Kontrol\nBerdasarkan hasil review dokumen tersebut, Bank telah memiliki pengaturan terkait manajemen proyek TI. \n\nNamun, berdasarkan dokumen tersebut, tidak terdapat informasi bahwa Bank menggunakan project management tools dalam mengelola proyek pengembangan TI.",
+      "rekomendasi": "Berdasarkan hasil asesmen yang telah dilakukan, Bank perlu:\n1. Bank perlu mempertimbangkan penggunaan project management tools dalam mengelola proyek penyelenggaraan TI, seperti:\n- JIRA\n- Microsoft teams/project\n- Trello",
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": "partial"
+        },
+        {
+          "order": 2,
+          "status": "ada"
+        },
+        {
+          "order": 3,
+          "status": "partial"
+        },
+        {
+          "order": 4,
+          "status": "ada"
+        },
+        {
+          "order": 5,
+          "status": "ada"
+        },
+        {
+          "order": 6,
+          "status": "partial"
+        },
+        {
+          "order": 7,
+          "status": "partial"
+        },
+        {
+          "order": 8,
+          "status": "ada"
+        },
+        {
+          "order": 9,
+          "status": "ada"
+        },
+        {
+          "order": 10,
+          "status": "partial"
+        },
+        {
+          "order": 11,
+          "status": "partial"
+        }
+      ]
+    },
+    {
+      "code": "1.B.13",
+      "review_progress": "done",
+      "penjelasan_aktor": "/Fungsi\nDivisi Teknologi Informasi",
+      "penjelasan_dokumen": "Petunjuk Pelaksanaan Operasional Teknologi Informasi PT Bank Sumut",
+      "penjelasan_kontrol": "Kontrol\nBerdasarkan hasil review dokumen tersebut, Bank telah memiliki pengaturan terkait manajemen perjanjian tingkat layanan TI (SLA).",
+      "rekomendasi": "Berdasarkan hasil asesmen yang telah dilakukan, Bank perlu:\nBank perlu melakukan evaluasi & pemantauan atas penetapan manajemen perjanjian tingkat layanan TI atau SLA.",
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": "ada"
+        },
+        {
+          "order": 2,
+          "status": "ada"
+        },
+        {
+          "order": 3,
+          "status": "ada"
+        }
+      ]
+    },
+    {
+      "code": "1.B.14",
+      "review_progress": "done",
+      "penjelasan_aktor": "/Fungsi\nDivisi Manajemen Risiko",
+      "penjelasan_dokumen": "Peraturan PT Bank SUMUT tentang Business Continuity Management",
+      "penjelasan_kontrol": "Kontrol\nBerdasarkan review dokumen tersebut, bank telah memiliki kebijakan, tujuan, dan ruang lingkup kelangsungan bisnis.",
+      "rekomendasi": "Berdasarkan hasil asesmen yang telah dilakukan, Bank perlu:\nBank perlu melakukan evaluasi & pemantauan atas implementasi kelangsungan bisnis pada Bank.",
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": "ada"
+        },
+        {
+          "order": 2,
+          "status": "partial"
+        },
+        {
+          "order": 3,
+          "status": "ada"
+        },
+        {
+          "order": 4,
+          "status": "partial"
+        },
+        {
+          "order": 5,
+          "status": "ada"
+        },
+        {
+          "order": 6,
+          "status": "partial"
+        }
+      ]
+    },
+    {
+      "code": "1.B.15",
+      "review_progress": "done",
+      "penjelasan_aktor": "/Fungsi\nDivisi Teknologi Informasi",
+      "penjelasan_dokumen": "Petunjuk Pelaksanaan Pengembangan Teknologi Informasi PT Bank Sumut\n- Petunjuk Pelaksanaan Vulnerability Assessment/Penetration Testing Bank Sumut\n- Laporan Pentest Aplikasi PMS Ritel Bank Sumut, Aplikasi E-Catalog, Aplikas SILK",
+      "penjelasan_kontrol": "Kontrol\nBerdasarkan review dokumen Petunjuk Pelaksanaan Pengembangan Teknologi Informasi PT Bank Sumut dan Petunjuk Pelaksanaan Vulnerability Assessment/Penetration Testing Bank Sumut serta hasil interview dengan Divisi Teknologi Informasi, Bank telah memiliki pengaturan terkait persyaratan keamanan pada pengembangan dan akuisisi software aplikasi. Kemudian, Bank dalam melakukan pengembangan dengan Security Assurance yang di fasilitasi oleh Tim Developer menggunakan Two-Factor Authentication (2FA) seperti OTP dan QR Authentication. Selain itu, menggunakan HTTPS & Web Token. \n\nNamun, Bank belum melakukan dokumentasi atas pengelolaan keamanan pada sistem atau aplikasi.",
+      "rekomendasi": "Berdasarkan hasil asesmen yang telah dilakukan, Bank perlu:\nBank perlu membuat pengaturan terkait pencatatan pengelolaan keamanan pada sistem/aplikasi.",
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": "partial"
+        },
+        {
+          "order": 2,
+          "status": "ada"
+        },
+        {
+          "order": 3,
+          "status": "partial"
+        },
+        {
+          "order": 4,
+          "status": "ada"
+        },
+        {
+          "order": 5,
+          "status": "ada"
+        },
+        {
+          "order": 6,
+          "status": "ada"
+        },
+        {
+          "order": 7,
+          "status": "ada"
+        }
+      ]
+    },
+    {
+      "code": "1.B.16",
+      "review_progress": "done",
+      "penjelasan_aktor": "/Fungsi\n- Divisi Teknologi Informasi\n- Divisi SDM",
+      "penjelasan_dokumen": "Petunjuk Pelaksanaan Perencanaan dan Pengorganisasian Teknologi Informasi\n- Laporan Evaluasi Rencana Strategis TI\n- Petunjuk Pelaksanaan Pengembangan Teknologi Informasi PT. Bank Sumut",
+      "penjelasan_kontrol": "Kontrol\nBerdasarkan review dokumen dan hasil interview dengan Divisi Teknologi Informasi, Bank telah melakukan evaluasi terhadap kesesuaian TI dengan rencana strategis dan bersama dengan Divisi SDM, Divisi Teknologi Informasi yang juga telah melakukan kajian atau review kinerja menggunakan KPI yang diagendakan 6 bulan sekali. Bank juga memiliki laporan pengembangan teknologi informasi yang dilaporkan setiap 1 (satu) tahun sekali.",
+      "rekomendasi": "Berdasarkan hasil asesmen yang telah dilakukan, Bank perlu:\nBank perlu melakukan kajian dan pemantauan atas aktivitas evaluasi terhadap kesesuaian TI dengan rencana strategis TI.",
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": "ada"
+        },
+        {
+          "order": 2,
+          "status": "ada"
+        },
+        {
+          "order": 3,
+          "status": "ada"
+        },
+        {
+          "order": 4,
+          "status": "ada"
+        }
+      ]
+    },
+    {
+      "code": "2.A.1",
+      "review_progress": "done",
+      "penjelasan_aktor": "/Fungsi\nDivisi Teknologi Informasi",
+      "penjelasan_dokumen": "Rencana Strategis TI",
+      "penjelasan_kontrol": "Kontrol\nBerdasarkan review dokumen dan hasil interview dengan Divisi Teknologi Informasi, diketahui bahwa Direksi berperan dalam memastikan dan menyetujui bahwa Arsitektur TI yang tercantum dalam dokumen Rencana Strategis TI telah disusun selaras dengan strategi dan kebutuhan bisnis Bank.\n\nDireksi juga memiliki peran untuk menyetujui Dokumen Rencana Strategi TI yang diantaranya terdapat bagian Arsitektur TI.",
+      "rekomendasi": "Berdasarkan asesmen yang dilakukan, bank perlu:\n1. mengevaluasi secara berkala efektivitas strategi TI dan menyesuaikannya dengan perubahan strategi bisnis, kondisi pasar, dan perkembangan teknologi terbaru.\n2. memastikan bahwa Direksi mengawasi pelaksanaan strategi TI untuk memastikan proyek-proyek TI sesuai rencana, termasuk memantau anggaran, pencapaian milestones, dan manajemen risiko",
+      "referensi_dokumen": null,
+      "subs": []
+    },
+    {
+      "code": "2.A.2",
+      "review_progress": "done",
+      "penjelasan_aktor": "/Fungsi\nDivisi Teknologi Informasi",
+      "penjelasan_dokumen": "Rencana Strategis TI\n- Petunjuk Pelaksanaan Perencanaan dan Perorganisasian Teknologi\n- Risalah Rapat KPTI 2024",
+      "penjelasan_kontrol": "Kontrol\nBerdasarkan review dokumen Rencana Strategis TI, Petunjuk Pelaksanaan Perencanaan dan Perorganisasian Teknologi dan Risalah Rapat KPTI 2024 hasil interview dengan Divisi Teknologi Informasi, Bank telah memiliki pengaturan terkait keterlibatan Direksi dan Komite Pengarah TI dalam penyusunan arsitektur TI (arsitektur data, informasi, aplikasi, server, jaringan dan security) yang terdapat pada dokumen rencana strategis TI.\n\nPembahasan mengenai terkait dengan arsitektur TI telah dilaksanakan pada Rapat KPTI sejalan dengan pembahasan RSTI",
+      "rekomendasi": "Berdasarkan asesmen yang dilakukan, bank perlu:\n1. mengambil peran yang lebih aktif dalam memastikan bahwa semua aspek arsitektur TI, termasuk arsitektur data, informasi, aplikasi, server, jaringan, dan keamanan, terintegrasi dengan strategi bisnis secara komprehensif sesuai dengan kebutuhan Bank.\n2. memastikan direksi aktif dalam perumusan kebijakan terkait arsitektur TI, termasuk memastikan bahwa setiap perubahan atau penyesuaian strategis bisnis tercermin dalam arsitektur tersebut.\n3. mengembangkan keterampilan dan pengetahuan direksi dan komite pengarah TI dalam domain arsitektur TI",
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": "ada"
+        }
+      ]
+    },
+    {
+      "code": "2.A.3",
+      "review_progress": "done",
+      "penjelasan_aktor": "/Fungsi\nDivisi Teknologi Informasi",
+      "penjelasan_dokumen": "Rencana Strategis TI\n- Petunjuk Pelaksanaan Perencanaan dan Perorganisasian Teknologi",
+      "penjelasan_kontrol": "Kontrol\nBerdasarkan review dokumen Rencana Strategis TI dan Petunjuk Pelaksanaan Perencanaan dan Perorganisasian Teknologi serta hasil interview dengan Divisi Teknologi Informasi, Bank telah mempertimbangkan faktor-faktor yang diperlukan dalam menyusun arsitektur TI, yaitu:\n1) visi dan misi Bank;\n2) rencana korporasi Bank;\n3) proses dan kapabilitas bisnis Bank;\n4) tata kelola TI Bank;\n5) prinsip pengelolaan data, aplikasi, dan teknologi Bank;\n6) ukuran dan kompleksitas bisnis Bank;\n7) kemampuan permodalan bank;\n8) standar yang berlaku secara nasional dan internasional; dan\n9) ketentuan peraturan perundang-udangan",
+      "rekomendasi": "Berdasarkan asesmen yang dilakukan, bank perlu:\n1. memastikan bahwa semua faktor yang dipertimbangkan dalam penyusunan arsitektur TI benar-benar terintegrasi secara menyeluruh. Ini artinya, visi, misi, dan rencana korporasi Bank harus tercermin dengan konsisten dalam setiap elemen arsitektur TI yang disusun\n2. diperbarui secara berkala sesuai dengan perkembangan rencana korporasi Bank, proses bisnis yang berubah, dan kebutuhan teknologi baru. Termasuk:\n- evaluasi terhadap kemampuan bisnis,\n- evaluasi pengelolaan data dan aplikasi\n- evaluasi adaptasi terhadap standar nasional, internasional, dan peraturan yang berlaku.\n3. evaluasi secara berkala terhadap kepatuhan dan penerapan praktik  pengelolaan TI\n4. memastikan bahwa setiap elemen dalam arsitektur TI mencakup implementasi kebijakan keamanan TI yang sesuai dengan standar industri dan regulasi yang berlaku",
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": "ada"
+        },
+        {
+          "order": 2,
+          "status": "ada"
+        },
+        {
+          "order": 3,
+          "status": "ada"
+        }
+      ]
+    },
+    {
+      "code": "2.A.4",
+      "review_progress": "done",
+      "penjelasan_aktor": "/Fungsi\nDivisi Teknologi Informasi",
+      "penjelasan_dokumen": "Rencana Strategis TI",
+      "penjelasan_kontrol": "Kontrol\nBerdasarkan interview dengan Divisi Teknologi Informasi, pada penyusunan Arsitektur TI disusun dengan melibatkan stakeholder terkait baik dari Internal Divisi Teknologi Informasi dan bagian lainnya (Digital Banking & Digital Channel) untuk penyusunan Arsitektur TI.",
+      "rekomendasi": "Berdasarkan asesmen yang dilakukan, bank perlu:\n1. memperluas keterlibatan stakeholder untuk mencakup unit-unit bisnis lainnya yang memiliki kepentingan terhadap arsitektur TI.\n2. melakukan evaluasi secara teratur terhadap keterlibatan dan kontribusi stakeholder dalam proses penyusunan arsitektur TI.",
+      "referensi_dokumen": null,
+      "subs": []
+    },
+    {
+      "code": "2.A.5",
+      "review_progress": "done",
+      "penjelasan_aktor": "/Fungsi\n Divisi Teknologi Informasi",
+      "penjelasan_dokumen": "Risalah Rapat Komite TI\nLayanan Aplikasi e-Doc\nMemorandum",
+      "penjelasan_kontrol": "Kontrol\nBerdasarkan hasil interview dengan Divisi Teknologi Informasi, Bank telah melakukan komunikasi mengenai Arsitektur TI yang tercantum pada dokumen Rencana Strategis TI kepada para pemangku kepentingan melalui mekanisme Rapat Komite TI maupun Direksi. Penyampaian kepada Divisi lain di Internal Bank dilakukan melalui sistem HRIS.\n\nPermintaan informasi arsitektur TI difasilitasi melalui aplikasi e-DOC dan memorandum secara tertulis terhadap persetujuan mengenai arsitektur TI",
+      "rekomendasi": "Berdasarkan asesmen yang dilakukan, bank perlu:\n1. memiliki mekanisme spesifik terkait persetujuan, tata cara pemberian informasi, dan media komunikasi atas pemberian dan permintaan informasi terkait aristektur TI kepada pemangku kepentingan, yang mencakup aspek:\n- aturan yang jelas tentang bagaimana setiap permintaan informasi arsitektur TI harus disetujui sebelum informasi tersebut diberikan kepada pihak terkait.\n- membuat prosedur tertulis yang menjelaskan langkah-langkah apa yang harus diikuti dalam meminta dan memberikan informasi arsitektur TI\n- melakukan pemantauan atas implementasi yang dilakukan.",
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": "ada"
+        }
+      ]
+    },
+    {
+      "code": "2.A.6",
+      "review_progress": "done",
+      "penjelasan_aktor": "/Fungsi\nDivisi Teknologi Informasi",
+      "penjelasan_dokumen": "Rencana Strategis TI",
+      "penjelasan_kontrol": "Kontrol\nBerdasarkan hasil review  dokumen rencana strategis TI, Bank telah menyampaikan bahwa seluruh investasi TI dirancang selaras dengan arsitektur TI dan rencana strategis TI mengingat Arsitektur TI tercantum sebagai landasan arahan strategis TI di Bank. Berdasarkan hasil interview dengan Divisi Teknologi Informasi disampaikan bahwa Arsitektur TI dijadikan landasan dasar atas Investasi terkait TI yang ada di lingkungan Bank.",
+      "rekomendasi": "Berdasarkan asesmen tersebut, bank perlu:\n1. meningkatkan proses evaluasi untuk memastikan setiap investasi baru dan akuisisi TI dinilai secara menyeluruh. Evaluasi ini harus mempertimbangkan bagaimana proyek tersebut akan berintegrasi dengan infrastruktur TI yang sudah ada dan apakah akan mendukung arsitektur TI yang telah ditetapkan.\n2. memastikan bahwa keputusan ini tidak hanya berbasis pada keuntungan bisnis tetapi juga sejalan dengan visi arsitektur TI jangka panjang Bank.\n3. menambahkan arsitektur TI sebagai salah satu refrensi dalam pengambilan keputusan terkait investasi TI maupun keputusan bisnis terkait TI pada dokumen BRD.",
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": "ada"
+        },
+        {
+          "order": 2,
+          "status": "partial"
+        }
+      ]
+    },
+    {
+      "code": "3.A.1",
+      "review_progress": "done",
+      "penjelasan_aktor": "/Fungsi\nDivisi Manajemen Risiko",
+      "penjelasan_dokumen": "Pedoman Penerapan Manajamen Risiko PT. Bank Sumut\n- Dokumen Risk Appetite, Risk Tolerance dan Risk Limit Bank",
+      "penjelasan_kontrol": "Kontrol\nBerdasarkan review atas Dokumen PP Manajemen Risiko Bank Sumut terdapat penjelasan yang dapat yang menyatakan bahwa Bank melakukan identifikasi risiko TI dengan memastika adanya risk awareness  di seluruh lini Bank, yaitu:\n\n1) Wewenang dan Tanggungjawab terdapat informasi yang menyatakan bahwa  Direksi harus memiliki pemahaman yang memadai mengenai Risiko yang melekat pada seluruh aktivitas fungsional Bank dan mampu mengambil tindakan yang diperlukan sesuai dengan Profil Risiko Bank.\n2) Bank telah menyampaikan terkait risk appetite, risk limit, dan risk tolerance melalui dokumen terkait yang ditentukan setelah rapat bersama Komenko.\n3) Bank telah menjadikan Peraturan Otoritas Jasa Keuangan Nomor 11/POJK.03/2022 tanggal 6 Juli 2022 tentang Penyelenggaraan Teknologi lnformasi Oleh Bank Umum sebagai salah satu acuan penerapan manajemen risiko.\n4) Seluruh jenjang jabatan pada Bank berkewajiban melaksanakan penerapan manajemen risiko dalam kegiatan sehari-hari sesuai dengan bidang tugas, wewenang dan tanggung jawabnya; Bank telah menetapkan wewenang dan tanggung jawab yang jelas pada setiap jenjang jabatan terkait dengan penerapan Manajemen Risiko. Bank juga telah mengadopsi Risk Management System Information (RMIS) untuk memastikan transparansi dan integrasi mengenai risiko dari setiap aspek penyelenggaraan TI.",
+      "rekomendasi": "Berdasarkan hasil asesmen yang telah dilakukan, bank perlu.\n1. mengembangkan sistem yang secara otomatis mengirimkan notifikasi kepada karyawan mengenai tentang perubahan regulasi terkait TI secara up to date, seperti email blast sehingga memastikan semua pihak terkait memiliki informasi yang sama. \n2.  melakukan monitoring atas identifikasi risiko terkait penyelenggaraan TI , seperti bank dapat melakukan pemantauan atas dashboard dan dilakukan update secara berkala\n3. mengembangkan dan memperbarui RMIS dengan fitur-fitur yang mampu mendeteksi dan memantau risiko operasional TI lebih akurat dan real-time, seperti Integrasi dengan sistem lain untuk mendapatkan data yang lebih komprehensif dan laporan otomatis yang memberikan insight tentang kondisi risiko operasional secara berkala.\n4. menyusun daftar lengkap yang mencakup semua infrastruktur informasi vital yang dimiliki oleh bank dengan cara:\n- mengumpulkan data mengenai semua sistem TI, server, jaringan, aplikasi, dan perangkat keras yang digunakan.\n- mengkategorikan infrastruktur berdasarkan tingkat kritikalitas dan fungsi bisnisnya.\n- mendokumentasikan semua infrastruktur informasi vital dalam satu database yang mudah diakses.",
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": "ada"
+        },
+        {
+          "order": 2,
+          "status": "ada"
+        },
+        {
+          "order": 3,
+          "status": "ada"
+        },
+        {
+          "order": 4,
+          "status": "ada"
+        }
+      ]
+    },
+    {
+      "code": "3.A.2",
+      "review_progress": "done",
+      "penjelasan_aktor": "/Fungsi\n- Divisi Teknologi Informasi\n- Manajemen Risiko",
+      "penjelasan_dokumen": "Laporan RCSA\n- Laporan KRI\n- Dokumen Narasi TI - RBB\n- Laporan tahunan Bank SUMUT 2023\n- Dokumen Profil risiko Divisi TI tahun 2024",
+      "penjelasan_kontrol": "Kontrol\nBerdasarkan inteview  bersama Divisi Manajemen Risiko, disampaikan bahwa seluruh kegiatan Manajemen Risiko pada kegiatan operasional pada Bank SUMUT dilakukan melalui proses Manajemen Risiko. Proses Manajemen Risiko dimulai dari tahap identifikasi risiko, pengukuran risiko, pemantauan risiko, dan pengendalian risiko secara berkesinambungan. Sistem aplikasi Risk Management Information System (RMIS) Bank SUMUT digunakan  untuk mendukung kegiatan manajemen risiko yang ada di lingkungan Bank.\n\nBank memiliki Risk Register, Loss Event Database  (LED), Key Risk Indicator  (KRI) dan Risk Control Self Assessment (RCSA) dalam kegiatan pengelolaan Risiko Operasional. \n\nBerdasarkan laporan tahunan Bank SUMUT 2023, Pada bagian Mekanisme Mitigasi Risiko Operasional Bank memiliki ketentuan mengenai Penilaian Risiko Penyelenggaraan Teknologi Informasi yang bertujuan untuk memitigasi dan menilai penyelenggaraan teknologi Informasi pada Bank dan merekomendasikan mitigasi-mitigasi yang diperlukan terkait dengan risiko yang mungkin ditimbulkan.",
+      "rekomendasi": "Berdasarkan asesmen yang telah dilakukan, Bank perlu:\n1. memperkuat cara pengumpulan data dan dokumen terkait dengan semua aktivitas yang berkaitan dengan teknologi informasi, seperti mengulas kembali rencana strategis bisnis, menilai secara menyeluruh kinerja penyedia jasa TI, memeriksa kembali laporan atau keluhan dari nasabah atau pengguna teknologi informasi, melakukan penilaian diri sendiri oleh semua unit kerja terkait pengendalian TI, dan meninjau hasil audit terkait pengelolaan dan penggunaan TI.\n2. lebih menekankan penggunaan dashboard untuk menganalisis risiko TI, yang mencakup semua aspek operasional bank, dengan fokus pada seberapa mungkin risiko tersebut terjadi, dampak yang mungkin timbul, serta efektivitas langkah-langkah mitigasi yang telah atau akan diterapkan.\n3. melakukan pemantauan berkala terhadap tim yang terlibat dalam manajemen risiko TI, serta mengevaluasi kembali seberapa efektif proses dan dashboard yang digunakan dalam mengelola risiko tersebut.\n4. membuat langkah-langkah yang jelas untuk mengelola risiko potensial yang teridentifikasi dalam Risk Register. termasuk merencanakan strategi kontrol dan tindakan mitigasi untuk mengurangi risiko tersebut. Setiap risiko harus dievaluasi apakah akan diterima dengan risikonya, dihindari sepenuhnya, dikendalikan dengan langkah-langkah tertentu, atau ditransfer ke pihak lain.\n5. secara rutin mengidentifikasi teknologi atau sistem kontrol yang dapat digunakan untuk mencegah atau memperbaiki risiko yang tercatat dalam Risk Register.",
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": "ada"
+        },
+        {
+          "order": 2,
+          "status": "ada"
+        },
+        {
+          "order": 3,
+          "status": "ada"
+        },
+        {
+          "order": 4,
+          "status": "partial"
+        }
+      ]
+    },
+    {
+      "code": "3.A.3",
+      "review_progress": "done",
+      "penjelasan_aktor": "/Fungsi\nDivisi Manajemen Risiko",
+      "penjelasan_dokumen": "Laporan Portofolio Risiko\n- Dokumen Laporan KRI",
+      "penjelasan_kontrol": "Kontrol\nBerdasarkan Laporan Portofolio Risiko dan hasil interview  dengan Divisi Manajemen Risiko, diketahui bahwa Bank telah melakukan pemantauan atas risiko penyelenggaraan TI dengan mengevaluasi kesesuaian, kecukupan, dan efektivitas kinerja penyelenggaraan TI, khususnya terkait dengan Risiko Siber.\nHal-hal yang dievaluasi adalah :\n- Trafik anomali berdasarkan parameter jenis serangan yang dialami\n- Trafik anomali berdasarakan parameter target serangan\n\nBank juga telah melakukan pengukuran atas efektivitas penyelenggaraan TI dan evaluasi terhadap mitigasi yang dilakukan atas kemungkinan risiko yang terjadi.\n\nBerdasarkan Dokumen Laporan KRI, Bank telah menerapkan Risk Control Self Assessment (RCSA) yang dilakukan oleh masing-masing unit kantor dengan tujuan untuk mengidentifikasi, mengevaluasi, dan mengelola risiko yang ada pada unit kantor tersebut secara efektif.  Salah satu aspek yang diisi dalam RCSA adalah status pelaksanaan (aksi) dari mitigasi risiko yang telah diidentifikasikan unit.",
+      "rekomendasi": "Berdasarkan asesmen yang dilakukan, bank perlu:\n1. memastikan bahwa proses pengendalian risiko teknologi informasi mencakup evaluasi risiko secara menyeluruh, cara penanganan risiko yang sesuai, dan mematuhi semua peraturan hukum yang berlaku.\n2. melakukan peninjauan berkala dengan frekuensi yang  perlu ditingkatkan menjadi minimal bulanan untuk aspek-aspek kritis seperti keamanan TI dan tindak lanjut terhadap kebijakan keamanan informasi yang diterapkan dan memastikan bahwa penyedia jasa teknologi informasi memenuhi standar keamanan yang sesuai. dengan tinfak lanjut meliputi: \n1) pengkinian profil risiko, pengukuran risiko, dan rencana penanganan risiko;\n2) penyempurnaan kebijakan, standar, dan prosedur di bidang TI;\n3) pemenuhan kebutuhan SDM;\n4) penetapan dan pelaksanaan tindakan preventif dan korektif berdasarkan penilaian atas ketidaksesuaian yang ada maupun yang masih bersifat potensi, dengan mempertimbangkan skala prioritas; \n5) pemantauan dan evaluasi atas pelaksanaan tindakan preventif dan korektif; dan\n6) pendokumentasian hasil evaluasi dan tindak lanjut harus secara memadai.",
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": "ada"
+        },
+        {
+          "order": 2,
+          "status": "partial"
+        }
+      ]
+    },
+    {
+      "code": "3.A.4",
+      "review_progress": "done",
+      "penjelasan_aktor": "/Fungsi\nDivisi Manajmen Risiko",
+      "penjelasan_dokumen": "Pedoman Penerapan Manajemen Risiko Bank Sumut\n- Laporan Tahunan Bank Sumut 2023",
+      "penjelasan_kontrol": "Kontrol\nBerdasarkan Laporan Tahunan, Bank SUMUT telah melakukan Proses pengendalian risiko disesuaikan dengan eksposur risiko maupun tingkat risiko yang akan diambil dan toleransi risiko yang sudah ditetapkan. Pengendalian risiko dapat dilakukan oleh Bank, antara lain dengan cara mekanisme lindung nilai, asuransi, serta penambahan modal Bank untuk menyerap potensi kerugian maupun metode pengendalian risiko lainnya yang relevan dengan kondisi Bank.\n\nNamun, hal ini belum terdefinisikan pada Pedoman Penerapan Manajemen Risiko yang ada.",
+      "rekomendasi": "Berdasarkan asesmen yang telah dilakukan, bank perlu:\n1. mendefinisikan mekanisme pengendalian risiko TI dalam Pedoman Penerapan Manajemen Risiko, termasuk:\n- mekanisme lindung nilai, \n- asuransi, \n- penambahan modal Bank untuk menyerap potensi kerugian maupun metode pengendalian risiko lainnya yang relevan dengan kondisi Bank.\n2.  konisten melakukan evaluasi dalam melakukan pengendalian risiko penyelenggaraan TI.",
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": "partial"
+        },
+        {
+          "order": 2,
+          "status": "ada"
+        }
+      ]
+    },
+    {
+      "code": "3.A.5",
+      "review_progress": "done",
+      "penjelasan_aktor": "/Fungsi\nDireksi",
+      "penjelasan_dokumen": "Laporan Tahunan Bank SUMUT Tahun 2023",
+      "penjelasan_kontrol": "Kontrol\nBerdasarkan Laporan Tahunan Bank SUMUT Tahun 2023, Direksi mempunyai wewenang dan tugas terhadap pelaksanaan manajemen risiko dalam Bank SUMUT, yaitu bertanggungjawab atas pelaksanaan kebijakan, strategi, dan kerangka Manajemen Risiko yang telah disetujui oleh Dewan Komisaris serta mengevaluasi dan memberikan arahan berdasarkan laporan- laporan yang disampaikan oleh Satuan Kerja Manajemen Risiko Bank SUMUT serta memastikan seluruh Risiko yang material dan dampak yang ditimbulkan oleh Risiko dimaksud telah ditindaklanjuti dan menyampaikan laporan pertanggungjawaban kepada Dewan Komisaris secara berkala.",
+      "rekomendasi": "Berdasarkan asesmen yang telah dilakukan, bank perlu:\na. direksi perlu memperjelas tujuan dan sasaran sistem informasi manajemen risiko TI secara berkala \nb. melakukan evaluasi perbaikan terkait sistem informasi manajemen risiko terkait penyelenggaraan TI secara berkala \nc. memiliki ketentuan spesifik terkait dengan pengendalian manajemen pangkalan data (database) yang mencakup aspek:\n- prosedur pencadangan (backup), \n- pemulihan (recovery), \n- pengelolaan akses, dan \n- pemantauan.",
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": "ada"
+        },
+        {
+          "order": 2,
+          "status": "ada"
+        },
+        {
+          "order": 3,
+          "status": "partial"
+        }
+      ]
+    },
+    {
+      "code": "4.A",
+      "review_progress": "pending",
+      "penjelasan_aktor": "/Fungsi\nDivisi Teknologi Informasi",
+      "penjelasan_dokumen": "/ Pengaturan\nDokumen Hasil Tingkat Maturitas Keamanan Siber",
+      "penjelasan_kontrol": "atas Kontrol\nPemenuhan Kontrol atas Domain Tingkat Maturitas Kemanan Siber disadur berdasarkan hasil Dokumen Hasil Tingkat Maturitas Keamanan Siber yang telah dilaksanakan oleh Bank Sumut dan tidak dilakukan penilaian ulang terkait kontrol ini.",
+      "rekomendasi": null,
+      "referensi_dokumen": null,
+      "subs": []
+    },
+    {
+      "code": "5.A.1",
+      "review_progress": "pending",
+      "penjelasan_aktor": "/Fungsi\nDivisi Teknologi Informasi",
+      "penjelasan_dokumen": "Petunjuk Pelaksanaan Pengembangan Teknologi Informasi PT. Bank Sumut\n- Dokumen BRD",
+      "penjelasan_kontrol": "Kontrol\nBerdasarkan hasil review dokumen tersebut, Bank telah melakukan spesifikasi fungsional atas solusi TI yang sejalan dengan kebutuhan bisnis perusahaan dan melakukan spesifikasi non-fungsional solusi TI, yang terkait dengan keamanan, skalabilitas, integrasi, dan teknologi spesifik lainnya. Proses identifikasi terdefinisikan pada dokumen BRD sebagai landasan atas identifikasi kebutuhan adopsi TI.",
+      "rekomendasi": "Berdasarkan hasil asesmen yang telah dilakukan, Bank perlu:\n1. memastikan bahwa proses identifikasi ini terus diperbarui dan disesuaikan dengan dinamika bisnis dan perkembangan teknologi terbaru.\n2. menyertakan lebih banyak detail mengenai metodologi yang digunakan dalam proses ini, serta memastikan bahwa hasilnya terdokumentasi dengan baik dan tersedia untuk pengambilan keputusan\n3. meningkatkan kesadaran dan partisipasi karyawan dalam inisiatif digitalisasi, serta mengukur dampaknya terhadap pencapaian tujuan bisnis.\n4. menetapkan matriks evaluasi untuk mengukur efektivitas kolaborasi dengan pihak ketiga.",
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": "ada"
+        },
+        {
+          "order": 2,
+          "status": "ada"
+        },
+        {
+          "order": 3,
+          "status": "ada"
+        },
+        {
+          "order": 4,
+          "status": "ada"
+        }
+      ]
+    },
+    {
+      "code": "5.A.2",
+      "review_progress": "pending",
+      "penjelasan_aktor": "/Fungsi\nDivisi Teknologi Informasi",
+      "penjelasan_dokumen": "Business Requirment Definition (BRD) Penambahan Fitur Top Up dan Update Saldo Kartu Uang Elektronik (SMARTCash/TapCash) Melalui Channel Sumut Mobile dan Channel ATM Bank Sumut",
+      "penjelasan_kontrol": "Kontrol\nPada Dokumen BRD tersebut, potensi dari inovasi yang dihasilkan dari penggunaan TI bagi Bank dan nasabah terdefinisikan pada bagian 1.4 Manfaat Pengembangan yang dimana terdapat poin yang menyatakan bahwa:\na. Manfaat yang diperoleh Mitra\nb. Manfaat yang diperoleh Bank Sumut\nc. Manfaat Bagi Nasabah",
+      "rekomendasi": "Berdasarkan hasil asesmen yang telah dilakukan, Bank perlu:\n1. melakukan analisis yang lebih terperinci mengenai manfaat potensial, termasuk dampak finansial, operasional, dan strategis yang dapat diperoleh dari penggunaan TI yang mencakup:\n- penilaian ROI (Return on Investment)\n- penghematan biaya\n- peningkatan efisiensi operasional\n- peningkatan pengalaman nasabah\n2. Menerapkan mitigasi risiko yang komprehensif mencakup:\n- Menerapkan redundansi pada sistem TI penting untuk memastikan keberlangsungan operasional jika terjadi kegagalan\n3. Memperkuat metode pengukuran dan pemantauan risiko yang mencakup:\n- Menggunakan perangkat lunak manajemen risiko seperti RSA Archer untuk mengidentifikasi, mengevaluasi, dan memantau risiko\n- Melakukan analisis skenario dan uji tekanan (stress testing) untuk mengidentifikasi potensi risiko dan dampaknya\n- Mengembangkan kerangka kerja pemantauan risiko yang mencakup seluruh siklus pengembangan TI.\n4. melakukan perhitungan anggaran lebih rinci untuk setiap tahap implementasi adopsi TI yang mencakup:\n- biaya pengadaan perangkat keras dan perangkat lunak\n- biaya pelatihan\n- biaya operasional\n- biaya pemeliharaan",
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": "partial"
+        },
+        {
+          "order": 2,
+          "status": "partial"
+        },
+        {
+          "order": 3,
+          "status": "partial"
+        }
+      ]
+    },
+    {
+      "code": "5.A.3",
+      "review_progress": "pending",
+      "penjelasan_aktor": "/Fungsi\nDivisi Teknologi Informasi",
+      "penjelasan_dokumen": "Rencana Strategis TI",
+      "penjelasan_kontrol": "Kontrol\nBerdasarkan hasil review dokumen tersebut, Bank memiliki proses penyelarasan atau sinergi terhadap implementasi proyek RSTI, yaitu salah satunya dengan Pengembangan Produk dan Layanan Berbasis Teknologi oleh beberapa pihak yang terlibat seperti Inisiatif Owner, Divisi Teknologi Informasi, Supporting Group, dan IT PMO.",
+      "rekomendasi": "Berdasarkan hasil asesmen yang telah dilakukan, Bank perlu:\n1. mekanisme monitoring dan evaluasi yang lebih komprehensif yang mencakup:\n-  indikator kinerja utama (KPI) yang spesifik\n- metode evaluasi yang terstruktur\n- laporan berkala untuk menilai progres dan mengidentifikasi area yang memerlukan perbaikan\n2. menyusun metode implementasi TI yang spesifik mencakup:\n- identifikasi metode pada contoh dokumen berjudul \"Evaluasi dan Pemilihan Metode Implementasi TI\" yang menjelaskan keuntungan dan kelemahan masing-masing metode serta skenario penggunaan yang sesuai.\n- menyusun definisi rinci untuk setiap metode. Ini termasuk prosedur langkah demi langkah, kriteria keberhasilan, serta alat dan teknik yang digunakan.\n3. menyusun ketentuan terkait penggunaan sistem pendukung atau utama dalam kebijakan yang mencakup:\n- penjelasan kapan sistem pendukung atau utama yang lama harus diberhentikan\n- bagaimana transisi ke sistem baru harus dilakukan",
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": "ada"
+        },
+        {
+          "order": 2,
+          "status": "partial"
+        },
+        {
+          "order": 3,
+          "status": "partial"
+        }
+      ]
+    },
+    {
+      "code": "5.A.4",
+      "review_progress": "pending",
+      "penjelasan_aktor": "/Fungsi\nDivisi Teknologi Informasi",
+      "penjelasan_dokumen": "Dokumen Sample Post Implementation Review (CBS/Switching)",
+      "penjelasan_kontrol": "Kontrol\nBerdasarkan hasil review dokumen tersebut dan interview dengan Divisi Teknologi Informasi, diketahui bahwa Bank telah melakukan Post Implementation Review (PIR) dengan tujuan mengidentifikasi kesesuaian antara rencana dan realisasi dari pelaksanaannya.",
+      "rekomendasi": "Berdasarkan hasil asesmen yang telah dilakukan, Bank perlu:\n1. memperkuat proses pemantauan secara terus-menerus terhadap penerapan dan penggunaan TI, serta memastikan bahwa manfaat atau hasil yang diharapkan tercapai sesuai dengan perencanaan awal.\n2. menetapkan periode evaluasi yang jelas dan meluas serta mencakup aspek-aspek kritis yang relevan dengan kebutuhan bisnis Bank.\n3. memastikan perbaikan berkelanjutan atas proses pengembangan TI",
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": "ada"
+        },
+        {
+          "order": 2,
+          "status": "ada"
+        },
+        {
+          "order": 3,
+          "status": "ada"
+        }
+      ]
+    },
+    {
+      "code": "5.B.1",
+      "review_progress": "pending",
+      "penjelasan_aktor": "/Fungsi\n- Divisi Umum\n- Divisi Manajemen Risiko",
+      "penjelasan_dokumen": "Peraturan PT Bank Sumut tentang Pedoman Pengadaan Barang/Jasa di Lingkungan PT Bank Sumut\n- Pedoman Pengadaan Barang/Jasa",
+      "penjelasan_kontrol": "Kontrol\nBerdasarkan review terhadap dokumen Peraturan PT Bank Sumut, Bank telah memiliki ketentuan terkait pengelolaan pihak penyedia jasa TI dalam penyelenggaraan TI Bank secara memadai. Berdasarkan interview bersama Divisi Umum disampaikan bahwa proses manajemen risiko terkait penyedia jasa TI dilakukan dalam bentuk penyampaian opini oleh Divisi Manajemen Risiko sebagai bentuk penerapan manajemen risiko sebelum dilakukannya kerja sama dengan penyedia jasa TI.",
+      "rekomendasi": "Berdasarkan hasil asesmen yang telah dilakukan, Bank perlu:\n1. meningkatkan pengaturan yang lebih spesifik untuk mengakomodasi aspek teknis dari penyelenggaraan TI dengan pihak penyedia jasa TI mencakup:\n- aspek keamanan\n- aspek keandalan,\n- aspek kesiapan infrastruktur yang diperlukan.\n2. menyusun kebijakan dan prosedur yang lebih terperinci terkait penggunaan pihak penyedia jasa TI dalam penyelenggaraan TI  mencakup langkah-langkah:\n- evaluasi\n- seleksi\n- pemantauan kinerja\n- mekanisme mitigasi risiko yang dapat diterapkan selama masa kontrak dengan penyedia jasa TI.\n3. mendefinisikan dengan lebih jelas wewenang dan tanggung jawab:\n- Dewan Komisaris\n- Komite Pengarah TI,\n- pejabat tertinggi yang memimpin satuan kerja TI terkait dengan penggunaan pihak penyedia jasa TI.",
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": "ada"
+        },
+        {
+          "order": 2,
+          "status": "ada"
+        },
+        {
+          "order": 3,
+          "status": "ada"
+        },
+        {
+          "order": 4,
+          "status": "ada"
+        },
+        {
+          "order": 5,
+          "status": "ada"
+        }
+      ]
+    },
+    {
+      "code": "5.B.2",
+      "review_progress": "pending",
+      "penjelasan_aktor": "/Fungsi\nDivisi Teknologi Informasi,\nDivisi Manajemen Risiko\nDivisi Umum",
+      "penjelasan_dokumen": "Peraturan PT Bank Sumut tentang Pedoman Pengadaan Barang/Jasa di Lingkungan PT Bank Sumut",
+      "penjelasan_kontrol": "Kontrol\nBerdasarkan document review dan interview dengan Divisi Teknologi Informasi, disampaikan bahwa proses manajemen risiko terkait penyedia jasa TI dilakukan dalam bentuk penyampaian opini oleh Divisi Manajemen Risiko sebagai bentuk penerapan manajemen risiko sebelum dilakukannya kerja sama dengan penyedia jasa TI.",
+      "rekomendasi": "Berdasarkan hasil asesmen yang telah dilakukan, Bank perlu:\n1. memperkuat proses evaluasi risiko sebelum kerja sama dimulai dan memastikan bahwa metode evaluasi risiko dapat mengakomodasi risiko khusus yang terkait dengan penggunaan pihak penyedia jasa TI.\n2. menyusun & mengimplementasikan rencana pemulihan bencana (DRP) yang spesifik untuk mempertimbangkan penggunaan pihak penyedia jasa TI  mencakup\n- skenario bencana yang mungkin terjadi\n- langkah-langkah pemulihan yang diharapkan\n- prosedur untuk mengembalikan operasi TI sesuai dengan waktu pemulihan yang ditargetkan.\n3. melakukan audit keamanan secara teratur dan memastikan bahwa semua persyaratan keamanan telah diintegrasikan dalam setiap tahap kerja sama dengan pihak penyedia jasa TI.",
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": "ada"
+        },
+        {
+          "order": 2,
+          "status": "ada"
+        },
+        {
+          "order": 3,
+          "status": "ada"
+        }
+      ]
+    },
+    {
+      "code": "5.B.3",
+      "review_progress": "pending",
+      "penjelasan_aktor": "/Fungsi\nDivisi Umum",
+      "penjelasan_dokumen": "Pedoman Pengadaan Barang / Jasa di Lingkungan PT Bank Sumut",
+      "penjelasan_kontrol": "Kontrol\nBerdasarkan review dokumen tersebut, terdapat klasifikasi dan kualifikasi penyedia barang/jasa yaitu Prakualifikasi dan Pascakualifikasi.",
+      "rekomendasi": "Berdasarkan hasil asesmen yang telah dilakukan, Bank perlu:\n1.  memastikan bahwa proses pemilihan pihak penyedia jasa TI mencakup evaluasi yang komprehensif terhadap:\n- kualifikasi\n- kompetensi \n2. memperkuat analisis biaya dan manfaat dengan lebih mengintegrasikan tanggapan dan penyesuaian dari Divisi Teknologi Informasi\n3. meningkatkan pendokumentasian terkait komitmen pihak penyedia jasa TI untuk menyampaikan hasil audit TI secara berkala mencakup:\n- pembuatan perjanjian yang jelas dan terukur\n- proses pemantauan yang sistematis terhadap keterpenuhan komitmen tersebut.",
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": "ada"
+        },
+        {
+          "order": 2,
+          "status": "ada"
+        },
+        {
+          "order": 3,
+          "status": "ada"
+        },
+        {
+          "order": 4,
+          "status": "ada"
+        }
+      ]
+    },
+    {
+      "code": "5.B.4",
+      "review_progress": "pending",
+      "penjelasan_aktor": "/Fungsi\nDivisi Umum",
+      "penjelasan_dokumen": "SE Pelaksanaan Barang & Jasa\n- Dokumen PKS",
+      "penjelasan_kontrol": "Kontrol\nBerdasarkan hasil review dokumen SE Pelaksanaan Barang & Jasa dan Dokumen PKS, dan dikonfirmasi oleh hasil interview dengan Divisi umum terdapat ketentuan terkait kualifikasi dan kompetensi SDM yang dimiliki oleh pihak penyedia jasa.",
+      "rekomendasi": "Berdasarkan hasil asesmen yang telah dilakukan, Bank perlu:\n1. memperkuat komitmen keamanan data dengan menambahkan klausul yang spesifik dalam perjanjian kerja sama dengan pihak penyedia jasa TI. Contohnya:\n- Memastikan bahwa pihak penyedia jasa TI menetapkan kebijakan internal yang ketat terkait pengelolaan keamanan informasi, termasuk mekanisme enkripsi dan pengamanan data.\n- Menyediakan audit keamanan secara berkala yang dilakukan oleh pihak independen untuk memverifikasi kepatuhan terhadap standar keamanan yang ditetapkan.\n2. memperbaiki perjanjian dengan menambahkan kewajiban pihak penyedia jasa TI untuk menyampaikan hasil audit TI secara rutin. Contohnya:\n- Menetapkan jadwal audit tahunan yang melibatkan auditor independen untuk mengevaluasi keamanan sistem, kepatuhan, dan kinerja layanan TI.\n- Menyertakan klausul yang mengharuskan penyedia jasa TI untuk mengirimkan laporan audit secara tertulis dan memberikan rekomendasi perbaikan jika diperlukan.\n3. mengembangkan mekanisme pelaporan kejadian kritis yang lebih terstruktur. Contohnya:\n- Menyediakan formulir atau portal khusus yang dapat diakses oleh pihak penyedia jasa TI untuk melaporkan insiden atau kejadian kritis dengan detail yang jelas.\n- Menetapkan waktu respons yang singkat untuk menanggapi dan menyelesaikan kejadian kritis sesuai dengan SLA yang telah disepakati.\n4. emperkuat perjanjian dengan menambahkan ketentuan yang jelas terkait penghentian perjanjian kerja sama. Contohnya:\n- Menyertakan klausul yang menjelaskan syarat dan prosedur yang harus diikuti baik oleh Bank maupun oleh penyedia jasa TI jika ingin menghentikan kerja sama sebelum jangka waktu perjanjian berakhir.\n- Menetapkan mekanisme negosiasi dan mediasi untuk menyelesaikan sengketa atau perubahan kebutuhan yang mungkin timbul selama masa kerja sama.\n5. memastikan bahwa perjanjian kerja sama mencakup klausul yang memastikan kepatuhan terhadap regulasi dan peraturan yang berlaku. Contohnya:\n-  Menyertakan klausul yang menegaskan bahwa pihak penyedia jasa TI harus mematuhi semua hukum dan peraturan terkait privasi data, keamanan informasi, dan perlindungan konsumen.\nb. Meminta bukti kepatuhan secara berkala dalam bentuk sertifikasi atau laporan audit dari pihak penyedia jasa TI.\n6. menambahkan klausula yang menjamin kelangsungan SLA dalam perjanjian kerja sama. Contohnya:\n- Menyertakan klausul yang menyatakan bahwa SLA yang sudah disepakati akan tetap berlaku dalam situasi perubahan kepemilikan baik pada Bank maupun pada penyedia jasa TI.\n- Memastikan bahwa perubahan kepemilikan tidak akan mempengaruhi kualitas layanan atau komitmen yang telah ditetapkan dalam SLA.",
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": "ada"
+        },
+        {
+          "order": 2,
+          "status": "ada"
+        },
+        {
+          "order": 3,
+          "status": "ada"
+        },
+        {
+          "order": 4,
+          "status": "ada"
+        },
+        {
+          "order": 5,
+          "status": "ada"
+        },
+        {
+          "order": 6,
+          "status": "ada"
+        },
+        {
+          "order": 7,
+          "status": "ada"
+        },
+        {
+          "order": 8,
+          "status": "ada"
+        },
+        {
+          "order": 9,
+          "status": "ada"
+        },
+        {
+          "order": 10,
+          "status": "ada"
+        },
+        {
+          "order": 11,
+          "status": "ada"
+        }
+      ]
+    },
+    {
+      "code": "5.B.5",
+      "review_progress": "pending",
+      "penjelasan_aktor": "/Fungsi\nDivisi Sekertariat Perusahaan",
+      "penjelasan_dokumen": null,
+      "penjelasan_kontrol": "Kontrol\nBerdasarkan interview dengan Divisi Umum, Sekertaris Perusahaan dan dengan Divisi Kepatuhan, Dokumen PKS sebelum disahkan wajib dilakukan review dan evaluasi oleh Sekertariat Perusahaan Bagian hukum untuk memastikan ketentuan secara hukum atas kerjasama yang dilakukan sebagai pihak yang berkompeten untuk melakukan evaluasi atas perjanjian kerja sama yang terkait dengan penyediaan jasa TI.",
+      "rekomendasi": "Berdasarkan hasil asesmen yang telah dilakukan, Bank perlu:\n1. mengembangkan panduan yang komprehensif untuk evaluasi perjanjian kerja sama dengan pihak penyedia jasa TI  mencakup:\n- prosedur yang jelas tentang bagaimana pegawai atau konsultan hukum Bank meninjau ulang setiap perjanjian sebelum ditandatangani.\n2. memastikan bahwa pegawai atau konsultan hukum yang terlibat dalam evaluasi perjanjian memiliki kompetensi yang memadai dalam domain TI dan keamanan data melalui:\n- pelatihan berkala dan pengembangan profesional",
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": "ada"
+        }
+      ]
+    },
+    {
+      "code": "5.B.6",
+      "review_progress": "pending",
+      "penjelasan_aktor": "/Fungsi\nDivisi Teknologi Informasi",
+      "penjelasan_dokumen": "Sampel Perjanjian Kerjasama antara PT Bank Sumut dengan Veda Praxis",
+      "penjelasan_kontrol": "Kontrol\nBerdasarkan interview, Bank telah melakukan koordinasi dan komunikasi atas penyelenggaraan kerjasama dengan penyedia jasa TI untuk memastikan kesepakatan atas cakupan kerja dilaksanakan secara sesuai secara berkala.",
+      "rekomendasi": "Berdasarkan hasil asesmen yang telah dilakukan, Bank perlu:\n1. mendefinisikan prosedur yang spesifik dan terstruktur untuk koordinasi dan komunikasi dengan pihak penyedia jasa TI. Contohnya:\na. Pengembangan TOR yang komprehensif yang mencakup rincian pekerjaan, deliverables, jadwal, dan kriteria keberhasilan yang dapat dijadikan acuan bersama.\nb. review dan persetujuan bersama  oleh semua pihak terkait sebelum dimulainya pekerjaan, untuk meminimalkan risiko kesalahpahaman dan meningkatkan akuntabilitas.\n2. meningkatkan mekanisme transfer knowledge terkait dengan area pekerjaan yang dialihdayakan kepada pihak penyedia jasa TI. contohnya:\na. menyelenggarakan sesi pelatihan reguler atau workshop untuk membahas hasil pekerjaan, teknologi terkini, dan kebijakan keamanan data",
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": "ada"
+        },
+        {
+          "order": 2,
+          "status": "ada"
+        }
+      ]
+    },
+    {
+      "code": "5.B.7",
+      "review_progress": "pending",
+      "penjelasan_aktor": "/Fungsi\nSekretaris Perusahaan",
+      "penjelasan_dokumen": "Sampel Perjanjian Kerja Sama antara PT Bank Sumut dengan PT FInnet",
+      "penjelasan_kontrol": "Kontrol\nBerdasarkan hasil interview dengan Sekretaris Perusahaan,  didapatkan informasi bahwa direksi terlibat pada proses pengadaan barang dan jasa dengan memberikan approval untuk memastikan pelaksanaan yang lebih akuntabel.",
+      "rekomendasi": "Berdasarkan hasil asesmen yang telah dilakukan, Bank perlu:\n1. meningkatkan dokumentasi tertulis atau laporan mengenai peninjauan klausul perjanjian dengan penyedia jasa TI secara berkala. Contohnya:\na. menyediakan laporan secara periodik yang mengidentifikasi klausul perjanjian yang perlu dinegosiasikan atau diperbaharui, serta justifikasi mengapa perubahan tersebut diperlukan berdasarkan perubahan strategi bisnis Bank\n2. memperkuat koordinasi dan komunikasi dengan pihak penyedia jasa TI terkait penyesuaian perjanjian kerja sama. contohnya:\na. menyelenggarakan pertemuan tatap muka secara berkala dengan pihak penyedia jasa TI untuk membahas penyesuaian klausul perjanjian.\nb. memastikan bahwa semua perubahan atau kesepakatan tertulis secara jelas dalam bentuk surat atau email untuk menghindari kesalahpahaman.",
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": "ada"
+        },
+        {
+          "order": 2,
+          "status": "ada"
+        }
+      ]
+    },
+    {
+      "code": "5.B.8",
+      "review_progress": "pending",
+      "penjelasan_aktor": "/Fungsi\nDivisi Umum",
+      "penjelasan_dokumen": "Sampel Perjanjian Kerja Sama antara PT Bank Sumut dengan PT FInnet",
+      "penjelasan_kontrol": "Kontrol\nBerdasarkan review dokumen tersebut, Bank telah menerapkan standar keamanan terkait informasi dalam Perjanjian Kerja Sama (PKS) dengan pihak penyedia jasa TI. Standar ini mencakup pengamanan informasi di masing-masing pihak.",
+      "rekomendasi": "Berdasarkan hasil asesmen yang telah dilakukan, Bank perlu:\n1. menyempurnakan Perjanjian Kerja Sama (PKS) dengan pihak penyedia jasa TI untuk memasukkan standar keamanan informasi yang jelas dan terinci mengatur:\n- penggunaan API\n- lokasi data center yang harus dipatuhi oleh penyedia jasa TI\n- prosedur pemusnahan data/informasi pada akhir perjanjian\n2. menetapkan ketentuan yang mengikat secara hukum mengenai lokasi data center yang harus digunakan oleh penyedia jasa TI yang sesuai dengan kebijakan dan peraturan perundang-undangan yang berlaku.\n3. menambahkan klausul yang mengatur prosedur pemusnahan data nasabah pada akhir periode retensi ke dalam setiap PKS, dengan persyaratan yang spesifik dan jelas",
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": "ada"
+        },
+        {
+          "order": 2,
+          "status": "ada"
+        },
+        {
+          "order": 3,
+          "status": "ada"
+        },
+        {
+          "order": 4,
+          "status": "ada"
+        },
+        {
+          "order": 5,
+          "status": "partial"
+        },
+        {
+          "order": 6,
+          "status": "partial"
+        },
+        {
+          "order": 7,
+          "status": "ada"
+        },
+        {
+          "order": 8,
+          "status": "partial"
+        }
+      ]
+    },
+    {
+      "code": "5.B.9",
+      "review_progress": "pending",
+      "penjelasan_aktor": "/Fungsi\nDivisi Umum",
+      "penjelasan_dokumen": "Pedoman Pengadaan Barang / Jasa di Lingkungan PT Bank Sumut",
+      "penjelasan_kontrol": "Kontrol\nBerdasarkan hasil interview dengan Divisi Umum, Bank telah melakukan pemantauan terhadap keandalan pihak penyedia jasa TI pada tahap inisiasi pengadaan barang/jasa.\nNamun, belum ada ketentuan yang secara spesifik mengatur evaluasi terhadap keandalan pihak penyedia jasa TI.",
+      "rekomendasi": "Berdasarkan hasil asesmen yang telah dilakukan, Bank perlu:\n1. mengatur secara spesifik evaluasi (setiap tahun atau setiap periode tertentu) terhadap keandalan dan kinerja pihak penyedia jasa TI dalam kebijakan dan prosedur internal \n2. menambahkan ketentuan dalam PKS yang mengharuskan pihak penyedia jasa TI:\n- menyediakan laporan audit yang dilakukan oleh auditor independen secara berkala\n3. melakukan pemantauan secara berkala terhadap pemenuhan SLA yang disediakan oleh pihak penyedia jasa TI, dengan mengintegrasikan hasil pemantauan ini dalam proses evaluasi kinerja secara keseluruhan.",
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": "partial"
+        },
+        {
+          "order": 2,
+          "status": "partial"
+        },
+        {
+          "order": 3,
+          "status": "ada"
+        }
+      ]
+    },
+    {
+      "code": "5.B.10",
+      "review_progress": "pending",
+      "penjelasan_aktor": "/Fungsi\nDivisi Teknologi Informasi\nDivisi Manajemen Risiko",
+      "penjelasan_dokumen": "Petunjuk Pelaksanaan Operasional TI Bank Sumut",
+      "penjelasan_kontrol": "Kontrol\nBerdasarkan hasil review dokumen tersebut, Bank telah menetapkan RTO (Recovery Time Objective) dan RPO (Recovery Point Objective) per layanan dan per sumber daya TI, serta mengklasifikasikan kritikalitas layanan berdasarkan RTO dan RPO tersebut.",
+      "rekomendasi": "Berdasarkan hasil asesmen yang telah dilakukan, Bank perlu:\n1. memperkuat proses BCP dengan mengintegrasikan persyaratan RTO dan RPO dari setiap layanan yang disediakan oleh pihak penyedia jasa TI misalnya:\n-  Tim manajemen risiko dan tim TI akan bekerja sama untuk mengidentifikasi kebutuhan RTO dan RPO berdasarkan kritikalitas layanan dan potensi dampaknya terhadap operasional Bank\n- Setelah RTO dan RPO ditetapkan, informasi ini akan diintegrasikan ke dalam rencana BCP\n2. menyusun rencana prosedur pengujian BCP yang melibatkan pihak penyedia jasa TI  mencakup:\n- jadwal pengujian\n- tujuan pengujian\n- skenario pengujian\n- pihak-pihak yang terlibat.",
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": "ada"
+        },
+        {
+          "order": 2,
+          "status": "ada"
+        },
+        {
+          "order": 3,
+          "status": "ada"
+        }
+      ]
+    },
+    {
+      "code": "5.B.11",
+      "review_progress": "pending",
+      "penjelasan_aktor": "/Fungsi\nDivisi Pengawasan",
+      "penjelasan_dokumen": "Rencana Audit Tahunan",
+      "penjelasan_kontrol": "Kontrol\nBerdasarkan interview dengan Divisi Pengawasan, Bank telah melakukan pemantauan berkala atas DC/DRC untuk melakukan pengecekan atas kondisi riil yang ada dan menyampaikan temuan untuk segera dipenuhi oleh penyedia jasa TI\n\nNamun, Bank belum memiliki rencana kerja tahunan audit intern yang mencakup pemeriksaan berkala terhadap proses dan standar perjanjian kerja sama dengan pihak penyedia jasa TI",
+      "rekomendasi": "Berdasarkan hasil asesmen yang telah dilakukan, Bank perlu:\n1. mengembangkan dan menetapkan rencana kerja tahunan audit intern yang mencakup:\n- pemeriksaan berkala terhadap proses dan standar perjanjian kerja sama dengan pihak penyedia jasa TI.\n2. menyusun prosedur audit yang spesifik terkait dengan pihak penyedia jasa TI  mencakup:\n- penugasan audit baik oleh tim audit intern Bank maupun pihak audit ekstern yang ditunjuk\n- jelasnya tahapan audit yang mencakup seluruh proses kerja sama.\n3. meningkatkan cakupan dan kedalaman audit terhadap proses dan standar perjanjian kerja sama dengan pihak penyedia jasa TI  mencakup:\n- semua aspek yang signifikan terkait dengan aktivitas penyelenggaraan TI Bank\n4. memastikan bahwa auditor intern memiliki kompetensi yang sesuai dengan kompleksitas aktivitas pihak penyedia jasa TI.\n5. meningkatkan kelengkapan dokumentasi atas audit yang dilakukan termasuk:\n- cakupan\n- prosedur\n- temuan audit,\n- tanggapan manajemen terhadap temuan audit",
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": "partial"
+        },
+        {
+          "order": 2,
+          "status": "partial"
+        },
+        {
+          "order": 3,
+          "status": "partial"
+        },
+        {
+          "order": 4,
+          "status": "ada"
+        },
+        {
+          "order": 5,
+          "status": "ada"
+        }
+      ]
+    },
+    {
+      "code": "5.B.12",
+      "review_progress": "pending",
+      "penjelasan_aktor": "/Fungsi\nDivisi Teknologi Informasi",
+      "penjelasan_dokumen": "Sampel Perjanjian Kerjasama antara PT Finnet Indonesia dengan PT Bank Pembangunan Daerah Sumatera Utara tentang Penyedia Layanan Multibiller Pada Channel Secara Host to Host.",
+      "penjelasan_kontrol": "Kontrol\nBerdasarkan review dokumen tersebut, Bank telah memasukkan ketentuan penghentian penggunaan pihak penyedia jasa TI dalam dokumen Perjanjian Kerja Sama (PKS).\n\nNamun, Bank belum memiliki kebijakan dan prosedur internal yang spesifik mengenai rencana penghentian penggunaan pihak penyedia jasa TI berdasarkan kondisi tertentu",
+      "rekomendasi": "Berdasarkan hasil asesmen yang telah dilakukan, Bank perlu:\n1. menyusun kebijakan dan prosedur internal dengan mengumpulkan tim lintas departemen yang mempertimbangkan kondisi-kondisi yang memicu penghentian seperti:\n- masalah kinerja\n- insolvensi\n- pelanggaran hukum\n2. merencanakan pengujian atau simulasi rutin terhadap ketahanan dan kelangsungan bisnis terkait layanan yang diserahkan kepada pihak penyedia jasa TI.\n3. memastikan bahwa semua proses penghentian penggunaan pihak penyedia jasa TI didokumentasikan secara lengkap dan konsisten mencakup:\n- pembuatan template laporan audit yang standar\n- catatan rapat tim penghentian vendor\n- evaluasi hasil pengujian kelangsungan bisnis",
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": "partial"
+        },
+        {
+          "order": 2,
+          "status": "partial"
+        },
+        {
+          "order": 3,
+          "status": "partial"
+        }
+      ]
+    },
+    {
+      "code": "6.A.1",
+      "review_progress": "pending",
+      "penjelasan_aktor": "/Fungsi\nDivisi Teknologi Informasi",
+      "penjelasan_dokumen": "SOP Pengamanan Informasi dalam Penggunaan TI\n- SOP Manajemen Data",
+      "penjelasan_kontrol": "Kontrol\nBerdasarkan hasil revirew dokumen tersebut, Bank telah menyusun kebijakan dan melaksanakan kegiatan operasional pengelolaan data/informasi.\n\nNamun, Bank belum memiliki ketentuan khusus terkait pengelolaan kualitas data",
+      "rekomendasi": "Bank perlu membuat Dokumen Standar Operasional terkait pengelolaan data.\nAspek-aspek yang perlu diperhatikan:\n- mekanisme & persyaratan pengumpulan, penyimpanan, pemrosesan, dan penghapusan data;\n- RACI atas pengelolaan data;\n- ketentuan Direksi & Komisaris mengkaji serta menyetujui prinsip pengelolaan data yang dijalankan;\n- klasifikasi data/informasi;\n- kritikalitas data;\n- spesifikasi penerapan kontrol kualitas data (akurasi, validasi, kelengkapan); dan\n- aktivitas pengawasan dan pemantauan atas pengelolaan data (data audit).",
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": "partial"
+        },
+        {
+          "order": 2,
+          "status": "ada"
+        },
+        {
+          "order": 3,
+          "status": "partial"
+        },
+        {
+          "order": 4,
+          "status": "partial"
+        },
+        {
+          "order": 5,
+          "status": "partial"
+        }
+      ]
+    },
+    {
+      "code": "6.A.2",
+      "review_progress": "pending",
+      "penjelasan_aktor": "/Fungsi\nDivisi Teknologi Informasi & APU PPT",
+      "penjelasan_dokumen": "Standarisasi Data Customer ldentification File (CIF) dan Produk di Lingkungan PT Bank Sumut\nProsedur Customer Due Dilligence (CDD) Yang Lebih Sederhana Terhadap Calon Nasabah",
+      "penjelasan_kontrol": "Kontrol\nBerdasarkan hasil review dokumen tersebut, Bank sudah memiliki standar, persyaratan, dan spesifikasi penerapan kontrol kualitas data.",
+      "rekomendasi": "Bank perlu membuat Dokumen Standar Operasional terkait pengelolaan data.\nAspek-aspek yang perlu diperhatikan:\n- mekanisme & persyaratan pengumpulan, penyimpanan, pemrosesan, dan penghapusan data;\n- RACI atas pengelolaan data;\n- ketentuan Direksi & Komisaris mengkaji serta menyetujui prinsip pengelolaan data yang dijalankan;\n- klasifikasi data/informasi;\n- kritikalitas data;\n- spesifikasi penerapan kontrol kualitas data (akurasi, validasi, kelengkapan); dan\n- aktivitas pengawasan dan pemantauan atas pengelolaan data (data audit).",
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": "partial"
+        },
+        {
+          "order": 2,
+          "status": "partial"
+        },
+        {
+          "order": 3,
+          "status": "partial"
+        },
+        {
+          "order": 4,
+          "status": "partial"
+        }
+      ]
+    },
+    {
+      "code": "6.A.3",
+      "review_progress": "pending",
+      "penjelasan_aktor": "/Fungsi\nDivisi Teknologi Informasi",
+      "penjelasan_dokumen": "Standarisasi Data Customer ldentification File (CIF) dan Produk di Lingkungan PT Bank Sumut\nProsedur Customer Due Dilligence (CDD) Yang Lebih Sederhana Terhadap Calon Nasabah",
+      "penjelasan_kontrol": "Kontrol\nBerdasarkan review dokumen tersebut, Bank telah menetapkan kebijakan manajemen data\n\nNamun, kebijakan ini belum mencakup ketentuan terkait pembuatan, akuisisi, keamanan, kualitas, dan penggunaan data dan informasi",
+      "rekomendasi": "Bank perlu membuat Dokumen Standar Operasional terkait pengelolaan data.\nAspek-aspek yang perlu diperhatikan:\n1. mekanisme & persyaratan pengumpulan, penyimpanan, pemrosesan, dan penghapusan data sesuai dengan klasifikasinya;\n- hak dan kewajiban pemilik data;\n- hal dan kewajiban pemroses data;\n2. ketentuan klasifikasi data/informasi termasuk terkait data pribadi merujuk pada UU No. 27 PDP;\n- kritikalitas & sensitivitas data;\n- mekanisme pengamanan data sesuai klasifikasinya;\n- mekanisme kontrol akses data sesuai klasifikasinya;\n3. RACI atas pengelolaan data;\n- ketentuan Direksi & Komisaris mengkaji serta menyetujui prinsip pengelolaan data yang dijalankan;\n4. spesifikasi penerapan kontrol kualitas data (akurasi, validasi, kelengkapan)\n5. Identifikasi risiko dan dampak atas masing-masing klasifikasi data; dan\n6. aktivitas pengawasan dan pemantauan atas pengelolaan data (ex: data audit)\n- pelaporan (pelaporan setiap pemrosesan data kritikal, pelaporan kebocoran data)\n- pemantauan\n- pengawasan",
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": "partial"
+        },
+        {
+          "order": 2,
+          "status": "ada"
+        },
+        {
+          "order": 3,
+          "status": "ada"
+        },
+        {
+          "order": 4,
+          "status": "ada"
+        },
+        {
+          "order": 5,
+          "status": "ada"
+        }
+      ]
+    },
+    {
+      "code": "6.A.4",
+      "review_progress": "pending",
+      "penjelasan_aktor": "/Fungsi\nDivisi Teknologi Informasi",
+      "penjelasan_dokumen": "Dokumen Rencana Strategis TI Bank Sumut 2020-2024",
+      "penjelasan_kontrol": "Kontrol\nBerdasarkan review dokumen tersebut, Bank telah memiliki dan melakukan pemutakhiran atas arsitektur data yang menjadi bagian dari Arsitektur TI.",
+      "rekomendasi": "Bank perlu membuat Dokumen Standar Operasional terkait pengelolaan data.\nAspek-aspek yang perlu diperhatikan:\n1. mekanisme & persyaratan pengumpulan, penyimpanan, pemrosesan, retensi dan penghapusan data sesuai dengan klasifikasinya;\n- integrasi dan interoperabilitas data (penggunaan API, integrasi sistem)\n- hak dan kewajiban pemilik data\n- hal dan kewajiban pemroses data\n- pengelolaan penyimpanan data pada Database\n2. ketentuan klasifikasi data/informasi termasuk terkait data pribadi merujuk pada UU No. 27 PDP;\n- Klasifikasi data pribadi meliputi, data umum & data spesifik; dan\n- pengelolaan data pribadi sesuai dengan klasifikasinya.\n- kritikalitas & sensitivitas data;\n- mekanisme pengamanan data sesuai klasifikasinya;\n- mekanisme kontrol akses data sesuai klasifikasinya;\n3. RACI atas pengelolaan data;\n- ketentuan Direksi & Komisaris mengkaji serta menyetujui prinsip pengelolaan data yang dijalankan;\n4. spesifikasi penerapan kontrol kualitas data (akurasi, validasi, kelengkapan)\n5. Identifikasi risiko dan dampak atas masing-masing klasifikasi data; dan\n6. aktivitas pengawasan dan pemantauan atas pengelolaan data (ex: data audit)\n- pelaporan (pelaporan setiap pemrosesan data kritikal, pelaporan kebocoran data)\n- pemantauan\n- pengawasan",
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": "ada"
+        },
+        {
+          "order": 2,
+          "status": "ada"
+        },
+        {
+          "order": 3,
+          "status": "partial"
+        },
+        {
+          "order": 4,
+          "status": "ada"
+        },
+        {
+          "order": 5,
+          "status": "partial"
+        },
+        {
+          "order": 6,
+          "status": "partial"
+        },
+        {
+          "order": 7,
+          "status": "partial"
+        },
+        {
+          "order": 8,
+          "status": "ada"
+        }
+      ]
+    },
+    {
+      "code": "6.A.5",
+      "review_progress": "pending",
+      "penjelasan_aktor": "/Fungsi\nDivisi Teknologi Informasi",
+      "penjelasan_dokumen": null,
+      "penjelasan_kontrol": "Kontrol\nBerdasarkan hasil interview dengan Divisi teknologi Informasi, Bank telah mengelola teknologi pangkalan data (database) dengan baik dan melakukan proses evaluasi secara berkala pada pangkalan data yang terdapat di Data Center (DC) dan Disaster Recovery Center (DRC)\n\nNamun, dokumentasi terkait perencanaan, pengelolaan, dan proses evaluasi teknologi pangkalan data belum dilakukan secara konsisten",
+      "rekomendasi": "Berdasarkan hasil asesmen yang telah dilakukan, Bank perlu:\n1. menyusun dokumen perencanaan teknologi pangkalan data yang mencakup:\n- analisis kebutuhan kapasitas penyimpanan\n- pemilihan teknologi database yang sesuai dengan kebutuhan bisnis\n- rencana jangka panjang untuk pengembangan infrastruktur pangkalan data\n2. menyusun pengelolaan teknologi pangkalan data mencakup:\n- pemeliharaan rutin\n- pembaruan perangkat lunak\n- pengelolaan akses pengguna\n- penanganan insiden terkait pangkalan data\n3. menyusun proses evaluasi:\n- audit performa\n- kepatuhan terhadap kebijakan keamanan informasi\n- penilaian risiko",
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": "partial"
+        },
+        {
+          "order": 2,
+          "status": "ada"
+        }
+      ]
+    },
+    {
+      "code": "6.B.1",
+      "review_progress": "pending",
+      "penjelasan_aktor": "/Fungsi\nSekretaris Perusahaan",
+      "penjelasan_dokumen": "Peraturan Direksi terkait penggunaan data pribadi konsumen Bank Sumut\nPBS Pelindungan Data Pribadi\n- SK/SE terkait Pelindungan Data Pribadi",
+      "penjelasan_kontrol": "Kontrol\nBerdasarkan review dokumen tersebut, Bank telah menerapkan langkah-langkah untuk melindungi data pribadi dari gangguan pemrosesan yang tidak sesuai.\n\nBank sudah memenuhi ketentuan yang tercantum dalam peraturan perundang-undangan UU No. 27 tentang Pelindungan Data Pribadi, namun belum ada mekanisme/ketentuan tata cara pelaksanaan secara spesifik",
+      "rekomendasi": "Berdasarkan hasil asesmen yang telah dilakukan, Bank perlu:\n1. memperkuat penyusunan dan penerapan langkah-langkah untuk melindungi data pribadi secara komprehensif sesuai dengan ketentuan yang diatur dalam UU No. 27 tahun 2019 tentang Pelindungan Data Pribadi\n2. mengkaji ulang dan memperbarui implementasi keamanan data pribadi agar sepenuhnya memenuhi standar dan ketentuan yang diharuskan oleh peraturan perundang-undangan terkait.\n3. memperkuat sistem monitoring dan evaluasi terhadap kebijakan keamanan data pribadi \n4. melakukan audit secara rutin terhadap kepatuhan terhadap kebijakan keamanan data pribadi",
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": "ada"
+        },
+        {
+          "order": 2,
+          "status": "ada"
+        }
+      ]
+    },
+    {
+      "code": "6.B.2",
+      "review_progress": "pending",
+      "penjelasan_aktor": "/Fungsi\nDivisi Operasional",
+      "penjelasan_dokumen": "formulir pembukaan rekening\n- SK & SE terkait Pelindungan Data Pribadi",
+      "penjelasan_kontrol": "Kontrol\nBerdasarkan hasil interview dengan Sekretaris Perusahaan, Bank telah menerapkan prosedur permintaan consent untuk pemrosesan data pribadi saat nasabah atau calon nasabah mendaftar untuk pembukaan rekening produk Bank dan sudah menerapkan berdasarkan UU No. 27 Tahun 2022 mengenai Perlindungan Data Pribadi, bank sudah memiliki mekanisme/ketentuan tata cara pelaksanaannya",
+      "rekomendasi": "Berdasarkan hasil asesmen yang telah dilakukan, Bank perlu:\n1. Memperkuat Proses Identifikasi Dasar Pemrosesan Data Pribadi mencakup:\n- persetujuan\n- pemenuhan kewajiban perjanjian\n- pemenuhan kewajiban hukum\n- pelindungan kepentingan vital\n- pelaksanaan tugas dalam rangka kepentingan umum\n- pemenuhan kepentingan lain yang sah\n2. meningkatkan  implementasi prosedur permintaan persetujuan (consent) dari nasabah atau calon nasabah untuk pemrosesan data pribadi, sehingga sesuai dengan standar yang diatur dalam peraturan perundang-undangan\n3. Memperkuat Implementasi proses permintaan consent yang mencakup:\n- penyempurnaan formulir permintaan consent yang disediakan kepada nasabah atau calon nasabah\n-  prosedur verifikasi identitas nasabah atau calon nasabah telah diintegrasikan ke dalam proses permintaan consent\n4. Menyempurnakan dokumentasi dan pelaksanaan pemenuhan kewajiban perjanjian yang mencakup:\n- mengembangkan template perjanjian yang mengacu pada UU No. 27 tahun 2019 tentang Pelindungan Data Pribadi\n- melakukan audit internal terhadap semua dokumen perjanjian yang telah dibuat",
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": "ada"
+        },
+        {
+          "order": 2,
+          "status": "ada"
+        },
+        {
+          "order": 3,
+          "status": "ada"
+        },
+        {
+          "order": 4,
+          "status": "ada"
+        },
+        {
+          "order": 5,
+          "status": "ada"
+        },
+        {
+          "order": 6,
+          "status": "ada"
+        }
+      ]
+    },
+    {
+      "code": "6.B.3",
+      "review_progress": "pending",
+      "penjelasan_aktor": "/Fungsi\nSekretaris Perusahaan",
+      "penjelasan_dokumen": "Formulir pembukaan rekening\nMemorandum Divisi Operasional (283/DOps-SPO/MM/2024)\nPBS 009/Dir/DMR-MROL/L/2025 tentang Pelindungan Data Pribadi Nasabah PT. Bank Sumut",
+      "penjelasan_kontrol": "Kontrol\nBerdasarkan hasil interview dengan Sekretaris Perusahaan, Bank telah mengimplementasikan Form Persetujuan Nasabah yang mewajibkan nasabah untuk memberikan persetujuan secara langsung dengan tanda tangan.\n\nBerdasarkan hasil interview dengan Sekretaris Perusahaan, Bank telah mengimplementasikan Form Persetujuan Nasabah yang mewajibkan nasabah untuk memberikan persetujuan secara langsung dengan tanda tangan, bank sudah memiliki  mekanisme/ketentuan tata cara pelaksanaannya",
+      "rekomendasi": "Berdasarkan hasil asesmen yang telah dilakukan, Bank perlu:\n1. memperkuat implementasi aturan yang mengakomodir UU PDP yang mencakup:\n- prosedur permintaan persetujuan nasabah dengan menyertakan kotak centang (tick box) dalam form persetujuan\n- menetapkan aturan yang jelas terkait penggunaan dan penyimpanan data pribadi.\n- Mengembangkan aturan yang spesifik untuk memberikan informasi legalitas terkait pemrosesan data pribadi\n- memastikan bahwa penghapusan data pribadi dilakukan setelah masa retensi data pribadi berakhir, hanya untuk kepentingan maintenance/audit/rekam jejak sesuai dengan peraturan perundang-undangan",
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": "ada"
+        },
+        {
+          "order": 2,
+          "status": "ada"
+        },
+        {
+          "order": 3,
+          "status": "ada"
+        },
+        {
+          "order": 4,
+          "status": "ada"
+        }
+      ]
+    },
+    {
+      "code": "6.B.4",
+      "review_progress": "pending",
+      "penjelasan_aktor": "/Fungsi\nSekretaris Perusahaan",
+      "penjelasan_dokumen": "PBS 009/Dir/DMR-MROL/L/2025 tentang Pelindungan Data Pribadi Nasabah PT. Bank Sumut",
+      "penjelasan_kontrol": "Kontrol\nBank sudahmengadopsi kebijakan khusus yang mengakomodir ketentuan UU PDP. Saat ini, Bank sudah memiliki aturan yang jelas terkait menerapkan sistem pencatatan yang mendokumentasikan secara akurat mengenai kapan dan bagaimana persetujuan nasabah dan/atau calon nasabah diperoleh tertuang dalam PBS 009/Dir/DMR-MROL/L/2025 tentang Pelindungan Data Pribadi Nasabah PT. Bank Sumut, bank sudah memiliki mekanisme/ketentuan tata cara pelaksanaannya",
+      "rekomendasi": "Berdasarkan hasil asesmen yang telah dilakukan, Bank perlu:\n1.  menggunakan sistem elektronik untuk mencatat secara otomatis waktu dan metode perolehan persetujuan nasabah misalnya:\n- OneTrust\n- TrustArc\n- Cookiebot\n2. Menggunakan penyimpanan elektronik yang aman untuk menyimpan catatan persetujuan nasabah misalnya DMS (Document Management System) seperti:\n- SharePoint\n- Alfresco\n3. Menetapkan tim internal yang bertanggung jawab untuk secara teratur memeriksa kepatuhan terhadap persetujuan nasabah misalnya Audit Management Software seperti:\n-  ACL GRC\n- TeamMate\n- AuditBoard\n4. Menetapkan jadwal pembaruan persetujuan nasabah secara rutin\n5. Menyediakan platform online yang memungkinkan nasabah untuk dengan mudah menarik persetujuan seperti:\n- Website Bank\n- Dokumen informasi nasabah\n- Aplikasi Mobile Banking",
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": "ada"
+        },
+        {
+          "order": 2,
+          "status": "ada"
+        },
+        {
+          "order": 3,
+          "status": "partial"
+        },
+        {
+          "order": 4,
+          "status": "ada"
+        },
+        {
+          "order": 5,
+          "status": "ada"
+        }
+      ]
+    },
+    {
+      "code": "6.B.5",
+      "review_progress": "pending",
+      "penjelasan_aktor": "/Fungsi\nDivisi Umum",
+      "penjelasan_dokumen": "PBS 009/Dir/DMR-MROL/L/2025 tentang Pelindungan Data Pribadi Nasabah PT. Bank Sumut\nSK & SE terkait Pelindungan Data Pribadi Nasabah PT. Bank Sumut tahun 2025",
+      "penjelasan_kontrol": "Kontrol\nBerdasarkan review dokumen tersebut, Bank sudah memuat informasi spesifik mengenai pemrosesan data pribadi, termasuk ruang lingkup dan durasi pemrosesan, sifat dan tujuan pemrosesan, jenis data pribadi dan kategori data nasabah, serta kewajiban dan hak pengendali data. tertuang dalam  PBS 009/Dir/DMR-MROL/L/2025 tentang Pelindungan Data Pribadi Nasabah PT. Bank Sumut, bank sudah memiliki mekanisme/ketentuan tata cara pelaksanaannya",
+      "rekomendasi": "Berdasarkan hasil asesmen yang telah dilakukan, Bank perlu:\n1. Memastikan bahwa setiap kerja sama dengan pihak ketiga dalam aktivitas pemrosesan data pribadi mencakup:\n- Ruang Lingkup Pemrosesan:\n\"Bank dan Pihak Ketiga sepakat bahwa ruang lingkup pemrosesan data pribadi mencakup informasi terkait [spesifikasi data]\"\n- Sifat dan Tujuan Pemrosesan Data:\n\" Pihak Ketiga setuju untuk memproses data pribadi yang diperlukan untuk [tujuan pemrosesan, misalnya: pengelolaan akun nasabah, analisis risiko kredit, dll.].\"\n\"Pemrosesan data dilakukan sesuai dengan kebutuhan Bank untuk menyediakan layanan yang diminta oleh nasabah.\"\n- Jenis Data Pribadi dan Kategori Data Nasabah:\n\"Data pribadi yang diproses mencakup namun tidak terbatas pada: informasi identitas pribadi, informasi keuangan, riwayat transaksi, dan informasi lain yang relevan untuk tujuan pemrosesan yang disepakati.\"\n- Kewajiban dan Hak Pengendali Data:\n\" Bank bertanggung jawab untuk memastikan bahwa Pihak Ketiga mematuhi semua ketentuan hukum yang berlaku terkait dengan pemrosesan data pribadi.\"",
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": "ada"
+        },
+        {
+          "order": 2,
+          "status": "ada"
+        }
+      ]
+    },
+    {
+      "code": "6.B.6",
+      "review_progress": "pending",
+      "penjelasan_aktor": "/Fungsi\nDivisi Operasional dan Divisi Dana & Jasa",
+      "penjelasan_dokumen": "Formulir Pembukaan rekening\nPBS 009/Dir/DMR-MROL/L/2025 tentang Pelindungan Data Pribadi Nasabah PT. Bank Sumut\nSK & SE terkait Pelindungan Data Pribadi Nasabah PT. Bank Sumut tahun 2025",
+      "penjelasan_kontrol": "Kontrol\nBerdasarkan hasil interview dengan Divisi Dana dan Jasa, Bank telah melakukan pengambilan persetujuan atau consent kepada nasabah.\nBank sudah secara konsisten mendokumentasikan hal ini sesuai dengan persyaratan Undang-Undang Data Pribadi. hal ini tertuang dalam PBS 009/Dir/DMR-MROL/L/2025 tentang Pelindungan Data Pribadi Nasabah PT. Bank Sumut, bank sudah memiliki mekanisme/ketentuan tata cara pelaksanaannya",
+      "rekomendasi": "Berdasarkan hasil asesmen yang telah dilakukan, Bank perlu:\n1. Proses Identifikasi Tujuan Pengumpulan dan Pemrosesan Data Pribadi misalnya:\n- saat nasabah mengajukan permohonan kartu kredit, tujuan dapat diidentifikasi sebagai evaluasi kelayakan kredit\n2. Memperbaiki Dokumentasi Tujuan Pemrosesan Data Pribadi misalnya:\n- memperbarui template formulir permohonan kartu kredit untuk mencantumkan dengan jelas tujuan pengumpulan data pribadi nasabah\n3. Menyempurnakan Informasi kepada Nasabah/Calon Nasabah misalnya:\n- meningkatkan brosur informasi kepada calon nasabah mengenai mencantumkan penggunaan data untuk analisis risiko kredit\n4. mengembangkan format standar untuk mengidentifikasi tujuan dari setiap pengumpulan data pribadi yang mencakup:\n- tujuan pengumpulan data pribadi jelas dan spesifik.\n- kategori dan jenis data yang dikumpulkan\n- dilakukan secara sah dan sesuai dengan peraturan perundang-undangan yang berlaku\n- menyediakan informasi yang jelas kepada nasabah mengenai tujuan pengumpulan data\n- penggunaan data hanya untuk tujuan yang sudah ditentukan.\n- menerapkan langkah-langkah keamanan yang tepat untuk melindungi data pribadi",
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": "ada"
+        },
+        {
+          "order": 2,
+          "status": "ada"
+        },
+        {
+          "order": 3,
+          "status": "ada"
+        },
+        {
+          "order": 4,
+          "status": "ada"
+        },
+        {
+          "order": 5,
+          "status": "ada"
+        }
+      ]
+    },
+    {
+      "code": "6.B.7",
+      "review_progress": "pending",
+      "penjelasan_aktor": "/Fungsi\nDivisi Dana & Jasa",
+      "penjelasan_dokumen": "PBS 009/Dir/DMR-MROL/L/2025 tentang Pelindungan Data Pribadi Nasabah PT. Bank Sumut\nSK & SE terkait Pelindungan Data Pribadi Nasabah PT. Bank Sumut tahun 2025",
+      "penjelasan_kontrol": "Kontrol\nBank sudah memiliki kebijakan khusus yang mengatur pengelolaan data pribadi, termasuk prosedur untuk memastikan akurasi data pribadi yang dikumpulkan dan merekam sumber perolehan data pribadi yang dimiliki. hal ini tertuang  dalam PBS 009/Dir/DMR-MROL/L/2025 tentang Pelindungan Data Pribadi Nasabah PT. Bank Sumut, bank sudah memiliki mekanisme/ketentuan tata cara pelaksanaannya",
+      "rekomendasi": "Berdasarkan hasil asesmen yang telah dilakukan, Bank perlu:\n1.  mengadopsi prosedur yang memastikan akurasi data pribadi yang dikumpulkan dan merekam dengan jelas sumber perolehan data tersebut mencakup:\n- langkah-langkah verifikasi yang ketat melalui dokumen resmi atau sumber yang terpercaya\n- mencatat tanggal dan jenis informasi yang dikumpulkan dari nasabah, seperti formulir aplikasi atau interaksi langsung\n2. memiliki prosedur yang jelas terkait proses perubahan data pribadi mencakup:\n-  formulir perubahan data atau akses ke portal online \n- meminta bukti atau dokumen pendukung yang relevan kepada nasabah\n3. mengimplementasikan sistem audit trail yang efektif untuk mencatat setiap perubahan data pribadi mencakup:\n- pencatatan otomatis seperti waktu perubahan, jenis perubahan, dan pengguna yang melakukan perubahan tersebut\n- audit trail dapat diakses dan dimonitor secara teratur oleh pihak yang berwenang\n4. Hak Nasabah untuk Mengelola Data Pribadi mencakup:\n- akses ke portal self-service\n- menyediakan panduan yang jelas kepada nasabah tentang cara melaksanakan hak tersebut",
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": "ada"
+        },
+        {
+          "order": 2,
+          "status": "ada"
+        },
+        {
+          "order": 3,
+          "status": "ada"
+        },
+        {
+          "order": 4,
+          "status": "ada"
+        }
+      ]
+    },
+    {
+      "code": "6.B.8",
+      "review_progress": "pending",
+      "penjelasan_aktor": "/Fungsi\nDivisi Dana & Jasa",
+      "penjelasan_dokumen": "PBS 009/Dir/DMR-MROL/L/2025 tentang Pelindungan Data Pribadi Nasabah PT. Bank Sumut\nSK & SE terkait Pelindungan Data Pribadi Nasabah PT. Bank Sumut tahun 2025",
+      "penjelasan_kontrol": "Kontrol\nBank sudah memiliki kebijakan yang sesuai dengan UU PDP dan belum terdapat mekanisme pengkinian, perbaikan, penghapusan, dan pemusnahan data pribadi nasabah. hal ini tertuang dalam PBS 009/Dir/DMR-MROL/L/2025 tentang Pelindungan Data Pribadi Nasabah PT. Bank Sumut, bank sudah memiliki mekanisme/ketentuan tata cara pelaksanaannya",
+      "rekomendasi": "Berdasarkan hasil asesmen yang telah dilakukan, Bank perlu:\n1. Mengembangkan Kebijakan Pengkinian, Perbaikan, Penghapusan, dan Pemusnahan Data Pribadi Nasabah mencakup:\n- langkah-langkah detail tentang bagaimana nasabah dapat mengajukan permintaan perubahan data\n- batas waktu untuk pemrosesan permintaan\n- tindakan yang diambil untuk memverifikasi keabsahan permintaan tersebut.\n2. Menerapkan Kebijakan atau Prosedur Penolakan Permintaan Perubahan Data mencakup:\n- alasan-alasan yang dapat diterima untuk menolak permintaan\n- cara komunikasi yang jelas kepada nasabah mengenai keputusan penolakan tersebut\n3. Menyusun Prosedur Komunikasi kepada Nasabah dalam hal pengkinian, perbaikan, penghapusan, atau pemusnahan yang mencakup:\n- alasan\n- waktu\n- dampak dari tindakan yang dilakukan terhadap data pribadi nasabah",
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": "ada"
+        },
+        {
+          "order": 2,
+          "status": "ada"
+        },
+        {
+          "order": 3,
+          "status": "ada"
+        }
+      ]
+    },
+    {
+      "code": "6.B.9",
+      "review_progress": "pending",
+      "penjelasan_aktor": "/Fungsi\nSekretaris Perusahaan",
+      "penjelasan_dokumen": "PBS 009/Dir/DMR-MROL/L/2025 tentang Pelindungan Data Pribadi Nasabah PT. Bank Sumut\nSK & SE terkait Pelindungan Data Pribadi Nasabah PT. Bank Sumut tahun 2025",
+      "penjelasan_kontrol": "Kontrol\nBank sudah memiliki kebijakan atau pengaturan yang memenuhi persyaratan UU PDP terkait dengan klasifikasi data pribadi nasabah, dan belum ada dokumentasi yang menunjukkan adanya klasifikasi tersebut. hal ini tertuang dalam PBS 009/Dir/DMR-MROL/L/2025 tentang Pelindungan Data Pribadi Nasabah PT. Bank Sumut, bank sudah memiliki mekanisme/ketentuan tata cara pelaksanaannya",
+      "rekomendasi": "Berdasarkan hasil asesmen yang telah dilakukan, Bank perlu:\n1. mengklasifikasikan data pribadi nasabah berdasarkan tingkat sensitivitasnya, misalnya:\n- nama lengkap\n- alamat\n- nomor identitas\n2. menetapkan jangka waktu retensi data pribadi nasabah berdasarkan pada regulasi perundang-undangan dan kebutuhan internal, misalnya:\n- data transaksi keuangan disimpan selama 5 tahun setelah hubungan dengan nasabah berakhir\n- data pribadi nasabah akan disimpan selama periode tertentu setelah pemrosesan selesai sesuai dengan kebutuhan operasional dan hukum yang berlaku\n3. mengidentifikasi data pribadi yang diperlukan untuk keperluan riset dan statistik disaring secara anonim atau diagregat sebelum digunakan untuk memastikan kerahasiaan dan privasi nasabah terjaga",
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": "ada"
+        },
+        {
+          "order": 2,
+          "status": "ada"
+        },
+        {
+          "order": 3,
+          "status": "ada"
+        },
+        {
+          "order": 4,
+          "status": "ada"
+        },
+        {
+          "order": 5,
+          "status": "ada"
+        },
+        {
+          "order": 6,
+          "status": "partial"
+        }
+      ]
+    },
+    {
+      "code": "6.B.10",
+      "review_progress": "pending",
+      "penjelasan_aktor": "/Fungsi\nDivisi Teknologi Informasi",
+      "penjelasan_dokumen": "SOP Pengamanan Informasi dalam Penggunaan TI PT Bank Sumut\nPBS 009/Dir/DMR-MROL/L/2025 tentang Pelindungan Data Pribadi Nasabah PT. Bank Sumut\nSK & SE terkait Pelindungan Data Pribadi Nasabah PT. Bank Sumut tahun 2025",
+      "penjelasan_kontrol": "Kontrol\nBerdasarkan review dokumen tersebut, Bank telah memiliki kebijakan informasi yang terdokumentasi.\nBank sudah memiliki kebijakan secara khusus mencakup aspek keamanan data pribadi. hal ini tertuang dalam PBS 009/Dir/DMR-MROL/L/2025 tentang Pelindungan Data Pribadi Nasabah PT. Bank Sumut, bank sudah memiliki mekanisme/ketentuan tata cara pelaksanaannya",
+      "rekomendasi": "Berdasarkan hasil asesmen yang telah dilakukan, Bank perlu:\n1. memperbarui kebijakan keamanan data pribadi untuk mencakup aspek:\n- kontrol akses\n- penggunaan data\n- penyimpanan data yang sensitif.\n2. meningkatkan frekuensi peninjauan kebijakan keamanan data pribadi:\n- peninjauan rutin setiap enam bulan\n- peninjauan rutin setiap tiga bulan\n3. menyesuaikan implemtasi enkripsi dan pseudonimisasi data pribadi nasabah mencakup:\n- jaringan internal\n- jaringan eksternal\n- memperbarui algoritma enkripsi sesuai\n4. menyusun pengujian sistem keamanan data pribadi secara berkala mencakup:\n- penetapan jadwal pengujian\n- metodologi pengujian\n- pelaksanaan pengujian\n- evaluasi hasil pengujian\n- pelaporan dan tindak lanjut",
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": "ada"
+        },
+        {
+          "order": 2,
+          "status": "ada"
+        },
+        {
+          "order": 3,
+          "status": "ada"
+        },
+        {
+          "order": 4,
+          "status": "partial"
+        },
+        {
+          "order": 5,
+          "status": "ada"
+        }
+      ]
+    },
+    {
+      "code": "6.B.11",
+      "review_progress": "pending",
+      "penjelasan_aktor": "/Fungsi\nSekretaris Perusahaan",
+      "penjelasan_dokumen": "PBS 009/Dir/DMR-MROL/L/2025 tentang Pelindungan Data Pribadi Nasabah PT. Bank Sumut\nSK & SE terkait Pelindungan Data Pribadi Nasabah PT. Bank Sumut tahun 2025",
+      "penjelasan_kontrol": "Kontrol\nBank sudah memiliki kebijakan atau pengaturan yang memenuhi persyaratan UU PDP terkait dengan identifikasi kriteria data pribadi yang berisiko tinggi.  hal ini tertuang dalam PBS 009/Dir/DMR-MROL/L/2025 tentang Pelindungan Data Pribadi Nasabah PT. Bank Sumut, bank sudah memiliki mekanisme/ketentuan tata cara pelaksanaannya",
+      "rekomendasi": "Berdasarkan hasil asesmen yang telah dilakukan, Bank perlu:\n1. mengadopsi kriteria berikut untuk mengidentifikasi data pribadi yang berisiko tinggi mencakup:\n- sensitivitas data\n- jumlah data\n- potensi dampak negatif\n2. penilaian dampak yang terstruktur ketika akan memproses data pribadi yang berisiko tinggi mencakup:\n- identifikasi potensi ancaman\n- evaluasi kerentanan\n- penentuan dampak (termasuk dampak finansial, reputasi, dsb)\n- pengendalian dan mitigasi\n3. Penyusunan Data Privacy Impact Analysis (DPIA) atau Penilaian Dampan (PD PDP) sesuai dengan persyaratan UU No. 27 tentang PDP.",
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": "ada"
+        },
+        {
+          "order": 2,
+          "status": "ada"
+        }
+      ]
+    },
+    {
+      "code": "6.B.12",
+      "review_progress": "pending",
+      "penjelasan_aktor": "/Fungsi\nSekretaris Perusahaan",
+      "penjelasan_dokumen": "PBS 009/Dir/DMR-MROL/L/2025 tentang Pelindungan Data Pribadi Nasabah PT. Bank Sumut\nSK & SE terkait Pelindungan Data Pribadi Nasabah PT. Bank Sumut tahun 2025",
+      "penjelasan_kontrol": "Kontrol\nBank sudah memiliki kebijakan atau pengaturan yang memenuhi persyaratan UU PDP terkait dengan dokumentasi aktivitas pemrosesan data pribadi oleh Bank. hal ini tertuang dalam PBS 009/Dir/DMR-MROL/L/2025 tentang Pelindungan Data Pribadi Nasabah PT. Bank Sumut, bank sudah memiliki mekanisme/ketentuan tata cara pelaksanaannya",
+      "rekomendasi": "Berdasarkan hasil asesmen yang telah dilakukan, Bank perlu:\n1. mengadopsi prosedur yang sistematis untuk mendokumentasikan setiap aktivitas pemrosesan data pribadi mencakup:\n- jenis data yang diproses\n- tujuan penggunaan data\n- waktu dan lokasi pemrosesan\n- identitas petugas yang melakukan pemrosesan.\n- dasar hukum pemrosesan\n2. menyediakan dokumen pemberitahuan privasi yang mencakup:\n- informasi tentang penggunaan data pribadi\n- hak-hak nasabah terkait data pribadi\n- kontak untuk pertanyaan lebih lanjut\n3. menggunakan sistem manajemen dokumen elektronik yang memungkinkan pengelolaan data pribadi secara efisien termasuk:\n- menambah\n- menghapus\n- mengubah informasi dengan mudah.\n4. Penyusunan Record of Processing Activities (RoPA) atau Perekaman Kegiatan PDP (PK PDP) sesuai dengan persyaratan UU No. 27 tentang PDP.",
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": "ada"
+        },
+        {
+          "order": 2,
+          "status": "ada"
+        },
+        {
+          "order": 3,
+          "status": "ada"
+        }
+      ]
+    },
+    {
+      "code": "6.B.13",
+      "review_progress": "pending",
+      "penjelasan_aktor": "/Fungsi\nSekretaris Perusahaan",
+      "penjelasan_dokumen": "PBS 009/Dir/DMR-MROL/L/2025 tentang Pelindungan Data Pribadi Nasabah PT. Bank Sumut\nSK & SE terkait Pelindungan Data Pribadi Nasabah PT. Bank Sumut tahun 2025",
+      "penjelasan_kontrol": "Kontrol\nBerdasarkan interview dengan Sekretaris Perusahaan, Bank telah memberikan informasi kepada nasabah mengenai tujuan permintaan dan penggunaan data pribadi nasabah, yang terdokumentasikan dalam formulir yang diisi oleh nasabah/calon nasabah, baik dalam bentuk formulir digital maupun manual\n\nBank sudah memiliki prosedur yang terdokumentasi terkait pemberian informasi pemrosesan data kepada nasabah. hal ini tertuang dalam  PBS 009/Dir/DMR-MROL/L/2025 tentang Pelindungan Data Pribadi Nasabah PT. Bank Sumut",
+      "rekomendasi": "Berdasarkan hasil asesmen yang telah dilakukan, Bank perlu:\n1. mengadopsi prosedur berikut untuk memberikan informasi yang jelas kepada nasabah tentang pemrosesan data pribadi yang mencakup:\n- prosedur penyusunan informasi (termasuk identitas yang mengumpulkan data, tujuan pengumpulan, dasar hukum, dan penggunaan data tersebut.)\n- formulir standar\n2. memperbarui format informasi yang disampaikan kepada nasabah yang mencakup:\n- menyediakan dokumen elektronik yang dapat diunduh oleh nasabah\n- menyediakan informasi yang sama di website dan portal nasabah\n- menggunakan bahasa sederhana dan menjelaskan istilah teknis",
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": "ada"
+        },
+        {
+          "order": 2,
+          "status": "ada"
+        }
+      ]
+    },
+    {
+      "code": "6.B.14",
+      "review_progress": "pending",
+      "penjelasan_aktor": "/Fungsi\nSekretaris Perusahaan",
+      "penjelasan_dokumen": "PBS 009/Dir/DMR-MROL/L/2025 tentang Pelindungan Data Pribadi Nasabah PT. Bank Sumut\nSK & SE terkait Pelindungan Data Pribadi Nasabah PT. Bank Sumut tahun 2025",
+      "penjelasan_kontrol": "Kontrol\nBank sudah memiliki kebijakan atau pengaturan yang memenuhi persyaratan UU PDP terkait dengan permintaan akses data pribadi yang dikelola oleh Bank. hal ini tertuang dalam PBS 009/Dir/DMR-MROL/L/2025 tentang Pelindungan Data Pribadi Nasabah PT. Bank Sumut",
+      "rekomendasi": "Berdasarkan hasil asesmen yang telah dilakukan, Bank perlu:\n1. menyusun kebijakan tertulis permintaan akses data pribadi yang mencakup:\n- Formulir standar untuk pengajuan akses data pribadi yang dapat diisi nasabah.\nProses verifikasi yang mencakup langkah-langkah untuk memvalidasi identitas nasabah yang mengajukan permintaan.\nProsedur untuk mengelola dan merespons permintaan akses dalam waktu yang ditentukan\n2.  mengimplementasikan prosedur verifikasi yang mencakup:\n- Verifikasi identitas nasabah melalui informasi pribadi yang diberikan, seperti nomor identitas atau informasi lain yang relevan.\n- Penggunaan sistem keamanan yang aman untuk menghindari akses yang tidak sah atau penyalahgunaan data pribadi nasabah.\n3. mengklasifikasikan kondisi yang memungkinkan untuk penolakan permintaan akses, seperti:\n- Situasi di mana pengungkapan informasi dapat membahayakan kepentingan pribadi nasabah atau pihak ketiga.\n- Kebutuhan untuk mematuhi undang-undang yang mengatur perlindungan data pribadi.",
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": "ada"
+        },
+        {
+          "order": 2,
+          "status": "ada"
+        },
+        {
+          "order": 3,
+          "status": "ada"
+        }
+      ]
+    },
+    {
+      "code": "6.B.15",
+      "review_progress": "pending",
+      "penjelasan_aktor": "/Fungsi\nSekretaris Perusahaan",
+      "penjelasan_dokumen": "PBS 009/Dir/DMR-MROL/L/2025 tentang Pelindungan Data Pribadi Nasabah PT. Bank Sumut\nSK & SE terkait Pelindungan Data Pribadi Nasabah PT. Bank Sumut tahun 2025",
+      "penjelasan_kontrol": "Kontrol\nBank sudah memiliki kebijakan atau pengaturan yang memenuhi persyaratan UU PDP terkait dengan penanganan permintaan nasabah untuk pembatasan pemrosesan data pribadi. hal ini tertuang dalam PBS 009/Dir/DMR-MROL/L/2025 tentang Pelindungan Data Pribadi Nasabah PT. Bank Sumut",
+      "rekomendasi": "Berdasarkan hasil asesmen yang telah dilakukan, Bank perlu:\n\n1. menyusun kebijakan yang mengatur bahwa setiap permintaan nasabah untuk pembatasan pemrosesan data pribadi harus diajukan secara tertulis\n\"Nasabah dapat mengajukan permintaan pembatasan pemrosesan data pribadi melalui formulir yang tersedia di situs web Bank atau di kantor cabang terdekat. Permintaan ini harus disertakan dengan identifikasi yang sah untuk verifikasi.\"\n2. menetapkan batas waktu menanggapi permintaan\n\" Bank akan menanggapi setiap permintaan pembatasan pemrosesan data pribadi dalam waktu maksimal 30 hari kerja. Jika terjadi keterlambatan yang disebabkan oleh kebutuhan untuk verifikasi tambahan atau kompleksitas permintaan, nasabah akan diberitahukan tentang alasan keterlambatan dan waktu tambahan yang diperlukan\"\n3. Pembatasan Pemrosesan Data Pribadi di Sistem Bank\n\"Setiap permintaan pembatasan pemrosesan data pribadi akan diimplementasikan dalam sistem kami dengan mengaktifkan fitur pembatasan akses ke data yang relevan. Tim IT akan memastikan bahwa setiap akses berikutnya ke data pribadi yang dibatasi akan memerlukan otorisasi tambahan dari manajemen yang berwenang\"\n4. informasi kepada pihak ketiga\n\"Ketika Bank menerapkan pembatasan pemrosesan data pribadi, pihak ketiga yang terlibat akan menerima pemberitahuan tertulis yang menjelaskan batasan yang berlaku. Pihak ketiga diharapkan untuk mengikuti kebijakan ini sesuai dengan perjanjian kerja sama yang berlaku antara Bank dan pihak ketiga.\"\"",
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": "ada"
+        },
+        {
+          "order": 2,
+          "status": "ada"
+        },
+        {
+          "order": 3,
+          "status": "ada"
+        }
+      ]
+    },
+    {
+      "code": "6.B.16",
+      "review_progress": "pending",
+      "penjelasan_aktor": "/Fungsi\nSekretaris Perusahaan",
+      "penjelasan_dokumen": "Dokumen Peraturan Bank Sumut terkait Transparansi Penggunaan Produk\nPBS 009/Dir/DMR-MROL/L/2025 tentang Pelindungan Data Pribadi Nasabah PT. Bank Sumut\nSK & SE terkait Pelindungan Data Pribadi Nasabah PT. Bank Sumut tahun 2025",
+      "penjelasan_kontrol": "Kontrol\nBerdasarkan review dokumen tersebut, Bank telah mengatur prosedur mengenai permintaan persetujuan konsumen Bank untuk memberikan data kepada pihak lain serta menjelaskan tujuan dan konsekuensi dari persetujuan yang diberikan oleh nasabah\n\nBank sudah memiliki kebijakan resmi untuk mentransfer data pribadi milik nasabah kepada pihak ketiga yang dimulai dari permintaan nasabah. Selain itu, Bank juga belum memiliki pengaturan yang memenuhi persyaratan UU PDP terkait hal ini. hal ini tertuang dalam PBS 009/Dir/DMR-MROL/L/2025 tentang Pelindungan Data Pribadi Nasabah PT. Bank Sumut. Bank  memiliki mekanisme secara khusus terkait penanganan permintaan nasabah untuk mentransfer data pribadi milik nasabah kepada pihak ketiga telah memadai",
+      "rekomendasi": "Berdasarkan hasil asesmen yang telah dilakukan, Bank perlu:\n1. menyusun prosedur penanganan permintaan nasabah untuk mentransfer data pribadi milik nasabah ke pihak ketiga mencakup:\n-  penggunaan formulir standar yang memuat informasi verifikasi identitas dan persetujuan nasabah\n- penjelasan mengenai tujuan penggunaan data pribadi oleh pihak ketiga\n- menggunakan protokol enkripsi untuk melindungi data selama pengiriman.\n- mengatur kriteria untuk menolak permintaan transfer data pribadi seperti jika tidak ada persetujuan nasabah",
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": "ada"
+        },
+        {
+          "order": 2,
+          "status": "ada"
+        },
+        {
+          "order": 3,
+          "status": "ada"
+        }
+      ]
+    },
+    {
+      "code": "6.B.17",
+      "review_progress": "pending",
+      "penjelasan_aktor": "/Fungsi\nSekretaris Perusahaan",
+      "penjelasan_dokumen": "Dokumen Peraturan Bank Sumut terkait Transparansi Penggunaan Produk\n- PBS 009/Dir/DMR-MROL/L/2025 tentang Pelindungan Data Pribadi Nasabah PT. Bank Sumut\nSK & SE terkait Pelindungan Data Pribadi Nasabah PT. Bank Sumut tahun 2025",
+      "penjelasan_kontrol": "Kontrol\nBerdasarkan review dokumen tersebut, Bank telah mengatur transparansi penggunaan data pribadi konsumen dengan menyampaikan kewajiban Bank untuk meminta persetujuan serta menjelaskan tujuan dan konsekuensi dari persetujuan yang diberikan nasabah. Informasi ini disampaikan kepada nasabah melalui dokumen terpisah dari formulir syarat umum pembukaan rekening dan/atau dipublikasikan di situs resmi Bank.\n\nBank sudah memiliki pengaturan khusus untuk mengakomodir ketentuan UU PDP terkait hal ini dan sudah memiliki kebijakan atau prosedur bagi nasabah untuk mengajukan keberatan atas pemrosesan data pribadi secara otomatis.  hal ini tertuang dalam PBS 009/Dir/DMR-MROL/L/2025 tentang Pelindungan Data Pribadi Nasabah PT. Bank Sumut. Bank memiliki mekanisme secara khusus terkait nasabah untuk mengajukan keberatan atas pemrosesan data pribadi secara otomatis telah memadai",
+      "rekomendasi": "Berdasarkan hasil asesmen yang telah dilakukan, Bank perlu:\n1.  kebijakan dan prosedur yang memungkinkan nasabah untuk mengajukan keberatan misalnya:\n- menyediakan formulir online dan offline yang mudah diakses \n- menyampaikan penolakan kepada nasabah secara tertulis\n- memperbarui pemberitahuan privasi dan materi komunikasi lainnya (seperti brosur dan website Bank)",
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": "ada"
+        },
+        {
+          "order": 2,
+          "status": "ada"
+        },
+        {
+          "order": 3,
+          "status": "ada"
+        },
+        {
+          "order": 4,
+          "status": "ada"
+        }
+      ]
+    },
+    {
+      "code": "6.C.1",
+      "review_progress": "pending",
+      "penjelasan_aktor": "/Fungsi\nDivisi Teknologi Informasi",
+      "penjelasan_dokumen": "PBS 004/Dir/DMR-MROL/L/2024 tentang Pelindungan Data Pribadi",
+      "penjelasan_kontrol": "Kontrol\nBank sudah memiliki kebijakan / prosedur dalam hal mengidentifikasi jenis data nasabah yang digunakan untuk pertukaran atau transfer data/informasi. hal ini tertuang dalam PBS 004/Dir/DMR-MROL/L/2024 tentang Pelindungan Data Pribadi. Namun, mekanisme secara khusus terkait pertukaran atau transfer data dan informasi berdasarkan  jenis data nasabah untuk pertukaran atau transfer data dan informasi belum memadai",
+      "rekomendasi": "Berdasarkan hasil asesmen yang telah dilakukan, Bank perlu:\n1. menentukan jenis data pribadi yang dapat dipertukarkan atau ditransfer seperti:\n- nama\n- alamat\n- nomor telepon\n- informasi akun, dll\n2. sistem persetujuan digital  melalui aplikasi perbankan online atau platform digital lainnya\n3. menetapkan form permintaan informasi yang harus diisi oleh pihak ekstern\n4. menyediakan materi edukasi yang mudah diakses oleh nasabah melalui situs web atau brosur, menjelaskan hak-hak mereka terkait pertukaran data\n5. menyusun perjanjian kerja sama dengan pihak ketiga yang mencakup\n-  tanggung jawab dan kewajiban terkait perlindungan data pribadi\n-  prosedur yang harus diikuti jika terjadi kebocoran data\n6. mencantumkan media yang diizinkan seperti:\n- email terenkripsi\n- VPN\n- portal web aman\n- media penyimpanan fisik yang dienkripsi",
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": "partial"
+        },
+        {
+          "order": 2,
+          "status": "partial"
+        },
+        {
+          "order": 3,
+          "status": "partial"
+        },
+        {
+          "order": 4,
+          "status": "partial"
+        },
+        {
+          "order": 5,
+          "status": "partial"
+        },
+        {
+          "order": 6,
+          "status": "ada"
+        },
+        {
+          "order": 7,
+          "status": "partial"
+        },
+        {
+          "order": 8,
+          "status": "partial"
+        }
+      ]
+    },
+    {
+      "code": "6.C.2",
+      "review_progress": "pending",
+      "penjelasan_aktor": "/Fungsi\nDivisi Teknologi Informasi",
+      "penjelasan_dokumen": "PBS 004/Dir/DMR-MROL/L/2024 tentang Pelindungan Data Pribadi",
+      "penjelasan_kontrol": "Kontrol\nBank sudah memiliki perjanjian terkait pertukaran atau transfer data,  namun belum diatur secara spesifik  mengenai pihak pengendali data pada setiap tahap pertukaran atau transfer data",
+      "rekomendasi": "Berdasarkan hasil asesmen yang telah dilakukan, Bank perlu:\n1.  menetapkan pihak pengendali data pada setiap tahap proses pertukaran atau transfer data mencakup:\n- identifikasi siapa yang bertanggung jawab atas data\n- tujuan pertukaran data seperti untuk analisis risiko kredit atau peningkatan layanan nasabah\n2. mendokumentasikan standar data yang digunakan dalam PKS mencakup:\n- spesifikasi teknis format data yang digunakan, seperti XML, JSON, atau CSV\n- frekuensi pengiriman data, tanggung jawab dan kompensasi jika terjadi keterlambatan atau kegagalan pengiriman",
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": "partial"
+        },
+        {
+          "order": 2,
+          "status": "partial"
+        },
+        {
+          "order": 3,
+          "status": "partial"
+        },
+        {
+          "order": 4,
+          "status": "partial"
+        },
+        {
+          "order": 5,
+          "status": "partial"
+        },
+        {
+          "order": 6,
+          "status": "partial"
+        },
+        {
+          "order": 7,
+          "status": "ada"
+        }
+      ]
+    },
+    {
+      "code": "6.C.3",
+      "review_progress": "pending",
+      "penjelasan_aktor": "/Fungsi\nDivisi Teknologi Informasi",
+      "penjelasan_dokumen": null,
+      "penjelasan_kontrol": "Kontrol\nBerdasarkan interview dengan Divisi IT Network & Infrastructure, Bank telah menerapkan langkah-langkah keamanan jaringan seperti IP Filtering, Web Filtering, VPN, dan SDWAN\n\nNamun, belum ada dokumentasi yang mencatat secara rinci implementasi pengamanan jaringan dengan menggunakan IP Filtering, Web Filtering, VPN, dan SDWAN",
+      "rekomendasi": "Berdasarkan hasil asesmen yang telah dilakukan, Bank perlu:\n1. menyusun dan memelihara dokumentasi yang mencatat secara rinci langkah-langkah keamanan jaringan:\n- Konfigurasi IP Filtering: Detil tentang aturan-aturan yang diterapkan untuk memfilter lalu lintas jaringan berdasarkan alamat IP.\nProsedur Web Filtering: Panduan tentang bagaimana konten web difilter dan kriteria yang digunakan.\nPengaturan VPN: Dokumentasi tentang bagaimana koneksi VPN diatur dan dikelola, termasuk jenis enkripsi yang digunakan.\nImplementasi SDWAN: Detail tentang penerapan SDWAN untuk mengamankan dan mengelola lalu lintas jaringan antara cabang-cabang Bank.\n2. mencatat secara rinci  enkripsi data yang dipertukarkan:\n- Algoritma Enkripsi yang Disetujui:\n- Panduan Penerapan Enkripsi:\n- Manajemen Kunci Enkripsi\n3. menyusun pengaturan khusus UU PDP:\n- Mekanisme Verifikasi dan Validasi Data\n- Prosedur Perlindungan Data\n- Pemberitahuan Nasabah",
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": "partial"
+        },
+        {
+          "order": 2,
+          "status": "partial"
+        },
+        {
+          "order": 3,
+          "status": "partial"
+        },
+        {
+          "order": 4,
+          "status": "ada"
+        },
+        {
+          "order": 5,
+          "status": "ada"
+        }
+      ]
+    },
+    {
+      "code": "6.C.4",
+      "review_progress": "pending",
+      "penjelasan_aktor": "/Fungsi\nDivisi Teknologi Informasi",
+      "penjelasan_dokumen": null,
+      "penjelasan_kontrol": "Kontrol\nBerdasarkan interview dengan Divisi Teknologi Informasi, Bank sudah memiliki mekanisme permintaan persetujuan atau consent untuk pemrosesan data nasabah.\n\nNamun, implementasi dari mekanisme tersebut belum sepenuhnya konsisten.",
+      "rekomendasi": "Berdasarkan hasil asesmen yang telah dilakukan, Bank perlu:\n1. Memastikan konsistensi permintaan persetujuan (Consent) mencakup:\n- menyediakan panduan dan pelatihan untuk seluruh karyawan\n- semua formulir dan aplikasi yang digunakan untuk memperoleh persetujuan nasabah mematuhi standar yang telah ditetapkan\n- Formulir digital dan manual harus dirancang dengan jelas\n2. membuat kebijakan internal yang merinci langkah-langkah untuk memastikan kepatuhan terhadap UU PDP\n3. menyusun daftar negara-negara yang dianggap memiliki tingkat pelindungan data pribadi yang memadai\n4. merumuskan perjanjian kontraktual dengan pihak ketiga di luar negeri mencakup:\n- keamanan data\n- persetujuan nasabah\n- mekanisme penanganan pelanggaran data.",
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": "partial"
+        },
+        {
+          "order": 2,
+          "status": "partial"
+        },
+        {
+          "order": 3,
+          "status": "partial"
+        },
+        {
+          "order": 4,
+          "status": "partial"
+        },
+        {
+          "order": 5,
+          "status": "partial"
+        },
+        {
+          "order": 6,
+          "status": "partial"
+        }
+      ]
+    },
+    {
+      "code": "7.A.1",
+      "review_progress": "done",
+      "penjelasan_aktor": "/Fungsi\n- Divisi Teknologi Informasi\n- Divisi Strategi dan Transformasi",
+      "penjelasan_dokumen": "Rencana Strategis TI",
+      "penjelasan_kontrol": "Kontrol\nBerdasarkan review  dokumen dan hasil interview  dengan Divisi Strategi dan Transformasi, Bank telah menyatakan bahwa Bank memiliki inisiasi strategi kemitraan yang termuat dalam rencana strategis TI untuk mengembangkan bisnis Bank ke depannya. \n\nsudah diakomodir dalam RSTI 2024-2028",
+      "rekomendasi": "Berdasarkan hasil asesmen yang telah dilakukan, Bank perlu:\n1. Menyusun dan mendokumentasikan strategi kemitraan yang terstruktur dalam Rencana Strategis TI dan rencana bisnis Bank, mencakup:\n- target kemitraan (contoh: implementasi terkait teknologi interface dengan mitra; Bank sebagai penyedia jasa)\n- langkah-langkah implementasinya.\n2. Menetapkan kebijakan kemitraan yang secara konsisten termasuk analisis risiko dan manajemen risiko yang terintegrasi untuk strategi kemitraan yang diusulkan.\n3. Mengembangkan dan menerapkan ketentuan terkait kebijakan kemitraan yang mencakup:\n- analisis biaya dan manfaat secara menyeluruh selaras dengan Rencana Bisnis Bank\n4.  memastikan bahwa SDM yang terlibat memiliki kecukupan dan kesiapan yang memadai untuk mengelola kemitraan, termasuk pelatihan dan pengembangan kompetensi yang relevan.",
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": "ada"
+        },
+        {
+          "order": 2,
+          "status": "ada"
+        },
+        {
+          "order": 3,
+          "status": "ada"
+        },
+        {
+          "order": 4,
+          "status": "ada"
+        }
+      ]
+    },
+    {
+      "code": "7.A.2",
+      "review_progress": "done",
+      "penjelasan_aktor": "/Fungsi\n- Divisi Teknologi Informasi\n- Divisi Strategi dan Transformasi\n- Divisi Umum",
+      "penjelasan_dokumen": null,
+      "penjelasan_kontrol": "Kontrol\nBank belum memiliki ketentuan ataupun standar baku terkait perjanjian kerja sama kemitraan oleh Bank.",
+      "rekomendasi": "Berdasarkan hasil asesmen yang telah dilakukan, Bank perlu:\n1. menyusun dan mengadopsi standar baku perjanjian kerja sama kemitraan yang mencakup:\n- prinsip kehati-hatian termasuk pengelolaan risiko, perlindungan data, dan keamanan informasi.\n- analisis biaya dan manfaat seperti menyampaikan laporan biaya dan manfaat secara berkala\n- kepatuhan terhadap ketentuan peraturan perundang-undangan.\n2. memastikan bahwa setiap perjanjian kerja sama kemitraan memenuhi prinsip kehati-hatian dengan menilai risiko terkait dan menetapkan kontrol yang sesuai untuk mengelola risiko tersebut\n3. memastikan bahwa analisis biaya dan manfaat menjadi bagian integral dari setiap perjanjian kerja sama kemitraan. Analisis ini harus didokumentasikan dengan baik dan digunakan sebagai dasar untuk keputusan kemitraan.\n4. memastikan bahwa perjanjian kerja sama kemitraan mencakup prinsip-prinsip kerja sama yang wajar, termasuk:\n- penjelasan tanggung jawab masing-masing pihak dan keadilan dalam pembagian risiko dan keuntungan.\n5. menambahkan klausul dalam perjanjian kerja sama yang menetapkan bahwa masing-masing pihak bertanggung jawab atas keamanan sistem mereka sendiri. Ini mencakup:\n- kewajiban mitra untuk segera melaporkan setiap pelanggaran keamanan yang berpotensi berdampak pada layanan Bank.\n6. memastikan bahwa perjanjian kemitraan mencakup klausul yang mengatur bahwa:\n- mitra hanya berkomunikasi dengan Bank berdasarkan instruksi nasabah yang telah disetujui nasabah, terutama dalam hal layanan penerusan instruksi nasabah",
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": "tidak"
+        }
+      ]
+    },
+    {
+      "code": "7.A.3",
+      "review_progress": "done",
+      "penjelasan_aktor": "/Fungsi\n- Divisi Teknologi Informasi, \n- Divisi Strategi dan Transformasi, \n- Divisi Umum",
+      "penjelasan_dokumen": "Pedoman Pengadaan Barang / Jasa di Lingkungan PT. Bank Sumut",
+      "penjelasan_kontrol": "Kontrol\nBerdasarkan review dokumen tersebut, Bank telah mempertimbangkan kualifikasi mitra berdasarkan Pasal 20 terkait Kualifikasi Penyedia Barang/Jasa ataupun mitra.",
+      "rekomendasi": "Berdasarkan hasil asesmen yang telah dilakukan, Bank perlu:\n1. menyusun dan mengadopsi kebijakan yang jelas terkait tindakan dan kontrol keamanan mitra mencakup:\n- prosedur keamanan siber yang ketat\n- mekanisme pemantauan yang terus menerus\n- tindakan korektif untuk mengatasi pelanggaran keamanan yang mungkin terjadi.\n2.menetapkan persyaratan keamanan yang jelas bagi mitra yang ingin mengikuti pelaksanaan pengadaan  mencakup standar keamanan siber yang harus dipatuhi oleh mitra termasuk:\n- enkripsi data\n- otentikasi dua faktor,\n- manajemen akses yang ketat.\n3. memastikan bahwa semua mitra memiliki BCP dan DRP yang terkini dan relevan untuk menghadapi kemungkinan gangguan atau bencana.\n4. menetapkan ketentuan yang mengadopsi praktik terbaik mencakup:\n- pelatihan pegawai\n- kepatuhan terhadap undang-undang kerahasiaan data\n- prosedur untuk penyimpanan dan penghancuran data yang aman.",
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": "ada"
+        },
+        {
+          "order": 2,
+          "status": "ada"
+        },
+        {
+          "order": 3,
+          "status": "ada"
+        },
+        {
+          "order": 4,
+          "status": "ada"
+        },
+        {
+          "order": 5,
+          "status": "ada"
+        },
+        {
+          "order": 6,
+          "status": "ada"
+        }
+      ]
+    },
+    {
+      "code": "7.A.4",
+      "review_progress": "done",
+      "penjelasan_aktor": "/Fungsi\n- Divisi Teknologi Informasi\n- Divisi Umum",
+      "penjelasan_dokumen": "PKS PT BPD  Sumut dengan Rintis Sejahtera sebagai Penyedia dan Pengelola Infrastruktur BI-FAST secara Sharing/Multi-tenancy",
+      "penjelasan_kontrol": "Kontrol\nBerdasarkan review  dokumen dan interview dengan Divisi Umum, Bank telah memiliki ketentuan terkait salah satu pihak dapat mengakhiri perjanjian ketika terdapat pengakuan salah satu pihak atas kepailitannya dan dugaan pelanggaran keamanan dimana pihak yang dirugikan dapat menuntut ganti rugi terhadap pihak yang melakukan pelanggaran. Bank sudah melakukan pemantauan dan evaluasi, objek kesesuaian dengan kesepakatan dalam PKS serta mencakup kontrol yang dimaksud salah satunya pengaturan terkait mitra tidak lagi memenuhi kriteria kelayakan.\n\nNamun, Bank belum sepenuhnya melakukan pemantauan dan evaluasi hubungan kerja sama dengan mitra pada beberapa aspek yang diperlukan dalam melakukan evaluasi hubungan kerja sama.",
+      "rekomendasi": "Mengacu pada rekomendasi row 306",
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": "partial"
+        }
+      ]
+    },
+    {
+      "code": "7.A.5",
+      "review_progress": "pending",
+      "penjelasan_aktor": null,
+      "penjelasan_dokumen": null,
+      "penjelasan_kontrol": "Kontrol ini not applicable karena Bank tidak melakukan kerja sama dengan mitra terkait layanan Bank yang dapat diakses melalui mitra",
+      "rekomendasi": null,
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": null
+        },
+        {
+          "order": 2,
+          "status": null
+        },
+        {
+          "order": 3,
+          "status": null
+        },
+        {
+          "order": 4,
+          "status": null
+        },
+        {
+          "order": 5,
+          "status": null
+        },
+        {
+          "order": 6,
+          "status": null
+        }
+      ]
+    },
+    {
+      "code": "7.A.6",
+      "review_progress": "done",
+      "penjelasan_aktor": "/Fungsi\nDivisi Teknologi Informasi",
+      "penjelasan_dokumen": "PKS PT BPD  Sumut dengan Rintis Sejahtera sebagai Penyedia dan Pengelola Infrastruktur BI-FAST secara Sharing/Multi-tenancy\n- Kontrak CoreSwitching Multipolar",
+      "penjelasan_kontrol": "Kontrol\nBerdasarkan review dokumen PKS tersebut, terdapat  standar teknis terkait pelaksanaan kemitraan yaitu Spesifikasi Teknis Multitenancy dan Spesifikasi Teknis BI-FAST serta Coreswitching\n\nCoreswitching telah memiliki aspek yang diharapkan, seperti metode autentikasi, metode otorisasi, metode enkripsi, dan persyaratan pengelolaan akses termasuk manajemen pengelolaan kunci (key management).",
+      "rekomendasi": "Berdasarkan hasil asesmen yang telah dilakukan, Bank perlu:\n1. menyusun  standar teknis dengan fokus pada:\n-  metode autentikasi yang kuat\n- penggunaan metode otorisasi yang tepat\n- serta implementasi yang kokoh untuk metode enkripsi dan pengelolaan kunci.\n2. menyediakan dokumentasi yang lebih mendetail mengenai:\n- protokol komunikasi yang digunakan\n- struktur dan format data yang diterima dan dikirim\n- persyaratan keamanan lainnya yang diterapkan dalam setiap interaksi dengan mitra\n3. memastikan standar tersebut akan diterapkan secara konsisten",
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": "ada"
+        },
+        {
+          "order": 2,
+          "status": "ada"
+        }
+      ]
+    },
+    {
+      "code": "7.B.1",
+      "review_progress": "done",
+      "penjelasan_aktor": null,
+      "penjelasan_dokumen": null,
+      "penjelasan_kontrol": "Kontrol ini not applicable karena Bank tidak menyediakan jasa TI kepada lembaga jasa keuangan lainnya",
+      "rekomendasi": null,
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": null
+        },
+        {
+          "order": 2,
+          "status": null
+        },
+        {
+          "order": 3,
+          "status": null
+        },
+        {
+          "order": 4,
+          "status": null
+        },
+        {
+          "order": 5,
+          "status": null
+        },
+        {
+          "order": 6,
+          "status": null
+        },
+        {
+          "order": 7,
+          "status": null
+        }
+      ]
+    },
+    {
+      "code": "7.B.2",
+      "review_progress": "done",
+      "penjelasan_aktor": null,
+      "penjelasan_dokumen": null,
+      "penjelasan_kontrol": "Kontrol ini not applicable karena Bank tidak menyediakan jasa TI kepada lembaga jasa keuangan lainnya",
+      "rekomendasi": null,
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": null
+        },
+        {
+          "order": 2,
+          "status": null
+        },
+        {
+          "order": 3,
+          "status": null
+        }
+      ]
+    },
+    {
+      "code": "8.A.1.",
+      "review_progress": "done",
+      "penjelasan_aktor": "/Fungsi\n- Divisi Dana dan Jasa\n- Divisi Strategi dan Transformasi",
+      "penjelasan_dokumen": "Sample dokumen hasil survey (Survey Layanan Operasional Cabang)",
+      "penjelasan_kontrol": "Kontrol\nBerdasarkan review dokumen dan interview dengan Divisi Dana & Jasa serta Divisi Strategi dan Transformasi, diketahui bahwa bank telah melakukan survey untuk mengetahui tingkat kepuasan nasabah atas produk dan layanan yang diberikan oleh Bank. \n\nNamun, Bank belum memiliki mekanisme pengukuran keterlibatan nasabah secara baku",
+      "rekomendasi": "Berdasarkan hasil assessment yang telah dilakukan, bank perlu: \nBank perlu mengembangkan dokumen Customer Engagement dengan mencakup aspek mekanisme mengukur keterlibatan nasabah yang standar dan terstruktur. Aspek tersebut harus mencakup: \n1. Bank dapat menggunakan data transaksi dan perilaku nasabah untuk mengidentifikasi pola dan tren yang dapat digunakan untuk meningkatkan produk dan layanan. \n2. Bank dapat mengelola feedback melalui berbagai saluran, seperti call center, media sosial, dan layanan pelanggan.\n3. Bank dapat melakukan forum untuk memahami kebutuhan dan preferensi nasabah secara komprehensif.\n4. Bank terus berinovasi dalam pengembangan produk dan layanan untuk memenuhi kebutuhan nasabah yang \nberkembang seperti produk baru atau fitur layanan yang diluncurkan berdasarkan kebutuhan nasabah..\n5. Bank menerapkan personalisasi layanan untuk memberikan pengalaman yang lebih relevan dan memuaskan bagi nasabah. \n\nSelain itu, hasil dari pengukuran ini harus dilakukan evaluasi secara rutin untuk melakukan penyesuaian dan perbaikan terhadap produk dan layanan. Bank juga harus mendokumentasikan seluruh proses dan hasil pengukuran keterlibatan nasabah tersebut.",
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": "partial"
+        },
+        {
+          "order": 2,
+          "status": "ada"
+        }
+      ]
+    },
+    {
+      "code": "8.A.2",
+      "review_progress": "done",
+      "penjelasan_aktor": "/Fungsi\nDivisi Operasional",
+      "penjelasan_dokumen": "Peraturan Perlindungan Konsumen PT Bank Sumut",
+      "penjelasan_kontrol": "Kontrol\nBerdasarkan interview dengan Divisi Dana & Jasa, diketahui bahwa Bank belum memiliki standar pelayanan keuangan yang diberikan kepada penyandang disabilitas.",
+      "rekomendasi": "Berdasarkan hasil assessment yang telah dilakukan, bank perlu: \nBank perlu menyusun Dokumen Standar Operasional Prosedur terkait pelayanan keuangan untuk nasabah Disabilitas.\nAspek-aspek yang perlu ada, seperti:\n- ketersediaan fasilitas fisik yang ramah disabilitas (rampa & lift ramah disabilitas, pintu otomatis, dll)\n- pengaturan penyelenggaraan pelatihan untuk staff membantu nasabah disabilitas\n- teknologi yang mendukung aksesibilitas (perangkat lunak pembaca layar, layanan perbankan berbasis suara)\n- pengaturan aktivitas pemantauan penerapan pelayanan operasional ramah disabilitas",
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": "tidak"
+        },
+        {
+          "order": 2,
+          "status": "partial"
+        },
+        {
+          "order": 3,
+          "status": "partial"
+        }
+      ]
+    },
+    {
+      "code": "8.A.3",
+      "review_progress": "done",
+      "penjelasan_aktor": "/Fungsi\nDivisi Dana dan Jasa",
+      "penjelasan_dokumen": null,
+      "penjelasan_kontrol": "Kontrol\nBerdasarkan interview dengan Divisi Dana & Jasa, Bank sudah melakukan pemanfaatan data nasabah  (demografi, perilaku, preferensi dan kebutuhan nasabah) sebagai salah satu landasan pertimbangan dalam pengembangan produk dan layanan yang akan diberikan. \n\nNamun, pemanfaatan yang dilakukan masih minim dan belum secara konsisten dilakukan",
+      "rekomendasi": "Berdasarkan hasil assessment yang telah dilakukan, bank perlu: \nBank perlu memiliki dokumen terkait customer engagement  yang meliputi pemanfaatan data nasabah dalam menciptakan produk dan layanan bank dengan melibatkan nasabah.\n\nBank perlu memastikan bahwa data nasabah, termasuk demografi, perilaku, preferensi, dan kebutuhan nasabah, dimanfaatkan secara maksimal dan terintegrasi dalam semua tahap pengembangan produk dan layanan. \nBank dapat melakukan dengan cara berikut, meliputi:\n1. Menggunakan analitik data\n2. Menggunakan teknologi big data untuk mengidentifikasi tren dan pola yang dapat mendukung inovasi produk dan peningkatan layanan\n3. Melakukan pelatihan dan pengembangan kapasitas bagi tim yang bertanggung jawab atas pengembangan produk dan layanan",
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": "partial"
+        },
+        {
+          "order": 2,
+          "status": "partial"
+        }
+      ]
+    },
+    {
+      "code": "8.A.4",
+      "review_progress": "done",
+      "penjelasan_aktor": "/Fungsi\nDivisi Operasional",
+      "penjelasan_dokumen": "Corporate Plan Bank\n- Survei Kepuasan Nasabah atas Produk Digital Bank",
+      "penjelasan_kontrol": "Kontrol\nBerdasarkan review dokumen dan interview dengan Divisi Operasional, Bank telah memiliki program survei terkait tingkat kepuasan Nasabah untuk layanan Bank, operasional Bank, produk Bank, dan lainnya. Dalam rangka peningkatan pelayanan, Bank melakukan survei dengan menyebarkan kuesioner kepada nasabah. \n\nNamun, Bank belum memiliki mekanisme pelaksanaan perolehan persepsi nasabah dan tata cara analisis data secara baku",
+      "rekomendasi": "Berdasarkan hasil assessment yang telah dilakukan, bank perlu: \nBank perlu menyusun mekanisme dalam customer engagement yang lebih terstruktur dan standar dalam pelaksanaan perolehan persepsi nasabah. Ini termasuk metode pengumpulan data yang konsisten dan sistematis, yang meliputi:\n1) product quality yaitu persepsi nasabah terhadap kualitas produk dan layanan Bank;\n2) customer support quality yaitu persepsi nasabah terhadap kualitas customer support Bank;\n3) positioning yaitu persepsi nasabah terhadap produk dan layanan Bank dibandingkan dengan produk dan layanan kompetitor;\n4) price yaitu persepsi nasabah terhadap biaya, contoh suku bunga simpanan dan kredit yang ditawarkan oleh Bank; dan\n5) reputation yaitu persepsi nasabah terhadap citra produk dan layanan Bank, yang diperoleh melalui antara lain media sosial, atau reviu aplikasi Bank pada platform distribusi.\n\nBank juga perlu menyusun dokumen mengenai tata cara analisis data yang mencakup aspek cara bank dapat memanfaatkan teknologi analitik dan big data untuk memperoleh wawasan yang lebih mendalam tentang persepsi dan tingkat kepercayaan nasabah.",
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": "partial"
+        },
+        {
+          "order": 2,
+          "status": "ada"
+        }
+      ]
+    },
+    {
+      "code": "8.A.5",
+      "review_progress": "done",
+      "penjelasan_aktor": "/Fungsi\nDivisi Operasional",
+      "penjelasan_dokumen": "Survei Kepuasan Nasabah atas Produk Digital Bank \n- Rencana Strategis TI",
+      "penjelasan_kontrol": "Kontrol\nBerdasarkan review document dan interview dengan Divisi Operasional, Bank telah melakukan analisis hasil survei yang telah diberikan kepada nasabah dalam peningkatan layanan bank, yaitu meliputi:\na. kemudahan yang dirasakan nasabah dalam penggunaan channel,\nb. penggunaan fitur channel oleh nasabah Bank Sumut,\nc. kecepatan channel yang digunakan nasabah dalam melakukan transaksi.",
+      "rekomendasi": "Berdasarkan asesmen yang telah dilakukan, bank perlu:\na. memperbarui dan mengoptimalkan desain aplikasi mobile untuk meningkatkan kenyamanan dan kemudahan penggunaan oleh nasabah dengan melakukan penelitian pengguna secara rutin untuk memahami kebutuhan dan preferensi nasabah.\nb. meningkatkan komunikasi dengan nasabah mengenai perubahan dan peningkatan yang dilakukan pada aplikasi mobile.\nc. menambah atau memperbaiki fitur-fitur yang ada dalam aplikasi mobile berdasarkan umpan balik nasabah untuk meningkatkan kegunaan dan kepuasan nasabah.",
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": "ada"
+        },
+        {
+          "order": 2,
+          "status": "partial"
+        }
+      ]
+    },
+    {
+      "code": "8.B.1",
+      "review_progress": "done",
+      "penjelasan_aktor": "/Fungsi\nSekretaris Perusahaan",
+      "penjelasan_dokumen": "Dokumen Peraturan Bank Sumut terkait Transparansi Penggunaan Produk.\nPBS 009/Dir/DMR-MROL/L/2025 tentang Pelindungan Data Pribadi Nasabah PT. Bank Sumut\nSK & SE terkait Pelindungan Data Pribadi Nasabah PT. Bank Sumut tahun 2025",
+      "penjelasan_kontrol": "Kontrol\nBerdasarkan review dokumen tersebut, Bank telah memiliki dan memantau pelaksanaan kewajiban pihak ketiga untuk menjamin keamanan seluruh informasi termasuk rahasia bank sehubungan dengan pelaksanaan pekerjaan dalam kerja sama. \nBank sudah memiliki pengaturan khusus untuk mengakomodir UU PDP hal ini tertuang dalam PBS 009/Dir/DMR-MROL/L/2025 tentang Pelindungan Data Pribadi Nasabah PT. Bank Sumut\ndan sudah melakukan beberapa penyesuaian pada Dokumen PKS khususnya terkait dengan persetujuan antara konsumen dan mitra.",
+      "rekomendasi": "Berdasarkan asesmen yang dilakukan, bank perlu: \n1. mempertimbangkan data pribadi yang terlibat yang mengacu pada UU No 27 PDP. Pengaturan ini harus mencakup semua aspek yang dipersyaratkan untuk memastikan bahwa perlindungan data nasabah dilakukan sesuai dengan standar hukum yang berlaku. \n2. melakukan penyesuaian pada Dokumen Perjanjian Kerja Sama (PKS) untuk mencakup persetujuan eksplisit antara konsumen dan mitra terkait keterlibatan data pribadi.",
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": "ada"
+        }
+      ]
+    },
+    {
+      "code": "8.B.2",
+      "review_progress": "done",
+      "penjelasan_aktor": "/Fungsi\n- Sekretaris Perusahaan\n- Divisi Teknologi Informasi\n- Unit Perlindungan Konsumen",
+      "penjelasan_dokumen": "Pedoman Pelaksanaan Layanan Pengaduan Konsumen PT Bank Sumut",
+      "penjelasan_kontrol": "Kontrol\nBerdasarkan review dokumen dan interview dengan Sekretaris Perusahaan, bank memiliki kebijakan terkait saluran untuk menerima pengaduan nasabah setiap saat secara daring, melalui aplikasi penerimaan pengaduan secara elektronik atau melalui Aplikasi Layanan Pengaduan Konsumen (ALPAN).",
+      "rekomendasi": "Berdasarkan asesmen yang dilakukan, bank perlu:\n1. melakukan peninjauan berkala terhadap aplikasi ALPAN,  memastikan bahwa aplikasi tersebut tetap efektif saat diakses secara daring oleh nasabah. \n2. memberikan pelatihan kepada fungsi/unit kerja yang berwenang dalam penyelesaian pengaduan nasabah, seperti dalam memanfaatkan teknologi untuk meningkatkan efisiensi dalam proses penyelesaian pengaduan nasabah.\n3. melakukan evaluasi terkait pengaduan nasabah dari penerimaan hingga penyelesaian, bank memberikan feedback kepada nasabah terkait aplikasi ALPAN serta menanggapi komentar di media sosial dan monitoring mengenai kesesuaian SLA dengan ketentuan yang diberikan. \n4. mengadakan rapat evaluasi berkala dengan tim terkait untuk membahas hasil evaluasi berdasarkan tindak lanjut perbaikan yang telah dilakukan divisi-divisi terkait dan dilakukan notulensi sehingga terdokumentasinya rencana perbaikan tersebut berhasil dilakukan atau tidak.\n5. memberikan pemberitahuan kepada nasabah mengenai status pengaduan banding mereka dan menunjukkan langkah-langkah yang diambil dalam penanganan banding jika nasabah tidak setuju dengan keputusan pengaduan oleh Bank kepada LAPS.",
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": "ada"
+        },
+        {
+          "order": 2,
+          "status": "ada"
+        },
+        {
+          "order": 3,
+          "status": "ada"
+        },
+        {
+          "order": 4,
+          "status": "ada"
+        },
+        {
+          "order": 5,
+          "status": "ada"
+        },
+        {
+          "order": 6,
+          "status": "ada"
+        }
+      ]
+    },
+    {
+      "code": "8.B.3",
+      "review_progress": "done",
+      "penjelasan_aktor": "/Fungsi\n- Divisi Teknologi Informasi\n- Sekretaris Perusahaan",
+      "penjelasan_dokumen": "Website Resmi Bank Sumut https://www.banksumut.co.id/layanan-nasabah/",
+      "penjelasan_kontrol": "Kontrol\nBerdasarkan interview dengan Divisi Teknologi Informasi, Divisi Governance bekerja sama dengan Sekretaris Perusahaan melalui sosial media atau website untuk publik mengenai awareness terkait keamanan. Untuk Tim internal, sosialisasi dilakukan menggunakan Email blast dan Portal.",
+      "rekomendasi": "Berdasarkan asesmen yang dilakukan, bank perlu:\n1. mangagendakan kegiatan awareness rutin langsung dengan narasumber terkait literasi keuangan.\n2. mengadakan workshop dan seminar di pusat komunitas atau daerah terpencil tentang manajemen keuangan. \n3. membuat awareness berupa video edukasi yang menggambarkan skenario keamanan dalam bertransaksi digital dengan simulasi kasus nyata.\n4. memiliki pop up message terkait edukasi keamanan saat pertama kali nasabah mengunduh atau membuka aplikasi.\n3.  mengadakan kuis online tentang pengetahuan keamanan digital pada platform media sosial",
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": "ada"
+        },
+        {
+          "order": 2,
+          "status": "ada"
+        }
+      ]
+    },
+    {
+      "code": "8.B.4",
+      "review_progress": "done",
+      "penjelasan_aktor": "/Fungsi\nSekretaris Perusahaan",
+      "penjelasan_dokumen": "Instagram @Banksumut",
+      "penjelasan_kontrol": "Kontrol\nBerdasarkan media sosial instagram official Bank Sumut, bank telah memberikan penjelasan mengenai pemahaman umum tentang sistem berbasis TI yang digunakan oleh Bank dalam memberikan layanan kepada nasabah, seperti penjelasan layanan-layanan yang ada di Bank Sumut dan tata cara penggunaan mobile banking.",
+      "rekomendasi": "Berdasarkan asesmen yang telah dilakukan, bank pelru:\n1. menambahkan bagian dalam aplikasi mobile yang secara khusus menjelaskan sistem berbasis TI dan layanan-layanan yang tersedia.\n2. mengirimkan informasi yang dapat berupa email blast/SMS kepada nasabah tentang prosedur klarifikasi kepada Bank Sumut.",
+      "referensi_dokumen": null,
+      "subs": [
+        {
+          "order": 1,
+          "status": "ada"
+        },
+        {
+          "order": 2,
+          "status": "ada"
+        }
+      ]
+    }
+  ],
+  "dashboard": {
+    "domain_scores": {
+      "1": 1.5652,
+      "2": 1.3333,
+      "3": 1.6,
+      "4": 1.96,
+      "5": 1.625,
+      "6": 1.6538,
+      "7": 1.8333,
+      "8": 1.8889
+    },
+    "total_score": 1.6825,
+    "domain_prev": {
+      "1": 1.5652,
+      "2": 1.6667,
+      "3": 1.6,
+      "4": 1.99,
+      "5": 1.625,
+      "6": 2.7308,
+      "7": 2.5,
+      "8": 1.8889
+    },
+    "total_prev": 1.9458,
+    "control_nilai": {
+      "1.A.1": 1,
+      "1.A.2": 2,
+      "1.A.3": 1,
+      "1.A.4": 1,
+      "1.A.5": 1,
+      "1.A.6": 2,
+      "1.A.7": 3,
+      "1.B.1": 2,
+      "1.B.2": 3,
+      "1.B.3": 1,
+      "1.B.4": 2,
+      "1.B.5": 1,
+      "1.B.6": 1,
+      "1.B.7": 1,
+      "1.B.8": 1,
+      "1.B.9": 2,
+      "1.B.10": 3,
+      "1.B.11": 1,
+      "1.B.12": 2,
+      "1.B.13": 1,
+      "1.B.14": 2,
+      "1.B.15": 1,
+      "1.B.16": 1,
+      "2.A.1": 1,
+      "2.A.2": 1,
+      "2.A.3": 1,
+      "2.A.4": 1,
+      "2.A.5": 1,
+      "2.A.6": 3,
+      "3.A.1": 1,
+      "3.A.2": 1,
+      "3.A.3": 2,
+      "3.A.4": 2,
+      "3.A.5": 2,
+      "4.A": 2,
+      "5.A.1": 1,
+      "5.A.2": 3,
+      "5.A.3": 2,
+      "5.A.4": 1,
+      "5.B.1": 1,
+      "5.B.2": 1,
+      "5.B.3": 1,
+      "5.B.4": 1,
+      "5.B.5": 1,
+      "5.B.6": 3,
+      "5.B.7": 1,
+      "5.B.8": 2,
+      "5.B.9": 2,
+      "5.B.10": 1,
+      "5.B.11": 2,
+      "5.B.12": 3,
+      "6.A.1": 3,
+      "6.A.2": 3,
+      "6.A.3": 1,
+      "6.A.4": 2,
+      "6.A.5": 2,
+      "6.B.1": 1,
+      "6.B.2": 1,
+      "6.B.3": 1,
+      "6.B.4": 1,
+      "6.B.5": 1,
+      "6.B.6": 1,
+      "6.B.7": 1,
+      "6.B.8": 1,
+      "6.B.9": 5,
+      "6.B.10": 1,
+      "6.B.11": 1,
+      "6.B.12": 1,
+      "6.B.13": 1,
+      "6.B.14": 1,
+      "6.B.15": 1,
+      "6.B.16": 1,
+      "6.B.17": 1,
+      "6.C.1": 3,
+      "6.C.2": 3,
+      "6.C.3": 2,
+      "6.C.4": 3,
+      "7.A.1": 1,
+      "7.A.2": 5,
+      "7.A.3": 1,
+      "7.A.4": 3,
+      "7.A.5": 5,
+      "7.A.6": 1,
+      "8.A.1.": 2,
+      "8.A.2": 4,
+      "8.A.3": 3,
+      "8.A.4": 2,
+      "8.A.5": 2,
+      "8.B.1": 1,
+      "8.B.2": 1,
+      "8.B.3": 1,
+      "8.B.4": 1
+    }
+  }
+}
