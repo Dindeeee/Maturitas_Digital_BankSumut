@@ -131,25 +131,7 @@
             </p>
         </div>
 
-        <div class="mt-12 grid grid-cols-1 gap-6 lg:grid-cols-2">
-            {{-- Kartu POJK --}}
-            <div class="rounded-2xl border border-accent-100 bg-gradient-to-br from-accent-50 to-white p-6 sm:p-8">
-                <div class="flex items-center gap-3">
-                    <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-accent-600 text-white">
-                        <svg class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25"/></svg>
-                    </span>
-                    <div>
-                        <h3 class="font-bold text-gray-800">POJK No. 11/POJK.03/2022</h3>
-                        <p class="text-xs text-gray-500">Peraturan Otoritas Jasa Keuangan</p>
-                    </div>
-                </div>
-                <p class="mt-4 text-sm leading-relaxed text-gray-600">
-                    Tentang <strong>Penyelenggaraan Teknologi Informasi oleh Bank Umum</strong>.
-                    Pasal 66 mengamanatkan Bank untuk melakukan penilaian sendiri atas tingkat maturitas digital
-                    secara berkala, paling sedikit 1 (satu) kali dalam 1 (satu) tahun.
-                </p>
-            </div>
-
+        <div class="mt-12 max-w-2xl mx-auto">
             {{-- Kartu SEOJK --}}
             <div class="rounded-2xl border border-primary-100 bg-gradient-to-br from-primary-50 to-white p-6 sm:p-8">
                 <div class="flex items-center gap-3">

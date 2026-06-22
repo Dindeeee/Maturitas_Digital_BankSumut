@@ -8,6 +8,7 @@
         showEdit: false,
         showActivate: false,
         showComplete: false,
+        showDelete: false,
         actionId: null,
         actionName: '',
         editId: null,
@@ -22,6 +23,11 @@
             this.editStart = start;
             this.editEnd = end;
             this.showEdit = true;
+        },
+        openDelete(id, name) {
+            this.actionId = id;
+            this.actionName = name;
+            this.showDelete = true;
         },
     }">
         <div class="mb-4 flex justify-end">
@@ -65,6 +71,10 @@
                                                 class="rounded-md bg-primary-600 px-3 py-1.5 text-xs font-medium text-white hover:bg-primary-700">
                                             Aktifkan
                                         </button>
+                                        <button @click="openDelete({{ $period->id }}, '{{ addslashes($period->name) }}')"
+                                                class="rounded-md border border-red-300 px-3 py-1.5 text-xs font-medium text-red-600 hover:bg-red-50">
+                                            Hapus
+                                        </button>
                                     @elseif ($period->status === 'active')
                                         <button @click="openEdit({{ $period->id }}, '{{ $period->year }}', '{{ addslashes($period->name) }}', '{{ $period->start_date?->format('Y-m-d') }}', '{{ $period->end_date?->format('Y-m-d') }}')"
                                                 class="rounded-md border border-gray-300 px-3 py-1.5 text-xs font-medium text-gray-600 hover:bg-gray-50">
@@ -75,7 +85,10 @@
                                             Tutup Periode
                                         </button>
                                     @else
-                                        <span class="text-xs text-gray-400">—</span>
+                                        <button @click="openDelete({{ $period->id }}, '{{ addslashes($period->name) }}')"
+                                                class="rounded-md border border-red-300 px-3 py-1.5 text-xs font-medium text-red-600 hover:bg-red-50">
+                                            Hapus
+                                        </button>
                                     @endif
                                 </div>
                             </td>
@@ -185,6 +198,21 @@
                     <div class="flex items-center justify-end gap-3">
                         <button type="button" @click="showComplete = false" class="text-sm text-gray-500 hover:text-gray-700">Batal</button>
                         <button type="submit" class="rounded-md bg-accent-600 px-4 py-2 text-sm font-medium text-white hover:bg-accent-700">Tutup Periode</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        {{-- Modal Hapus Periode --}}
+        <div x-show="showDelete" x-transition.opacity class="fixed inset-0 z-50 flex items-center justify-center bg-gray-900/50 px-4" style="display: none;" @keydown.escape.window="showDelete = false">
+            <div @click.outside="showDelete = false" x-transition class="w-full max-w-md rounded-xl bg-white p-6 shadow-xl">
+                <h3 class="text-lg font-semibold text-red-700">Hapus Periode</h3>
+                <p class="mt-2 text-sm text-gray-600">Hapus periode <strong x-text="actionName"></strong>? Semua data assessment pada periode ini akan ikut terhapus. Tindakan ini tidak dapat dibatalkan.</p>
+                <form method="POST" :action="'{{ url('admin/periods') }}/' + actionId" class="mt-5">
+                    @csrf @method('DELETE')
+                    <div class="flex items-center justify-end gap-3">
+                        <button type="button" @click="showDelete = false" class="text-sm text-gray-500 hover:text-gray-700">Batal</button>
+                        <button type="submit" class="rounded-md bg-red-600 px-4 py-2 text-sm font-medium text-white hover:bg-red-700">Hapus</button>
                     </div>
                 </form>
             </div>

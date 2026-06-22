@@ -113,4 +113,16 @@ class PeriodController extends Controller
 
         return back()->with('success', 'Periode ditutup. Data tersimpan sebagai histori.');
     }
+
+    public function destroy(AssessmentPeriod $period): RedirectResponse
+    {
+        if ($period->status === 'active') {
+            return back()->with('error', 'Periode aktif tidak dapat dihapus. Tutup periode terlebih dahulu.');
+        }
+
+        $period->delete();
+
+        return redirect()->route('admin.periods.index')
+            ->with('success', 'Periode berhasil dihapus.');
+    }
 }

@@ -29,6 +29,7 @@ Route::middleware('auth')->group(function () {
         Route::put('periods/{period}', [PeriodController::class, 'update'])->name('periods.update');
         Route::patch('periods/{period}/activate', [PeriodController::class, 'activate'])->name('periods.activate');
         Route::patch('periods/{period}/complete', [PeriodController::class, 'complete'])->name('periods.complete');
+        Route::delete('periods/{period}', [PeriodController::class, 'destroy'])->name('periods.destroy');
 
         Route::get('master-data', [MasterDataController::class, 'index'])->name('master-data.index');
         Route::put('master-data/{control}/pic', [MasterDataController::class, 'updatePic'])->name('master-data.pic');
