@@ -5,10 +5,24 @@
 
     <div x-data="{
         showCreate: false,
+        showEdit: false,
         showActivate: false,
         showComplete: false,
         actionId: null,
         actionName: '',
+        editId: null,
+        editYear: '',
+        editName: '',
+        editStart: '',
+        editEnd: '',
+        openEdit(id, year, name, start, end) {
+            this.editId = id;
+            this.editYear = year;
+            this.editName = name;
+            this.editStart = start;
+            this.editEnd = end;
+            this.showEdit = true;
+        },
     }">
         <div class="mb-4 flex justify-end">
             <button @click="showCreate = true"
@@ -43,11 +57,19 @@
                             <td class="px-4 py-3">
                                 <div class="flex justify-end gap-2">
                                     @if ($period->status === 'draft')
+                                        <button @click="openEdit({{ $period->id }}, '{{ $period->year }}', '{{ addslashes($period->name) }}', '{{ $period->start_date?->format('Y-m-d') }}', '{{ $period->end_date?->format('Y-m-d') }}')"
+                                                class="rounded-md border border-gray-300 px-3 py-1.5 text-xs font-medium text-gray-600 hover:bg-gray-50">
+                                            Edit
+                                        </button>
                                         <button @click="actionId = {{ $period->id }}; actionName = '{{ addslashes($period->name) }}'; showActivate = true"
                                                 class="rounded-md bg-primary-600 px-3 py-1.5 text-xs font-medium text-white hover:bg-primary-700">
                                             Aktifkan
                                         </button>
                                     @elseif ($period->status === 'active')
+                                        <button @click="openEdit({{ $period->id }}, '{{ $period->year }}', '{{ addslashes($period->name) }}', '{{ $period->start_date?->format('Y-m-d') }}', '{{ $period->end_date?->format('Y-m-d') }}')"
+                                                class="rounded-md border border-gray-300 px-3 py-1.5 text-xs font-medium text-gray-600 hover:bg-gray-50">
+                                            Edit
+                                        </button>
                                         <button @click="actionId = {{ $period->id }}; actionName = '{{ addslashes($period->name) }}'; showComplete = true"
                                                 class="rounded-md bg-accent-600 px-3 py-1.5 text-xs font-medium text-white hover:bg-accent-700">
                                             Tutup Periode
@@ -101,6 +123,38 @@
                     <div class="flex items-center justify-end gap-3 pt-2">
                         <button type="button" @click="showCreate = false" class="text-sm text-gray-500 hover:text-gray-700">Batal</button>
                         <x-primary-button>Simpan Periode</x-primary-button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        {{-- Modal Edit Periode --}}
+        <div x-show="showEdit" x-transition.opacity class="fixed inset-0 z-50 flex items-center justify-center bg-gray-900/50 px-4" style="display: none;" @keydown.escape.window="showEdit = false">
+            <div @click.outside="showEdit = false" x-transition class="w-full max-w-lg rounded-xl bg-white p-6 shadow-xl">
+                <h3 class="text-lg font-semibold text-gray-800">Edit Periode</h3>
+                <form method="POST" :action="'{{ url('admin/periods') }}/' + editId" class="mt-4 space-y-4">
+                    @csrf @method('PUT')
+                    <div>
+                        <x-input-label for="edit_year" value="Tahun" />
+                        <x-text-input id="edit_year" name="year" type="number" class="mt-1 block w-full" x-model="editYear" required />
+                    </div>
+                    <div>
+                        <x-input-label for="edit_name" value="Nama Periode" />
+                        <x-text-input id="edit_name" name="name" type="text" class="mt-1 block w-full" x-model="editName" required />
+                    </div>
+                    <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
+                        <div>
+                            <x-input-label for="edit_start" value="Tanggal Mulai" />
+                            <x-text-input id="edit_start" name="start_date" type="date" class="mt-1 block w-full" x-model="editStart" required />
+                        </div>
+                        <div>
+                            <x-input-label for="edit_end" value="Tanggal Selesai" />
+                            <x-text-input id="edit_end" name="end_date" type="date" class="mt-1 block w-full" x-model="editEnd" required />
+                        </div>
+                    </div>
+                    <div class="flex items-center justify-end gap-3 pt-2">
+                        <button type="button" @click="showEdit = false" class="text-sm text-gray-500 hover:text-gray-700">Batal</button>
+                        <x-primary-button>Perbarui</x-primary-button>
                     </div>
                 </form>
             </div>

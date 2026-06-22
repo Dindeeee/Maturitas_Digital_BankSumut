@@ -22,12 +22,14 @@ class ReviewController extends Controller
 
     private function isReadOnly(Request $request): bool
     {
-        return in_array($request->user()->role, ['admin', 'viewer']);
+        return $request->user()->role === 'admin';
     }
 
     private function resolvePeriod(Request $request): ?AssessmentPeriod
     {
-        if ($this->isReadOnly($request)) {
+        $role = $request->user()->role;
+
+        if (in_array($role, ['admin', 'approval'])) {
             if ($id = $request->integer('period')) {
                 return AssessmentPeriod::whereIn('status', ['active', 'completed'])->find($id);
             }
@@ -44,7 +46,8 @@ class ReviewController extends Controller
         $readOnly = $this->isReadOnly($request);
         $period   = $this->resolvePeriod($request);
 
-        $periods = $readOnly
+        $canPickPeriod = in_array($request->user()->role, ['admin', 'approval']);
+        $periods = $canPickPeriod
             ? AssessmentPeriod::whereIn('status', ['active', 'completed'])->orderByDesc('year')->get()
             : collect();
 
@@ -79,7 +82,8 @@ class ReviewController extends Controller
         $period = $this->resolvePeriod($request);
         abort_if(! $period, 404, 'Tidak ada periode assessment.');
 
-        $acr = AssessmentControlResult::where('assessment_period_id', $period->id)
+        $acr = AssessmentControlResult::with('approver')
+            ->where('assessment_period_id', $period->id)
             ->where('control_id', $control->id)
             ->firstOrFail();
 
@@ -106,7 +110,31 @@ class ReviewController extends Controller
             'reviewed_at'     => Carbon::now(),
         ]);
 
-        return redirect()->route('review.show', $result->control_id)
-            ->with('success', 'Status review diperbarui.');
+        return redirect()->route('review.show', array_filter([
+            'control' => $result->control_id,
+            'period'  => $request->query('period'),
+            'domain_id' => $request->query('domain_id'),
+        ]))->with('success', 'Status review diperbarui.');
+    }
+
+    public function approve(Request $request, AssessmentControlResult $result): RedirectResponse
+    {
+        $data = $request->validate([
+            'approval_status' => ['required', Rule::in(['approved', 'rejected'])],
+        ]);
+
+        $result->update([
+            'approval_status' => $data['approval_status'],
+            'approved_by'     => $request->user()->id,
+            'approved_at'     => Carbon::now(),
+        ]);
+
+        $label = $data['approval_status'] === 'approved' ? 'disetujui' : 'ditolak';
+
+        return redirect()->route('review.show', array_filter([
+            'control'   => $result->control_id,
+            'period'    => $result->assessment_period_id,
+            'domain_id' => $request->query('domain_id'),
+        ]))->with('success', "Kontrol berhasil {$label}.");
     }
 }

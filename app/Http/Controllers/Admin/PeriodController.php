@@ -41,6 +41,25 @@ class PeriodController extends Controller
             ->with('success', 'Periode berhasil dibuat (status: Draft).');
     }
 
+    public function update(Request $request, AssessmentPeriod $period): RedirectResponse
+    {
+        if ($period->status === 'completed') {
+            return back()->with('error', 'Periode yang sudah ditutup tidak dapat diedit.');
+        }
+
+        $data = $request->validate([
+            'year'       => ['required', 'integer', 'min:2020', 'max:2100'],
+            'name'       => ['required', 'string', 'max:255'],
+            'start_date' => ['required', 'date'],
+            'end_date'   => ['required', 'date', 'after_or_equal:start_date'],
+        ]);
+
+        $period->update($data);
+
+        return redirect()->route('admin.periods.index')
+            ->with('success', 'Periode berhasil diperbarui.');
+    }
+
     /**
      * Aktifkan periode draft & generate baris hasil untuk 94 kontrol + sub-kontrol.
      */

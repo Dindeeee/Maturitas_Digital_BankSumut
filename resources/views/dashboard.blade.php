@@ -39,7 +39,7 @@
             </a>
         </div>
     @else
-        {{-- ===== Dashboard Admin/Reviewer/Viewer ===== --}}
+        {{-- ===== Dashboard Admin/Reviewer/Approval ===== --}}
         @if (isset($periods) && $periods->count() > 1)
             <form method="GET" class="mb-4 flex items-center gap-2">
                 <label for="period" class="text-sm text-gray-600">Tampilkan periode:</label>
@@ -61,69 +61,75 @@
             <x-stat-card label="Progress Pengisian" :value="$progressPct.'%'" icon="chart" tone="accent" />
         </div>
 
-        <div class="mt-6 grid grid-cols-1 gap-6 lg:grid-cols-3">
-            {{-- Bar overview: skor (1–5) per domain, warna KHAS tiap domain --}}
-            <div class="rounded-xl border border-gray-200 bg-white p-5 shadow-sm lg:col-span-2">
-                <div class="mb-4 flex items-center justify-between">
-                    <h3 class="font-semibold text-gray-800">Skor Maturitas per Domain (1–5)</h3>
-                    @if ($overallSkor)
-                        <span class="rounded-full bg-primary-50 px-2.5 py-1 text-xs font-medium text-primary-700">
-                            Skor total {{ number_format($overallSkor, 2) }} · {{ $overallCategory }}
-                        </span>
-                    @endif
-                </div>
-
-                @if ($radar && array_sum($radar['data']) > 0)
-                    <canvas id="barChart" height="120"></canvas>
-                    <p class="mt-2 text-center text-xs text-gray-400">Skala 1–5 — makin kecil makin baik (Nilai 1 = Sangat Memadai)</p>
-                    <script>
-                        document.addEventListener('DOMContentLoaded', function () {
-                            const el = document.getElementById('barChart');
-                            if (!el || !window.Chart) return;
-                            const radar = @json($radar);
-                            const colors = @json($barColors);
-                            new window.Chart(el, {
-                                type: 'bar',
-                                data: {
-                                    labels: radar.labels,
-                                    datasets: [{
-                                        label: 'Skor (1–5)',
-                                        data: radar.data,
-                                        backgroundColor: colors,
-                                        borderRadius: 6,
-                                    }],
-                                },
-                                options: {
-                                    plugins: {
-                                        legend: { display: false },
-                                        tooltip: { callbacks: { title: (items) => radar.names[items[0].dataIndex] } },
-                                    },
-                                    scales: {
-                                        x: { ticks: { display: false } },
-                                        y: { beginAtZero: true, max: 5, ticks: { stepSize: 1 } },
-                                    },
-                                },
-                            });
-                        });
-                    </script>
-                @else
-                    <div class="flex h-64 items-center justify-center rounded-lg border-2 border-dashed border-gray-200 text-sm text-gray-400">
-                        Belum ada data skor. Grafik akan tampil setelah assessment diisi.
-                    </div>
+        {{-- Bar overview: skor (1–5) per domain, warna KHAS tiap domain --}}
+        <div class="mt-6 rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
+            <div class="mb-4 flex items-center justify-between">
+                <h3 class="font-semibold text-gray-800">Skor Maturitas per Domain (1–5)</h3>
+                @if ($overallSkor)
+                    <span class="rounded-full bg-primary-50 px-2.5 py-1 text-xs font-medium text-primary-700">
+                        Skor total {{ number_format($overallSkor, 2) }} · {{ $overallCategory }}
+                    </span>
                 @endif
             </div>
 
-            {{-- Legenda kategori --}}
-            <div class="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
-                <h3 class="mb-4 font-semibold text-gray-800">Kategori Maturitas (OJK)</h3>
-                <ul class="space-y-3 text-sm">
-                    <li class="flex flex-wrap items-center justify-between gap-1"><span class="flex items-center gap-2"><span class="h-3 w-3 shrink-0 rounded-full bg-green-600"></span> Sangat Memadai (Strong)</span><span class="text-gray-500">Nilai 1 · ≥85%</span></li>
-                    <li class="flex flex-wrap items-center justify-between gap-1"><span class="flex items-center gap-2"><span class="h-3 w-3 shrink-0 rounded-full bg-green-400"></span> Memadai (Satisfactory)</span><span class="text-gray-500">Nilai 2 · 61–84%</span></li>
-                    <li class="flex flex-wrap items-center justify-between gap-1"><span class="flex items-center gap-2"><span class="h-3 w-3 shrink-0 rounded-full bg-amber-400"></span> Cukup Memadai (Fair)</span><span class="text-gray-500">Nilai 3 · 41–60%</span></li>
-                    <li class="flex flex-wrap items-center justify-between gap-1"><span class="flex items-center gap-2"><span class="h-3 w-3 shrink-0 rounded-full bg-orange-500"></span> Kurang Memadai (Marginal)</span><span class="text-gray-500">Nilai 4 · 21–40%</span></li>
-                    <li class="flex flex-wrap items-center justify-between gap-1"><span class="flex items-center gap-2"><span class="h-3 w-3 shrink-0 rounded-full bg-red-500"></span> Tidak Memadai (Unsatisfactory)</span><span class="text-gray-500">Nilai 5 · ≤20%</span></li>
-                </ul>
-            </div>
+            @if ($radar && array_sum($radar['data']) > 0)
+                <canvas id="barChart" height="100"></canvas>
+                <p class="mt-2 text-center text-xs text-gray-400">Skala 1–5 — makin kecil makin baik (Nilai 1 = Sangat Memadai)</p>
+                <script>
+                    document.addEventListener('DOMContentLoaded', function () {
+                        const el = document.getElementById('barChart');
+                        if (!el || !window.Chart) return;
+                        const radar = @json($radar);
+                        const colors = @json($barColors);
+
+                        const barValueLabels = {
+                            id: 'barValueLabels',
+                            afterDatasetsDraw(chart) {
+                                const ctx = chart.ctx;
+                                chart.getDatasetMeta(0).data.forEach(function (bar, i) {
+                                    const v = chart.data.datasets[0].data[i];
+                                    if (!v) return;
+                                    ctx.save();
+                                    ctx.fillStyle = '#374151';
+                                    ctx.font = '600 12px sans-serif';
+                                    ctx.textAlign = 'center';
+                                    ctx.fillText(parseFloat(v).toFixed(2), bar.x, bar.y - 6);
+                                    ctx.restore();
+                                });
+                            },
+                        };
+
+                        new window.Chart(el, {
+                            type: 'bar',
+                            data: {
+                                labels: radar.labels,
+                                datasets: [{
+                                    label: 'Skor (1–5)',
+                                    data: radar.data,
+                                    backgroundColor: colors,
+                                    borderRadius: 6,
+                                }],
+                            },
+                            options: {
+                                layout: { padding: { top: 22 } },
+                                plugins: {
+                                    legend: { display: false },
+                                    tooltip: { callbacks: { title: (items) => radar.names[items[0].dataIndex] } },
+                                },
+                                scales: {
+                                    x: { ticks: { display: false } },
+                                    y: { beginAtZero: true, max: 5, ticks: { stepSize: 1 } },
+                                },
+                            },
+                            plugins: [barValueLabels],
+                        });
+                    });
+                </script>
+            @else
+                <div class="flex h-64 items-center justify-center rounded-lg border-2 border-dashed border-gray-200 text-sm text-gray-400">
+                    Belum ada data skor. Grafik akan tampil setelah assessment diisi.
+                </div>
+            @endif
         </div>
 
         {{-- Bar chart PER-DOMAIN: nilai (1–5) tiap kontrol, dengan label angka di tiap bar --}}
@@ -241,45 +247,157 @@
             </div>
         @endif
 
-        {{-- Tabel skor per domain --}}
-        <div class="mt-6 rounded-xl border border-gray-200 bg-white shadow-sm">
-            <div class="border-b border-gray-100 px-5 py-3">
-                <h3 class="font-semibold text-gray-800">Rincian Skor per Domain</h3>
-            </div>
-            <div class="overflow-x-auto">
-            <table class="min-w-full divide-y divide-gray-200 text-sm">
-                <thead class="bg-gray-50 text-left text-xs uppercase tracking-wider text-gray-500">
-                    <tr>
-                        <th class="whitespace-nowrap px-4 py-3">Domain</th>
-                        <th class="whitespace-nowrap px-4 py-3">Skor (1–5)</th>
-                        <th class="whitespace-nowrap px-4 py-3">Kategori</th>
-                        @if ($prevPeriod)
-                            <th class="whitespace-nowrap px-4 py-3">Skor {{ $prevPeriod->year }}</th>
-                            <th class="whitespace-nowrap px-4 py-3">Δ</th>
-                        @endif
-                    </tr>
-                </thead>
-                <tbody class="divide-y divide-gray-100">
-                    @foreach ($domainRows as $row)
-                        @php
-                            $skor  = $row['cache']->skor ?? null;
-                            $delta = ($skor !== null && $row['prevSkor'] !== null) ? round($row['prevSkor'] - $skor, 2) : null;
-                        @endphp
-                        <tr class="hover:bg-gray-50">
-                            <td class="px-4 py-3 text-gray-800"><span class="font-semibold text-primary-700">{{ $row['code'] }}.</span> {{ $row['name'] }}</td>
-                            <td class="px-4 py-3 font-medium text-gray-800">{{ $skor !== null ? number_format($skor, 2) : '—' }}</td>
-                            <td class="px-4 py-3 text-gray-600">{{ $row['cache']->category ?? '—' }}</td>
-                            @if ($prevPeriod)
-                                <td class="px-4 py-3 text-gray-500">{{ $row['prevSkor'] !== null ? number_format($row['prevSkor'], 2) : '—' }}</td>
-                                <td class="px-4 py-3 text-xs {{ $delta > 0 ? 'text-green-600' : ($delta < 0 ? 'text-red-600' : 'text-gray-400') }}">
-                                    {{ $delta !== null ? ($delta > 0 ? '▲ ' : ($delta < 0 ? '▼ ' : '')).number_format(abs($delta), 2) : '—' }}
-                                </td>
-                            @endif
+        {{-- Skor Domain Asesmen --}}
+        @if ($period)
+            @php
+                $statusColors = [
+                    1 => 'bg-green-100 text-green-800',
+                    2 => 'bg-emerald-100 text-emerald-800',
+                    3 => 'bg-amber-100 text-amber-800',
+                    4 => 'bg-orange-100 text-orange-800',
+                    5 => 'bg-red-100 text-red-800',
+                ];
+            @endphp
+            <div class="mt-6 rounded-xl border border-gray-200 bg-white shadow-sm">
+                <div class="border-b border-gray-100 px-5 py-4">
+                    <h3 class="text-base font-bold text-gray-800">Skor Domain Asesmen {{ $period->year }} Pelaporan {{ $period->year + 1 }}</h3>
+                </div>
+                <div class="overflow-x-auto">
+                <table class="min-w-full divide-y divide-gray-200 text-sm">
+                    <thead class="bg-gray-50 text-left text-xs uppercase tracking-wider text-gray-500">
+                        <tr>
+                            <th class="whitespace-nowrap px-4 py-3">Domain</th>
+                            <th class="whitespace-nowrap px-4 py-3">Skor Asesmen</th>
+                            <th class="whitespace-nowrap px-4 py-3">Status</th>
                         </tr>
-                    @endforeach
-                </tbody>
-            </table>
+                    </thead>
+                    <tbody class="divide-y divide-gray-100">
+                        @foreach ($domainRows as $row)
+                            @php
+                                $skor = $row['cache']->skor ?? null;
+                                $nilai = $row['cache']->nilai ?? null;
+                            @endphp
+                            <tr class="hover:bg-gray-50">
+                                <td class="px-4 py-3 text-gray-800"><span class="font-semibold text-primary-700">{{ $row['code'] }}.</span> {{ $row['name'] }}</td>
+                                <td class="px-4 py-3 font-medium text-gray-800">{{ $skor !== null ? number_format($skor, 2) : '—' }}</td>
+                                <td class="px-4 py-3">
+                                    @if ($nilai)
+                                        <span class="inline-flex rounded-full px-2.5 py-0.5 text-xs font-medium {{ $statusColors[$nilai] ?? '' }}">
+                                            {{ \App\Services\ScoringService::CATEGORY[$nilai] ?? '—' }}
+                                        </span>
+                                    @else
+                                        <span class="text-gray-400">—</span>
+                                    @endif
+                                </td>
+                            </tr>
+                        @endforeach
+                    </tbody>
+                    @if ($overallSkor)
+                        <tfoot class="border-t-2 border-gray-300 bg-gray-50">
+                            <tr class="font-semibold">
+                                <td class="px-4 py-3 text-gray-900">Total Score</td>
+                                <td class="px-4 py-3 text-gray-900">{{ number_format($overallSkor, 2) }}</td>
+                                <td class="px-4 py-3">
+                                    <span class="inline-flex rounded-full px-2.5 py-0.5 text-xs font-medium {{ $statusColors[$overallNilai] ?? '' }}">
+                                        {{ $overallCategory }}
+                                    </span>
+                                </td>
+                            </tr>
+                        </tfoot>
+                    @endif
+                </table>
+                </div>
             </div>
-        </div>
+        @endif
+
+        {{-- Perbandingan dengan tahun sebelumnya --}}
+        @if ($prevPeriod)
+            <div class="mt-6 rounded-xl border border-gray-200 bg-white shadow-sm">
+                <div class="border-b border-gray-100 px-5 py-3">
+                    <h3 class="font-semibold text-gray-800">Perbandingan Skor dengan Tahun Sebelumnya ({{ $prevPeriod->year }})</h3>
+                </div>
+                <div class="overflow-x-auto">
+                <table class="min-w-full divide-y divide-gray-200 text-sm">
+                    <thead class="bg-gray-50 text-left text-xs uppercase tracking-wider text-gray-500">
+                        <tr>
+                            <th class="whitespace-nowrap px-4 py-3">Domain</th>
+                            <th class="whitespace-nowrap px-4 py-3">Skor {{ $period->year }}</th>
+                            <th class="whitespace-nowrap px-4 py-3">Status</th>
+                            <th class="whitespace-nowrap px-4 py-3">DELTA</th>
+                            <th class="whitespace-nowrap px-4 py-3">Skor {{ $prevPeriod->year }}</th>
+                            <th class="whitespace-nowrap px-4 py-3">Status {{ $prevPeriod->year }}</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-gray-100">
+                        @foreach ($domainRows as $row)
+                            @php
+                                $skor  = $row['cache']->skor ?? null;
+                                $nilai = $row['cache']->nilai ?? null;
+                                $prevSkor = $row['prevSkor'];
+                                $prevNilai = $prevSkor !== null ? (int) ceil($prevSkor) : null;
+                                $delta = ($skor !== null && $prevSkor !== null) ? round($prevSkor - $skor, 2) : null;
+                            @endphp
+                            <tr class="hover:bg-gray-50">
+                                <td class="px-4 py-3 text-gray-800"><span class="font-semibold text-primary-700">{{ $row['code'] }}.</span> {{ $row['name'] }}</td>
+                                <td class="px-4 py-3 font-medium text-gray-800">{{ $skor !== null ? number_format($skor, 2) : '—' }}</td>
+                                <td class="px-4 py-3">
+                                    @if ($nilai)
+                                        <span class="inline-flex rounded-full px-2.5 py-0.5 text-xs font-medium {{ $statusColors[$nilai] ?? '' }}">
+                                            {{ \App\Services\ScoringService::CATEGORY[$nilai] ?? '—' }}
+                                        </span>
+                                    @else
+                                        <span class="text-gray-400">—</span>
+                                    @endif
+                                </td>
+                                <td class="px-4 py-3 font-medium {{ $delta !== null && $delta > 0 ? 'text-green-600' : ($delta !== null && $delta < 0 ? 'text-red-600' : 'text-gray-400') }}">
+                                    {{ $delta !== null ? number_format($delta, 2) : '—' }}
+                                </td>
+                                <td class="px-4 py-3 text-gray-500">{{ $prevSkor !== null ? number_format($prevSkor, 2) : '—' }}</td>
+                                <td class="px-4 py-3">
+                                    @if ($prevNilai)
+                                        <span class="inline-flex rounded-full px-2.5 py-0.5 text-xs font-medium {{ $statusColors[$prevNilai] ?? '' }}">
+                                            {{ \App\Services\ScoringService::CATEGORY[$prevNilai] ?? '—' }}
+                                        </span>
+                                    @else
+                                        <span class="text-gray-400">—</span>
+                                    @endif
+                                </td>
+                            </tr>
+                        @endforeach
+                    </tbody>
+                    @if ($overallSkor)
+                        @php
+                            $prevOverallSkor = $domainRows->avg('prevSkor');
+                            $prevOverallNilai = $prevOverallSkor !== null ? (int) ceil($prevOverallSkor) : null;
+                            $overallDelta = ($overallSkor !== null && $prevOverallSkor !== null) ? round($prevOverallSkor - $overallSkor, 2) : null;
+                        @endphp
+                        <tfoot class="border-t-2 border-gray-300 bg-gray-50">
+                            <tr class="font-semibold">
+                                <td class="px-4 py-3 text-gray-900">Total Score</td>
+                                <td class="px-4 py-3 text-gray-900">{{ number_format($overallSkor, 2) }}</td>
+                                <td class="px-4 py-3">
+                                    <span class="inline-flex rounded-full px-2.5 py-0.5 text-xs font-medium {{ $statusColors[$overallNilai] ?? '' }}">
+                                        {{ $overallCategory }}
+                                    </span>
+                                </td>
+                                <td class="px-4 py-3 font-medium {{ $overallDelta !== null && $overallDelta > 0 ? 'text-green-600' : ($overallDelta !== null && $overallDelta < 0 ? 'text-red-600' : 'text-gray-400') }}">
+                                    {{ $overallDelta !== null ? number_format($overallDelta, 2) : '—' }}
+                                </td>
+                                <td class="px-4 py-3 text-gray-500">{{ $prevOverallSkor !== null ? number_format($prevOverallSkor, 2) : '—' }}</td>
+                                <td class="px-4 py-3">
+                                    @if ($prevOverallNilai)
+                                        <span class="inline-flex rounded-full px-2.5 py-0.5 text-xs font-medium {{ $statusColors[$prevOverallNilai] ?? '' }}">
+                                            {{ \App\Services\ScoringService::CATEGORY[$prevOverallNilai] ?? '—' }}
+                                        </span>
+                                    @endif
+                                </td>
+                            </tr>
+                        </tfoot>
+                    @endif
+                </table>
+                </div>
+            </div>
+        @endif
+
     @endif
 </x-app-layout>

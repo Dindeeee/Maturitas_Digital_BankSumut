@@ -24,7 +24,7 @@ class UserSeeder extends Seeder
             ['name' => 'Administrator',  'email' => 'admin@banksumut.co.id',    'role' => 'admin',    'division_id' => null],
             ['name' => 'Assessor DTI',   'email' => 'assessor@banksumut.co.id', 'role' => 'assessor', 'division_id' => $dtiId],
             ['name' => 'Reviewer',       'email' => 'reviewer@banksumut.co.id', 'role' => 'reviewer', 'division_id' => null],
-            ['name' => 'Pimpinan',       'email' => 'viewer@banksumut.co.id',   'role' => 'viewer',   'division_id' => null],
+            ['name' => 'Pimpinan',       'email' => 'approval@banksumut.co.id', 'role' => 'approval', 'division_id' => null],
         ];
 
         foreach ($users as $u) {
@@ -41,6 +41,6 @@ class UserSeeder extends Seeder
             );
         }
 
-        $this->command->info('User seed: admin, assessor, reviewer, viewer (password: "password").');
+        $this->command->info('User seed: admin, assessor, reviewer, approval (password: "password").');
     }
 }

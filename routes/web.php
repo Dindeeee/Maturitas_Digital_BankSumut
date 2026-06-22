@@ -26,6 +26,7 @@ Route::middleware('auth')->group(function () {
     Route::middleware('role:admin')->prefix('admin')->name('admin.')->group(function () {
         Route::get('periods', [PeriodController::class, 'index'])->name('periods.index');
         Route::post('periods', [PeriodController::class, 'store'])->name('periods.store');
+        Route::put('periods/{period}', [PeriodController::class, 'update'])->name('periods.update');
         Route::patch('periods/{period}/activate', [PeriodController::class, 'activate'])->name('periods.activate');
         Route::patch('periods/{period}/complete', [PeriodController::class, 'complete'])->name('periods.complete');
 
@@ -37,8 +38,8 @@ Route::middleware('auth')->group(function () {
 
     });
 
-    // ── Laporan (admin, reviewer, viewer) ──────────────────────────
-    Route::middleware('role:admin,reviewer,viewer')->prefix('reports')->name('reports.')->group(function () {
+    // ── Laporan (admin, reviewer, approval) ─────────────────────────
+    Route::middleware('role:admin,reviewer,approval')->prefix('reports')->name('reports.')->group(function () {
         Route::get('/', [ReportController::class, 'index'])->name('index');
         Route::get('export', [ReportController::class, 'export'])->name('export');
     });
@@ -50,16 +51,17 @@ Route::middleware('auth')->group(function () {
         Route::post('{control}', [AssessmentController::class, 'store'])->name('store');
     });
 
-    // ── Review (reviewer = penuh, admin/viewer = baca-saja) ──────
+    // ── Review (reviewer = review, approval = setuju/tolak, admin = baca-saja) ──
     Route::prefix('review')->name('review.')->group(function () {
-        // Lihat daftar & detail review — admin, reviewer & viewer (pimpinan).
-        Route::middleware('role:admin,reviewer,viewer')->group(function () {
+        Route::middleware('role:admin,reviewer,approval')->group(function () {
             Route::get('/', [ReviewController::class, 'index'])->name('index');
             Route::get('{control}', [ReviewController::class, 'show'])->name('show');
         });
-        // Ubah status review — hanya reviewer.
         Route::middleware('role:reviewer')->group(function () {
             Route::patch('{result}', [ReviewController::class, 'update'])->name('update');
+        });
+        Route::middleware('role:approval')->group(function () {
+            Route::patch('{result}/approve', [ReviewController::class, 'approve'])->name('approve');
         });
     });
 

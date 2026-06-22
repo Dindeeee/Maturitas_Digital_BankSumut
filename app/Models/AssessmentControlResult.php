@@ -13,11 +13,15 @@ class AssessmentControlResult extends Model
         'penjelasan_aktor', 'penjelasan_dokumen', 'penjelasan_kontrol',
         'rekomendasi', 'referensi_dokumen',
         'review_progress', 'reviewed_by', 'reviewed_at',
+        'approval_status', 'approved_by', 'approved_at',
     ];
 
     protected function casts(): array
     {
-        return ['reviewed_at' => 'datetime'];
+        return [
+            'reviewed_at' => 'datetime',
+            'approved_at' => 'datetime',
+        ];
     }
 
     public function period(): BelongsTo
@@ -33,6 +37,11 @@ class AssessmentControlResult extends Model
     public function reviewer(): BelongsTo
     {
         return $this->belongsTo(User::class, 'reviewed_by');
+    }
+
+    public function approver(): BelongsTo
+    {
+        return $this->belongsTo(User::class, 'approved_by');
     }
 
     public function subResults(): HasMany

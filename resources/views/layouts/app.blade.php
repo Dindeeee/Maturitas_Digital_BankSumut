@@ -47,7 +47,7 @@
                 <!-- Navigation -->
                 <nav class="flex flex-col gap-1 px-3 py-4 text-sm">
                     @php
-                        $role = auth()->user()->role ?? 'viewer';
+                        $role = auth()->user()->role ?? 'approval';
                         $link = fn ($name) => \Illuminate\Support\Facades\Route::has($name) ? route($name) : '#';
                     @endphp
 
@@ -71,7 +71,7 @@
                         </x-sidebar-link>
                     @endif
 
-                    @if (in_array($role, ['admin', 'reviewer', 'viewer'], true))
+                    @if (in_array($role, ['admin', 'reviewer', 'approval'], true))
                         <p class="px-3 pt-4 pb-1 text-[11px] font-semibold uppercase tracking-wider text-primary-200/70">Laporan</p>
                         <x-sidebar-link :href="$link('reports.index')" :active="request()->routeIs('reports.*')" icon="download">
                             Export Laporan
@@ -85,10 +85,10 @@
                         </x-sidebar-link>
                     @endif
 
-                    @if (in_array($role, ['admin', 'reviewer', 'viewer'], true))
+                    @if (in_array($role, ['admin', 'reviewer', 'approval'], true))
                         <p class="px-3 pt-4 pb-1 text-[11px] font-semibold uppercase tracking-wider text-primary-200/70">Review</p>
                         <x-sidebar-link :href="$link('review.index')" :active="request()->routeIs('review.*')" icon="check">
-                            {{ $role === 'reviewer' ? 'Review Assessment' : 'Lihat Review' }}
+                            {{ $role === 'reviewer' ? 'Review Assessment' : ($role === 'approval' ? 'Approval Assessment' : 'Lihat Review') }}
                         </x-sidebar-link>
                     @endif
 
@@ -125,7 +125,7 @@
                             </span>
                             <span class="hidden text-left sm:block">
                                 <span class="block text-sm font-medium text-gray-800">{{ auth()->user()->name }}</span>
-                                <span class="block text-[11px] capitalize text-accent-600">{{ auth()->user()->role ?? 'viewer' }}</span>
+                                <span class="block text-[11px] capitalize text-accent-600">{{ auth()->user()->role ?? 'approval' }}</span>
                             </span>
                             <svg class="h-4 w-4 text-gray-400" fill="currentColor" viewBox="0 0 20 20">
                                 <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />

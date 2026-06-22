@@ -1,7 +1,11 @@
 <x-app-layout>
     <x-slot name="header">
-        <div class="flex items-center gap-2">
-            <a href="{{ route('review.index', auth()->user()->role !== 'reviewer' ? ['period' => $period->id] : []) }}" class="text-gray-400 hover:text-gray-600">←</a>
+        <div class="flex items-center gap-3">
+            <a href="{{ route('review.index', array_filter(['period' => auth()->user()->role !== 'reviewer' ? $period->id : null, 'domain_id' => request()->query('domain_id')])) }}"
+               class="inline-flex items-center gap-1.5 rounded-lg border border-gray-300 bg-white px-3 py-1.5 text-sm font-medium text-gray-600 shadow-sm transition hover:bg-gray-50 hover:text-gray-800">
+                <svg class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"/></svg>
+                Kembali
+            </a>
             <h1 class="text-lg font-semibold text-gray-800">Review Kontrol {{ $control->code }}</h1>
         </div>
     </x-slot>
@@ -72,7 +76,7 @@
         @endforeach
     </div>
 
-    {{-- Status review (form untuk reviewer; baca-saja untuk viewer/pimpinan) --}}
+    {{-- Status review (form untuk reviewer; baca-saja untuk lainnya) --}}
     <div class="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
         <h2 class="mb-3 font-semibold text-gray-800">Status Review</h2>
         @if ($acr->reviewed_at)
@@ -82,7 +86,7 @@
             </p>
         @endif
         @if (auth()->user()->role === 'reviewer')
-            <form method="POST" action="{{ route('review.update', $acr) }}" class="flex flex-wrap items-end gap-3">
+            <form method="POST" action="{{ route('review.update', array_filter(['result' => $acr->id, 'period' => request()->query('period'), 'domain_id' => request()->query('domain_id')])) }}" class="flex flex-wrap items-end gap-3">
                 @csrf @method('PATCH')
                 <div>
                     <x-input-label for="review_progress" value="Status" />
@@ -97,6 +101,51 @@
             </form>
         @else
             <x-status-badge :status="$acr->review_progress" />
+        @endif
+    </div>
+
+    {{-- Approval (form untuk approval role; baca-saja untuk lainnya) --}}
+    <div class="mt-4 rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
+        <h2 class="mb-3 font-semibold text-gray-800">Approval Pimpinan</h2>
+        @if ($acr->approved_at)
+            <p class="mb-3 text-xs text-gray-500">
+                {{ $acr->approval_status === 'approved' ? 'Disetujui' : 'Ditolak' }}
+                pada {{ $acr->approved_at->format('d M Y H:i') }}
+                @if ($acr->approver) oleh {{ $acr->approver->name }} @endif
+            </p>
+        @endif
+
+        @if (auth()->user()->role === 'approval')
+            <div class="flex flex-wrap gap-3">
+                <form method="POST" action="{{ route('review.approve', array_filter(['result' => $acr->id, 'period' => request()->query('period'), 'domain_id' => request()->query('domain_id')])) }}">
+                    @csrf @method('PATCH')
+                    <input type="hidden" name="approval_status" value="approved">
+                    <button type="submit"
+                            class="inline-flex items-center gap-1.5 rounded-lg px-4 py-2 text-sm font-medium text-white shadow-sm
+                            {{ $acr->approval_status === 'approved' ? 'bg-green-700' : 'bg-green-600 hover:bg-green-700' }}">
+                        <svg class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+                        Setujui
+                    </button>
+                </form>
+                <form method="POST" action="{{ route('review.approve', array_filter(['result' => $acr->id, 'period' => request()->query('period'), 'domain_id' => request()->query('domain_id')])) }}">
+                    @csrf @method('PATCH')
+                    <input type="hidden" name="approval_status" value="rejected">
+                    <button type="submit"
+                            class="inline-flex items-center gap-1.5 rounded-lg px-4 py-2 text-sm font-medium text-white shadow-sm
+                            {{ $acr->approval_status === 'rejected' ? 'bg-red-700' : 'bg-red-600 hover:bg-red-700' }}">
+                        <svg class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+                        Tolak
+                    </button>
+                </form>
+            </div>
+        @else
+            @if ($acr->approval_status === 'approved')
+                <span class="inline-flex rounded-full bg-green-100 px-3 py-1 text-sm font-medium text-green-700">Disetujui</span>
+            @elseif ($acr->approval_status === 'rejected')
+                <span class="inline-flex rounded-full bg-red-100 px-3 py-1 text-sm font-medium text-red-700">Ditolak</span>
+            @else
+                <span class="text-sm text-gray-400">Belum ada keputusan</span>
+            @endif
         @endif
     </div>
 </x-app-layout>

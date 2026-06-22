@@ -5,12 +5,12 @@
 
     @if (! $period)
         <div class="rounded-xl border border-gray-200 bg-white p-10 text-center text-gray-500 shadow-sm">
-            Belum ada periode assessment{{ auth()->user()->role !== 'reviewer' ? '' : ' yang aktif' }}.
+            Belum ada periode assessment{{ !in_array(auth()->user()->role, ['reviewer']) ? '' : ' yang aktif' }}.
         </div>
     @else
         <div class="mb-4 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
             <div class="flex flex-col gap-2 sm:flex-row sm:items-center">
-                @if (auth()->user()->role !== 'reviewer' && $periods->count() > 1)
+                @if (!in_array(auth()->user()->role, ['reviewer']) && $periods->count() > 1)
                     <form method="GET" class="flex items-center gap-2">
                         @if ($domainId)<input type="hidden" name="domain_id" value="{{ $domainId }}">@endif
                         <select name="period" onchange="this.form.submit()"
@@ -32,7 +32,7 @@
                 @endif
             </div>
             <form method="GET" class="flex items-center gap-2">
-                @if (auth()->user()->role !== 'reviewer' && $period)<input type="hidden" name="period" value="{{ $period->id }}">@endif
+                @if (!in_array(auth()->user()->role, ['reviewer']) && $period)<input type="hidden" name="period" value="{{ $period->id }}">@endif
                 <select name="domain_id" onchange="this.form.submit()"
                         class="rounded-md border-gray-300 text-sm shadow-sm focus:border-primary-500 focus:ring-primary-500">
                     <option value="">Semua Domain</option>
@@ -53,6 +53,7 @@
                         <th class="whitespace-nowrap px-4 py-3 text-center">Terisi</th>
                         <th class="whitespace-nowrap px-4 py-3">Skor</th>
                         <th class="whitespace-nowrap px-4 py-3">Review</th>
+                        <th class="whitespace-nowrap px-4 py-3">Approval</th>
                         <th class="whitespace-nowrap px-4 py-3 text-right">Aksi</th>
                     </tr>
                 </thead>
@@ -75,13 +76,22 @@
                                 @endif
                             </td>
                             <td class="px-4 py-3"><x-status-badge :status="$r->review_progress" /></td>
+                            <td class="px-4 py-3">
+                                @if ($r->approval_status === 'approved')
+                                    <span class="inline-flex rounded-full bg-green-100 px-2.5 py-0.5 text-xs font-medium text-green-700">Disetujui</span>
+                                @elseif ($r->approval_status === 'rejected')
+                                    <span class="inline-flex rounded-full bg-red-100 px-2.5 py-0.5 text-xs font-medium text-red-700">Ditolak</span>
+                                @else
+                                    <span class="text-xs text-gray-400">—</span>
+                                @endif
+                            </td>
                             <td class="px-4 py-3 text-right">
-                                <a href="{{ route('review.show', array_filter(['control' => $r->control_id, 'period' => auth()->user()->role !== 'reviewer' ? $period->id : null])) }}"
-                                   class="rounded-md border border-gray-300 px-3 py-1.5 text-xs text-gray-600 hover:bg-gray-50">{{ auth()->user()->role !== 'reviewer' ? 'Lihat' : 'Tinjau' }}</a>
+                                <a href="{{ route('review.show', array_filter(['control' => $r->control_id, 'period' => !in_array(auth()->user()->role, ['reviewer']) ? $period->id : null, 'domain_id' => $domainId])) }}"
+                                   class="rounded-md border border-gray-300 px-3 py-1.5 text-xs text-gray-600 hover:bg-gray-50">{{ auth()->user()->role === 'reviewer' ? 'Tinjau' : 'Lihat' }}</a>
                             </td>
                         </tr>
                     @empty
-                        <tr><td colspan="6" class="px-4 py-10 text-center text-gray-400">Tidak ada kontrol.</td></tr>
+                        <tr><td colspan="7" class="px-4 py-10 text-center text-gray-400">Tidak ada kontrol.</td></tr>
                     @endforelse
                 </tbody>
             </table>

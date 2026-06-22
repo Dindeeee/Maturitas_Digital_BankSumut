@@ -22,7 +22,7 @@ class DashboardController extends Controller
             return view('dashboard', $this->assessorData($user, $active));
         }
 
-        // Admin/reviewer/viewer dapat memilih periode mana pun untuk ditinjau.
+        // Admin/reviewer/approval dapat memilih periode mana pun untuk ditinjau.
         $periods = AssessmentPeriod::orderByDesc('year')->orderByDesc('id')->get();
         $selected = null;
         if ($pid = $request->integer('period')) {
@@ -37,7 +37,7 @@ class DashboardController extends Controller
     }
 
     /**
-     * Data overview untuk admin / reviewer / viewer.
+     * Data overview untuk admin / reviewer / approval.
      */
     private function overviewData(?AssessmentPeriod $period, ScoringService $scoring): array
     {

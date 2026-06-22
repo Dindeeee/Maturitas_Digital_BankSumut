@@ -51,8 +51,8 @@ class User extends Authenticatable
         return $this->role === 'reviewer';
     }
 
-    public function isViewer(): bool
+    public function isApproval(): bool
     {
-        return $this->role === 'viewer';
+        return $this->role === 'approval';
     }
 }
