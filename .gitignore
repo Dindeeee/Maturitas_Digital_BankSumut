@@ -20,6 +20,13 @@ CLAUDE.md
 .aider*
 .cursorrules
 *.plan.md
+wireframe_context.md
+prompt.md
+seojk.md
+seojkbank.pdf
+kertas_kerja_asesmen.md
+class_diagram.md
+use_case.md
 /auth.json
 /node_modules
 /public/build
