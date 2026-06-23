@@ -41,3 +41,6 @@ Homestead.json
 Homestead.yaml
 Thumbs.db
 .gitignore
+
+# Docker runtime (di-generate oleh deploy.sh/ssl-init.sh)
+/docker/nginx/default.conf
