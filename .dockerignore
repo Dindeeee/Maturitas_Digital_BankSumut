@@ -17,7 +17,7 @@ public/hot
 *.sql
 CLAUDE.md
 *.plan.md
-docker
+docker/nginx
 tests
 README.md
 DOCUMENTATION.md

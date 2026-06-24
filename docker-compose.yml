@@ -9,6 +9,7 @@ services:
       - ./.env:/var/www/.env:ro
       - storage_public:/var/www/storage/app/public
       - storage_logs:/var/www/storage/logs
+      - public_build:/var/www/public/build
     networks:
       - banksumut_net
     depends_on:
@@ -19,12 +20,11 @@ services:
     image: nginx:1.26-alpine
     container_name: banksumut_nginx
     restart: unless-stopped
-    ports:
-      - "80:80"
-      - "443:443"
+    # Tidak expose port ke host — traffic masuk via ich-pendidikan-nginx-1
     volumes:
       - ./docker/nginx/default.conf:/etc/nginx/conf.d/default.conf:ro
       - ./public:/var/www/public:ro
+      - public_build:/var/www/public/build:ro
       - storage_public:/var/www/storage/app/public:ro
       - certbot_www:/var/www/certbot:ro
       - certbot_conf:/etc/letsencrypt:ro
@@ -67,6 +67,7 @@ volumes:
   storage_logs:
   certbot_www:
   certbot_conf:
+  public_build:
 
 networks:
   banksumut_net:
