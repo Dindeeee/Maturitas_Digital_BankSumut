@@ -1,2 +1,2 @@
-<img src="{{ asset('storage/images/logook.png') }}" alt="Bank Sumut"
+<img src="{{ asset('storage/images/logo.png') }}" alt="Bank Sumut"
      {{ $attributes->merge(['class' => 'object-contain']) }} />
